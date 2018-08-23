@@ -1,0 +1,51 @@
+.myclass {
+  background-color: #FAC23E;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  padding: 5%;
+
+  div{
+    flex: 0 0 32%;
+  }
+  .ltob{
+    margin-top: -90px;
+  }
+  div:last-child{
+    & h1{
+      font-size: 220px;
+      font-weight: bolder;
+    }
+    & h2{
+      font-size: 120px;
+      margin-top: -20px;
+      font-weight: bolder;
+    }
+  }
+
+  div:first-child{
+    //padding: 10px 20px;
+    margin: 0 5%;
+
+    & div{
+      display : flex;
+
+
+      & .jumbotron_buttons{
+        background-color:transparent;
+        flex: 0 0 40%;
+        padding: 10px 20px;
+        margin: 0 5%;
+        border: 1px solid #fff;
+        color: #fff;
+        &:first-child{
+          margin-left: 0%;
+        }
+      }
+
+    }
+
+  }
+
+
+}

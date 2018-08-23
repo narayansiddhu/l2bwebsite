@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Free and Premium Joomla Templates by JoomLead</title>
+		<description><![CDATA[]]></description>
+		<link>http://demo.joomlead.com/filmmaker/index.php/component/tags/tag/18</link>
+		<lastBuildDate>Wed, 22 Aug 2018 05:38:52 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://demo.joomlead.com/filmmaker/index.php/component/tags/tag/gantry-5?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<item>
+			<title>Gantry5: Built from the Ground Up for Speed</title>
+			<link>http://demo.joomlead.com/filmmaker/index.php/component/content/article?id=10:gantry5-built-from-the-ground-up-for-speed&amp;Itemid=101</link>
+			<guid isPermaLink="true">http://demo.joomlead.com/filmmaker/index.php/component/content/article?id=10:gantry5-built-from-the-ground-up-for-speed&amp;Itemid=101</guid>
+			<description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></description>
+			<category>Gantry5: Built from the Ground Up for Speed</category>
+			<pubDate>Wed, 12 Mar 2014 11:50:55 +0000</pubDate>
+		</item>
+		<item>
+			<title>Gantry5: Incredibly Easy to Use</title>
+			<link>http://demo.joomlead.com/filmmaker/index.php/component/content/article?id=23:gantry5-incredibly-easy-to-use&amp;Itemid=101</link>
+			<guid isPermaLink="true">http://demo.joomlead.com/filmmaker/index.php/component/content/article?id=23:gantry5-incredibly-easy-to-use&amp;Itemid=101</guid>
+			<description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></description>
+			<category>Gantry5: Incredibly Easy to Use</category>
+			<pubDate>Fri, 14 Feb 2014 11:50:55 +0000</pubDate>
+		</item>
+		<item>
+			<title>Gantry5: Requirements and Details</title>
+			<link>http://demo.joomlead.com/filmmaker/index.php/component/content/article?id=26:gantry5-requirements-and-details&amp;Itemid=101</link>
+			<guid isPermaLink="true">http://demo.joomlead.com/filmmaker/index.php/component/content/article?id=26:gantry5-requirements-and-details&amp;Itemid=101</guid>
+			<description><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></description>
+			<category>Gantry5: Requirements and Details</category>
+			<pubDate>Sat, 18 Jan 2014 14:50:55 +0000</pubDate>
+		</item>
+	</channel>
+</rss>

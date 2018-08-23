@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Featured Articles</title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="http://demo.joomlead.com"/>
+	<id>http://demo.joomlead.com/filmmaker/index.php/blog/featured-articles</id>
+	<updated>2018-08-22T05:38:27+00:00</updated>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://demo.joomlead.com/filmmaker/index.php/blog/featured-articles?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Joomla Templates</title>
+		<link rel="alternate" type="text/html" href="http://demo.joomlead.com/filmmaker/index.php/blog/8-joomla-templates"/>
+		<published>2014-04-02T11:50:02+00:00</published>
+		<updated>2014-04-02T11:50:02+00:00</updated>
+		<id>http://demo.joomlead.com/filmmaker/index.php/blog/8-joomla-templates</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/blog_themes.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/blog_themes.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Featured" />
+		<category term="Blog" />
+	</entry>
+	<entry>
+		<title>How Positions Work in Joomla</title>
+		<link rel="alternate" type="text/html" href="http://demo.joomlead.com/filmmaker/index.php/blog/25-how-positions-work-in-joomla"/>
+		<published>2014-03-28T15:50:55+00:00</published>
+		<updated>2014-03-28T15:50:55+00:00</updated>
+		<id>http://demo.joomlead.com/filmmaker/index.php/blog/25-how-positions-work-in-joomla</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/blog_1.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/blog_1.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Featured" />
+		<category term="Blog" />
+	</entry>
+	<entry>
+		<title>Five Tips for Beginning Web Developers</title>
+		<link rel="alternate" type="text/html" href="http://demo.joomlead.com/filmmaker/index.php/blog/24-five-tips-for-beginning-web-developers"/>
+		<published>2014-03-22T11:50:55+00:00</published>
+		<updated>2014-03-22T11:50:55+00:00</updated>
+		<id>http://demo.joomlead.com/filmmaker/index.php/blog/24-five-tips-for-beginning-web-developers</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/blog_2.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/blog_2.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Featured" />
+		<category term="Blog" />
+	</entry>
+	<entry>
+		<title>How Does Site Speed Affect Sales?</title>
+		<link rel="alternate" type="text/html" href="http://demo.joomlead.com/filmmaker/index.php/blog/9-how-does-site-speed-affect-sales"/>
+		<published>2014-03-15T11:50:30+00:00</published>
+		<updated>2014-03-15T11:50:30+00:00</updated>
+		<id>http://demo.joomlead.com/filmmaker/index.php/blog/9-how-does-site-speed-affect-sales</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/blog_icons.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/blog_icons.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Featured" />
+		<category term="Blog" />
+	</entry>
+	<entry>
+		<title>Gantry5: Built from the Ground Up for Speed</title>
+		<link rel="alternate" type="text/html" href="http://demo.joomlead.com/filmmaker/index.php/blog/10-gantry5-built-from-the-ground-up-for-speed"/>
+		<published>2014-03-12T11:50:55+00:00</published>
+		<updated>2014-03-12T11:50:55+00:00</updated>
+		<id>http://demo.joomlead.com/filmmaker/index.php/blog/10-gantry5-built-from-the-ground-up-for-speed</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/blog_warp.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;</summary>
+		<content type="html">&lt;div class=&quot;feed-description&quot;&gt;&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/blog_warp.jpg&quot; /&gt;&lt;/p&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;</content>
+		<category term="Featured" />
+		<category term="Blog" />
+	</entry>
+</feed>

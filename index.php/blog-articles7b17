@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">Blog Articles </title>
+	<subtitle type="text"></subtitle>
+	<link rel="alternate" type="text/html" href="http://demo.joomlead.com"/>
+	<id>http://demo.joomlead.com/filmmaker/index.php/blog-articles</id>
+	<updated>2018-08-22T05:39:53+00:00</updated>
+	<author>
+		<name>Free and Premium Joomla Templates by JoomPassion</name>
+	</author>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://demo.joomlead.com/filmmaker/index.php/blog-articles?format=feed&amp;type=atom"/>
+	<entry>
+		<title>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</title>
+		<link rel="alternate" type="text/html" href="http://demo.joomlead.com/filmmaker/index.php/blog-articles/32-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-6"/>
+		<published>2017-05-10T21:49:53+00:00</published>
+		<updated>2017-05-10T21:49:53+00:00</updated>
+		<id>http://demo.joomlead.com/filmmaker/index.php/blog-articles/32-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-6</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/articles/blog6.jpg&quot; /&gt;&lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor accumsan. Suspendisse libero neque, semper feugiat euismod ac, luctus eu nisl. Maecenas vitae nunc quis quam auctor sagittis. Ut et euismod nulla, bibendum accumsan magna. Sed rutrum nunc id ante convallis luctus. Praesent eget consequat sapien, a vehicula purus. Etiam fringilla, nisl sit amet venenatis lacinia, lacus lectus posuere tellus, id vehicula sapien mi eget magna. Donec eget augue ac ligula viverra mollis. Donec tellus dui, ullamcorper eu enim id, euismod porttitor mauris.
+
+Ut blandit nunc eget risus molestie, at lobortis quam condimentum. Maecenas eget lorem ultrices ex commodo suscipit. Nulla suscipit blandit ex. Sed arcu leo, maximus mollis gravida nec, rhoncus venenatis ante. Suspendisse iaculis tempor justo quis vehicula. Aenean laoreet mi eu lorem mollis malesuada. Pellentesque et lobortis ex. Integer at augue et arcu vestibulum consequat ac eget metus. Suspendisse magna urna, elementum in tellus sed, blandit tempus mauris. Praesent condimentum commodo eleifend. In hac habitasse platea dictumst.
+
+Donec sodales consectetur quam. Aliquam vulputate, dolor sed rhoncus auctor, orci dui aliquam lorem, a volutpat lorem nulla sed dui. Proin mollis molestie velit ac condimentum. Nunc sed sem facilisis, gravida enim sed, vestibulum nisl. Donec viverra nunc neque, eu fringilla tortor sodales eu. Fusce fringilla ac sapien nec pretium. Nulla at sodales elit, vitae varius enim.
+
+Phasellus commodo, orci at eleifend pellentesque, mi lorem laoreet sapien, varius rhoncus lacus augue non dui. Duis aliquam leo eros, sed placerat quam porta id. In bibendum semper dapibus. Sed a dapibus nunc. Proin eget turpis urna. Sed scelerisque eros sem, nec aliquet nibh finibus sit amet. In non convallis nunc. Duis accumsan felis at tellus placerat pretium. Phasellus tortor quam, facilisis id ante eget, molestie blandit justo. Nam odio orci, aliquet sit amet quam et, ultricies malesuada velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer efficitur id nibh in molestie. Suspendisse sit amet tincidunt metus.</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/articles/blog6.jpg&quot; /&gt;&lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor accumsan. Suspendisse libero neque, semper feugiat euismod ac, luctus eu nisl. Maecenas vitae nunc quis quam auctor sagittis. Ut et euismod nulla, bibendum accumsan magna. Sed rutrum nunc id ante convallis luctus. Praesent eget consequat sapien, a vehicula purus. Etiam fringilla, nisl sit amet venenatis lacinia, lacus lectus posuere tellus, id vehicula sapien mi eget magna. Donec eget augue ac ligula viverra mollis. Donec tellus dui, ullamcorper eu enim id, euismod porttitor mauris.
+
+Ut blandit nunc eget risus molestie, at lobortis quam condimentum. Maecenas eget lorem ultrices ex commodo suscipit. Nulla suscipit blandit ex. Sed arcu leo, maximus mollis gravida nec, rhoncus venenatis ante. Suspendisse iaculis tempor justo quis vehicula. Aenean laoreet mi eu lorem mollis malesuada. Pellentesque et lobortis ex. Integer at augue et arcu vestibulum consequat ac eget metus. Suspendisse magna urna, elementum in tellus sed, blandit tempus mauris. Praesent condimentum commodo eleifend. In hac habitasse platea dictumst.
+
+Donec sodales consectetur quam. Aliquam vulputate, dolor sed rhoncus auctor, orci dui aliquam lorem, a volutpat lorem nulla sed dui. Proin mollis molestie velit ac condimentum. Nunc sed sem facilisis, gravida enim sed, vestibulum nisl. Donec viverra nunc neque, eu fringilla tortor sodales eu. Fusce fringilla ac sapien nec pretium. Nulla at sodales elit, vitae varius enim.
+
+Phasellus commodo, orci at eleifend pellentesque, mi lorem laoreet sapien, varius rhoncus lacus augue non dui. Duis aliquam leo eros, sed placerat quam porta id. In bibendum semper dapibus. Sed a dapibus nunc. Proin eget turpis urna. Sed scelerisque eros sem, nec aliquet nibh finibus sit amet. In non convallis nunc. Duis accumsan felis at tellus placerat pretium. Phasellus tortor quam, facilisis id ante eget, molestie blandit justo. Nam odio orci, aliquet sit amet quam et, ultricies malesuada velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer efficitur id nibh in molestie. Suspendisse sit amet tincidunt metus.</content>
+		<category term="Blog Articles" />
+	</entry>
+	<entry>
+		<title>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</title>
+		<link rel="alternate" type="text/html" href="http://demo.joomlead.com/filmmaker/index.php/blog-articles/31-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-5"/>
+		<published>2017-05-10T21:49:15+00:00</published>
+		<updated>2017-05-10T21:49:15+00:00</updated>
+		<id>http://demo.joomlead.com/filmmaker/index.php/blog-articles/31-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-5</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/articles/blog5.jpg&quot; /&gt;&lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor accumsan. Suspendisse libero neque, semper feugiat euismod ac, luctus eu nisl. Maecenas vitae nunc quis quam auctor sagittis. Ut et euismod nulla, bibendum accumsan magna. Sed rutrum nunc id ante convallis luctus. Praesent eget consequat sapien, a vehicula purus. Etiam fringilla, nisl sit amet venenatis lacinia, lacus lectus posuere tellus, id vehicula sapien mi eget magna. Donec eget augue ac ligula viverra mollis. Donec tellus dui, ullamcorper eu enim id, euismod porttitor mauris.
+
+Ut blandit nunc eget risus molestie, at lobortis quam condimentum. Maecenas eget lorem ultrices ex commodo suscipit. Nulla suscipit blandit ex. Sed arcu leo, maximus mollis gravida nec, rhoncus venenatis ante. Suspendisse iaculis tempor justo quis vehicula. Aenean laoreet mi eu lorem mollis malesuada. Pellentesque et lobortis ex. Integer at augue et arcu vestibulum consequat ac eget metus. Suspendisse magna urna, elementum in tellus sed, blandit tempus mauris. Praesent condimentum commodo eleifend. In hac habitasse platea dictumst.
+
+Donec sodales consectetur quam. Aliquam vulputate, dolor sed rhoncus auctor, orci dui aliquam lorem, a volutpat lorem nulla sed dui. Proin mollis molestie velit ac condimentum. Nunc sed sem facilisis, gravida enim sed, vestibulum nisl. Donec viverra nunc neque, eu fringilla tortor sodales eu. Fusce fringilla ac sapien nec pretium. Nulla at sodales elit, vitae varius enim.
+
+Phasellus commodo, orci at eleifend pellentesque, mi lorem laoreet sapien, varius rhoncus lacus augue non dui. Duis aliquam leo eros, sed placerat quam porta id. In bibendum semper dapibus. Sed a dapibus nunc. Proin eget turpis urna. Sed scelerisque eros sem, nec aliquet nibh finibus sit amet. In non convallis nunc. Duis accumsan felis at tellus placerat pretium. Phasellus tortor quam, facilisis id ante eget, molestie blandit justo. Nam odio orci, aliquet sit amet quam et, ultricies malesuada velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer efficitur id nibh in molestie. Suspendisse sit amet tincidunt metus.</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/articles/blog5.jpg&quot; /&gt;&lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor accumsan. Suspendisse libero neque, semper feugiat euismod ac, luctus eu nisl. Maecenas vitae nunc quis quam auctor sagittis. Ut et euismod nulla, bibendum accumsan magna. Sed rutrum nunc id ante convallis luctus. Praesent eget consequat sapien, a vehicula purus. Etiam fringilla, nisl sit amet venenatis lacinia, lacus lectus posuere tellus, id vehicula sapien mi eget magna. Donec eget augue ac ligula viverra mollis. Donec tellus dui, ullamcorper eu enim id, euismod porttitor mauris.
+
+Ut blandit nunc eget risus molestie, at lobortis quam condimentum. Maecenas eget lorem ultrices ex commodo suscipit. Nulla suscipit blandit ex. Sed arcu leo, maximus mollis gravida nec, rhoncus venenatis ante. Suspendisse iaculis tempor justo quis vehicula. Aenean laoreet mi eu lorem mollis malesuada. Pellentesque et lobortis ex. Integer at augue et arcu vestibulum consequat ac eget metus. Suspendisse magna urna, elementum in tellus sed, blandit tempus mauris. Praesent condimentum commodo eleifend. In hac habitasse platea dictumst.
+
+Donec sodales consectetur quam. Aliquam vulputate, dolor sed rhoncus auctor, orci dui aliquam lorem, a volutpat lorem nulla sed dui. Proin mollis molestie velit ac condimentum. Nunc sed sem facilisis, gravida enim sed, vestibulum nisl. Donec viverra nunc neque, eu fringilla tortor sodales eu. Fusce fringilla ac sapien nec pretium. Nulla at sodales elit, vitae varius enim.
+
+Phasellus commodo, orci at eleifend pellentesque, mi lorem laoreet sapien, varius rhoncus lacus augue non dui. Duis aliquam leo eros, sed placerat quam porta id. In bibendum semper dapibus. Sed a dapibus nunc. Proin eget turpis urna. Sed scelerisque eros sem, nec aliquet nibh finibus sit amet. In non convallis nunc. Duis accumsan felis at tellus placerat pretium. Phasellus tortor quam, facilisis id ante eget, molestie blandit justo. Nam odio orci, aliquet sit amet quam et, ultricies malesuada velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer efficitur id nibh in molestie. Suspendisse sit amet tincidunt metus.</content>
+		<category term="Blog Articles" />
+	</entry>
+	<entry>
+		<title>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</title>
+		<link rel="alternate" type="text/html" href="http://demo.joomlead.com/filmmaker/index.php/blog-articles/30-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-4"/>
+		<published>2017-05-10T21:48:35+00:00</published>
+		<updated>2017-05-10T21:48:35+00:00</updated>
+		<id>http://demo.joomlead.com/filmmaker/index.php/blog-articles/30-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-4</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/articles/blog4.jpg&quot; /&gt;&lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor accumsan. Suspendisse libero neque, semper feugiat euismod ac, luctus eu nisl. Maecenas vitae nunc quis quam auctor sagittis. Ut et euismod nulla, bibendum accumsan magna. Sed rutrum nunc id ante convallis luctus. Praesent eget consequat sapien, a vehicula purus. Etiam fringilla, nisl sit amet venenatis lacinia, lacus lectus posuere tellus, id vehicula sapien mi eget magna. Donec eget augue ac ligula viverra mollis. Donec tellus dui, ullamcorper eu enim id, euismod porttitor mauris.
+
+Ut blandit nunc eget risus molestie, at lobortis quam condimentum. Maecenas eget lorem ultrices ex commodo suscipit. Nulla suscipit blandit ex. Sed arcu leo, maximus mollis gravida nec, rhoncus venenatis ante. Suspendisse iaculis tempor justo quis vehicula. Aenean laoreet mi eu lorem mollis malesuada. Pellentesque et lobortis ex. Integer at augue et arcu vestibulum consequat ac eget metus. Suspendisse magna urna, elementum in tellus sed, blandit tempus mauris. Praesent condimentum commodo eleifend. In hac habitasse platea dictumst.
+
+Donec sodales consectetur quam. Aliquam vulputate, dolor sed rhoncus auctor, orci dui aliquam lorem, a volutpat lorem nulla sed dui. Proin mollis molestie velit ac condimentum. Nunc sed sem facilisis, gravida enim sed, vestibulum nisl. Donec viverra nunc neque, eu fringilla tortor sodales eu. Fusce fringilla ac sapien nec pretium. Nulla at sodales elit, vitae varius enim.
+
+Phasellus commodo, orci at eleifend pellentesque, mi lorem laoreet sapien, varius rhoncus lacus augue non dui. Duis aliquam leo eros, sed placerat quam porta id. In bibendum semper dapibus. Sed a dapibus nunc. Proin eget turpis urna. Sed scelerisque eros sem, nec aliquet nibh finibus sit amet. In non convallis nunc. Duis accumsan felis at tellus placerat pretium. Phasellus tortor quam, facilisis id ante eget, molestie blandit justo. Nam odio orci, aliquet sit amet quam et, ultricies malesuada velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer efficitur id nibh in molestie. Suspendisse sit amet tincidunt metus.</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/articles/blog4.jpg&quot; /&gt;&lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor accumsan. Suspendisse libero neque, semper feugiat euismod ac, luctus eu nisl. Maecenas vitae nunc quis quam auctor sagittis. Ut et euismod nulla, bibendum accumsan magna. Sed rutrum nunc id ante convallis luctus. Praesent eget consequat sapien, a vehicula purus. Etiam fringilla, nisl sit amet venenatis lacinia, lacus lectus posuere tellus, id vehicula sapien mi eget magna. Donec eget augue ac ligula viverra mollis. Donec tellus dui, ullamcorper eu enim id, euismod porttitor mauris.
+
+Ut blandit nunc eget risus molestie, at lobortis quam condimentum. Maecenas eget lorem ultrices ex commodo suscipit. Nulla suscipit blandit ex. Sed arcu leo, maximus mollis gravida nec, rhoncus venenatis ante. Suspendisse iaculis tempor justo quis vehicula. Aenean laoreet mi eu lorem mollis malesuada. Pellentesque et lobortis ex. Integer at augue et arcu vestibulum consequat ac eget metus. Suspendisse magna urna, elementum in tellus sed, blandit tempus mauris. Praesent condimentum commodo eleifend. In hac habitasse platea dictumst.
+
+Donec sodales consectetur quam. Aliquam vulputate, dolor sed rhoncus auctor, orci dui aliquam lorem, a volutpat lorem nulla sed dui. Proin mollis molestie velit ac condimentum. Nunc sed sem facilisis, gravida enim sed, vestibulum nisl. Donec viverra nunc neque, eu fringilla tortor sodales eu. Fusce fringilla ac sapien nec pretium. Nulla at sodales elit, vitae varius enim.
+
+Phasellus commodo, orci at eleifend pellentesque, mi lorem laoreet sapien, varius rhoncus lacus augue non dui. Duis aliquam leo eros, sed placerat quam porta id. In bibendum semper dapibus. Sed a dapibus nunc. Proin eget turpis urna. Sed scelerisque eros sem, nec aliquet nibh finibus sit amet. In non convallis nunc. Duis accumsan felis at tellus placerat pretium. Phasellus tortor quam, facilisis id ante eget, molestie blandit justo. Nam odio orci, aliquet sit amet quam et, ultricies malesuada velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer efficitur id nibh in molestie. Suspendisse sit amet tincidunt metus.</content>
+		<category term="Blog Articles" />
+	</entry>
+	<entry>
+		<title>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</title>
+		<link rel="alternate" type="text/html" href="http://demo.joomlead.com/filmmaker/index.php/blog-articles/29-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-3"/>
+		<published>2017-04-28T21:49:44+00:00</published>
+		<updated>2017-04-28T21:49:44+00:00</updated>
+		<id>http://demo.joomlead.com/filmmaker/index.php/blog-articles/29-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-3</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/articles/blog3.jpg&quot; /&gt;&lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor accumsan. Suspendisse libero neque, semper feugiat euismod ac, luctus eu nisl. Maecenas vitae nunc quis quam auctor sagittis. Ut et euismod nulla, bibendum accumsan magna. Sed rutrum nunc id ante convallis luctus. Praesent eget consequat sapien, a vehicula purus. Etiam fringilla, nisl sit amet venenatis lacinia, lacus lectus posuere tellus, id vehicula sapien mi eget magna. Donec eget augue ac ligula viverra mollis. Donec tellus dui, ullamcorper eu enim id, euismod porttitor mauris.
+
+Ut blandit nunc eget risus molestie, at lobortis quam condimentum. Maecenas eget lorem ultrices ex commodo suscipit. Nulla suscipit blandit ex. Sed arcu leo, maximus mollis gravida nec, rhoncus venenatis ante. Suspendisse iaculis tempor justo quis vehicula. Aenean laoreet mi eu lorem mollis malesuada. Pellentesque et lobortis ex. Integer at augue et arcu vestibulum consequat ac eget metus. Suspendisse magna urna, elementum in tellus sed, blandit tempus mauris. Praesent condimentum commodo eleifend. In hac habitasse platea dictumst.
+
+Donec sodales consectetur quam. Aliquam vulputate, dolor sed rhoncus auctor, orci dui aliquam lorem, a volutpat lorem nulla sed dui. Proin mollis molestie velit ac condimentum. Nunc sed sem facilisis, gravida enim sed, vestibulum nisl. Donec viverra nunc neque, eu fringilla tortor sodales eu. Fusce fringilla ac sapien nec pretium. Nulla at sodales elit, vitae varius enim.
+
+Phasellus commodo, orci at eleifend pellentesque, mi lorem laoreet sapien, varius rhoncus lacus augue non dui. Duis aliquam leo eros, sed placerat quam porta id. In bibendum semper dapibus. Sed a dapibus nunc. Proin eget turpis urna. Sed scelerisque eros sem, nec aliquet nibh finibus sit amet. In non convallis nunc. Duis accumsan felis at tellus placerat pretium. Phasellus tortor quam, facilisis id ante eget, molestie blandit justo. Nam odio orci, aliquet sit amet quam et, ultricies malesuada velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer efficitur id nibh in molestie. Suspendisse sit amet tincidunt metus.</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/articles/blog3.jpg&quot; /&gt;&lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor accumsan. Suspendisse libero neque, semper feugiat euismod ac, luctus eu nisl. Maecenas vitae nunc quis quam auctor sagittis. Ut et euismod nulla, bibendum accumsan magna. Sed rutrum nunc id ante convallis luctus. Praesent eget consequat sapien, a vehicula purus. Etiam fringilla, nisl sit amet venenatis lacinia, lacus lectus posuere tellus, id vehicula sapien mi eget magna. Donec eget augue ac ligula viverra mollis. Donec tellus dui, ullamcorper eu enim id, euismod porttitor mauris.
+
+Ut blandit nunc eget risus molestie, at lobortis quam condimentum. Maecenas eget lorem ultrices ex commodo suscipit. Nulla suscipit blandit ex. Sed arcu leo, maximus mollis gravida nec, rhoncus venenatis ante. Suspendisse iaculis tempor justo quis vehicula. Aenean laoreet mi eu lorem mollis malesuada. Pellentesque et lobortis ex. Integer at augue et arcu vestibulum consequat ac eget metus. Suspendisse magna urna, elementum in tellus sed, blandit tempus mauris. Praesent condimentum commodo eleifend. In hac habitasse platea dictumst.
+
+Donec sodales consectetur quam. Aliquam vulputate, dolor sed rhoncus auctor, orci dui aliquam lorem, a volutpat lorem nulla sed dui. Proin mollis molestie velit ac condimentum. Nunc sed sem facilisis, gravida enim sed, vestibulum nisl. Donec viverra nunc neque, eu fringilla tortor sodales eu. Fusce fringilla ac sapien nec pretium. Nulla at sodales elit, vitae varius enim.
+
+Phasellus commodo, orci at eleifend pellentesque, mi lorem laoreet sapien, varius rhoncus lacus augue non dui. Duis aliquam leo eros, sed placerat quam porta id. In bibendum semper dapibus. Sed a dapibus nunc. Proin eget turpis urna. Sed scelerisque eros sem, nec aliquet nibh finibus sit amet. In non convallis nunc. Duis accumsan felis at tellus placerat pretium. Phasellus tortor quam, facilisis id ante eget, molestie blandit justo. Nam odio orci, aliquet sit amet quam et, ultricies malesuada velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer efficitur id nibh in molestie. Suspendisse sit amet tincidunt metus.</content>
+		<category term="Blog Articles" />
+	</entry>
+	<entry>
+		<title>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</title>
+		<link rel="alternate" type="text/html" href="http://demo.joomlead.com/filmmaker/index.php/blog-articles/28-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-2"/>
+		<published>2017-04-28T21:49:04+00:00</published>
+		<updated>2017-04-28T21:49:04+00:00</updated>
+		<id>http://demo.joomlead.com/filmmaker/index.php/blog-articles/28-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-2</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/articles/blog2.jpg&quot; /&gt;&lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor accumsan. Suspendisse libero neque, semper feugiat euismod ac, luctus eu nisl. Maecenas vitae nunc quis quam auctor sagittis. Ut et euismod nulla, bibendum accumsan magna. Sed rutrum nunc id ante convallis luctus. Praesent eget consequat sapien, a vehicula purus. Etiam fringilla, nisl sit amet venenatis lacinia, lacus lectus posuere tellus, id vehicula sapien mi eget magna. Donec eget augue ac ligula viverra mollis. Donec tellus dui, ullamcorper eu enim id, euismod porttitor mauris.
+
+Ut blandit nunc eget risus molestie, at lobortis quam condimentum. Maecenas eget lorem ultrices ex commodo suscipit. Nulla suscipit blandit ex. Sed arcu leo, maximus mollis gravida nec, rhoncus venenatis ante. Suspendisse iaculis tempor justo quis vehicula. Aenean laoreet mi eu lorem mollis malesuada. Pellentesque et lobortis ex. Integer at augue et arcu vestibulum consequat ac eget metus. Suspendisse magna urna, elementum in tellus sed, blandit tempus mauris. Praesent condimentum commodo eleifend. In hac habitasse platea dictumst.
+
+Donec sodales consectetur quam. Aliquam vulputate, dolor sed rhoncus auctor, orci dui aliquam lorem, a volutpat lorem nulla sed dui. Proin mollis molestie velit ac condimentum. Nunc sed sem facilisis, gravida enim sed, vestibulum nisl. Donec viverra nunc neque, eu fringilla tortor sodales eu. Fusce fringilla ac sapien nec pretium. Nulla at sodales elit, vitae varius enim.
+
+Phasellus commodo, orci at eleifend pellentesque, mi lorem laoreet sapien, varius rhoncus lacus augue non dui. Duis aliquam leo eros, sed placerat quam porta id. In bibendum semper dapibus. Sed a dapibus nunc. Proin eget turpis urna. Sed scelerisque eros sem, nec aliquet nibh finibus sit amet. In non convallis nunc. Duis accumsan felis at tellus placerat pretium. Phasellus tortor quam, facilisis id ante eget, molestie blandit justo. Nam odio orci, aliquet sit amet quam et, ultricies malesuada velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer efficitur id nibh in molestie. Suspendisse sit amet tincidunt metus.</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/articles/blog2.jpg&quot; /&gt;&lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor accumsan. Suspendisse libero neque, semper feugiat euismod ac, luctus eu nisl. Maecenas vitae nunc quis quam auctor sagittis. Ut et euismod nulla, bibendum accumsan magna. Sed rutrum nunc id ante convallis luctus. Praesent eget consequat sapien, a vehicula purus. Etiam fringilla, nisl sit amet venenatis lacinia, lacus lectus posuere tellus, id vehicula sapien mi eget magna. Donec eget augue ac ligula viverra mollis. Donec tellus dui, ullamcorper eu enim id, euismod porttitor mauris.
+
+Ut blandit nunc eget risus molestie, at lobortis quam condimentum. Maecenas eget lorem ultrices ex commodo suscipit. Nulla suscipit blandit ex. Sed arcu leo, maximus mollis gravida nec, rhoncus venenatis ante. Suspendisse iaculis tempor justo quis vehicula. Aenean laoreet mi eu lorem mollis malesuada. Pellentesque et lobortis ex. Integer at augue et arcu vestibulum consequat ac eget metus. Suspendisse magna urna, elementum in tellus sed, blandit tempus mauris. Praesent condimentum commodo eleifend. In hac habitasse platea dictumst.
+
+Donec sodales consectetur quam. Aliquam vulputate, dolor sed rhoncus auctor, orci dui aliquam lorem, a volutpat lorem nulla sed dui. Proin mollis molestie velit ac condimentum. Nunc sed sem facilisis, gravida enim sed, vestibulum nisl. Donec viverra nunc neque, eu fringilla tortor sodales eu. Fusce fringilla ac sapien nec pretium. Nulla at sodales elit, vitae varius enim.
+
+Phasellus commodo, orci at eleifend pellentesque, mi lorem laoreet sapien, varius rhoncus lacus augue non dui. Duis aliquam leo eros, sed placerat quam porta id. In bibendum semper dapibus. Sed a dapibus nunc. Proin eget turpis urna. Sed scelerisque eros sem, nec aliquet nibh finibus sit amet. In non convallis nunc. Duis accumsan felis at tellus placerat pretium. Phasellus tortor quam, facilisis id ante eget, molestie blandit justo. Nam odio orci, aliquet sit amet quam et, ultricies malesuada velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer efficitur id nibh in molestie. Suspendisse sit amet tincidunt metus.</content>
+		<category term="Blog Articles" />
+	</entry>
+	<entry>
+		<title>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</title>
+		<link rel="alternate" type="text/html" href="http://demo.joomlead.com/filmmaker/index.php/blog-articles/27-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"/>
+		<published>2017-04-28T21:48:21+00:00</published>
+		<updated>2017-04-28T21:48:21+00:00</updated>
+		<id>http://demo.joomlead.com/filmmaker/index.php/blog-articles/27-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit</id>
+		<author>
+			<name>Super User</name>
+		</author>
+		<summary type="html">&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/articles/blog1.jpg&quot; /&gt;&lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor accumsan. Suspendisse libero neque, semper feugiat euismod ac, luctus eu nisl. Maecenas vitae nunc quis quam auctor sagittis. Ut et euismod nulla, bibendum accumsan magna. Sed rutrum nunc id ante convallis luctus. Praesent eget consequat sapien, a vehicula purus. Etiam fringilla, nisl sit amet venenatis lacinia, lacus lectus posuere tellus, id vehicula sapien mi eget magna. Donec eget augue ac ligula viverra mollis. Donec tellus dui, ullamcorper eu enim id, euismod porttitor mauris.
+
+Ut blandit nunc eget risus molestie, at lobortis quam condimentum. Maecenas eget lorem ultrices ex commodo suscipit. Nulla suscipit blandit ex. Sed arcu leo, maximus mollis gravida nec, rhoncus venenatis ante. Suspendisse iaculis tempor justo quis vehicula. Aenean laoreet mi eu lorem mollis malesuada. Pellentesque et lobortis ex. Integer at augue et arcu vestibulum consequat ac eget metus. Suspendisse magna urna, elementum in tellus sed, blandit tempus mauris. Praesent condimentum commodo eleifend. In hac habitasse platea dictumst.
+
+Donec sodales consectetur quam. Aliquam vulputate, dolor sed rhoncus auctor, orci dui aliquam lorem, a volutpat lorem nulla sed dui. Proin mollis molestie velit ac condimentum. Nunc sed sem facilisis, gravida enim sed, vestibulum nisl. Donec viverra nunc neque, eu fringilla tortor sodales eu. Fusce fringilla ac sapien nec pretium. Nulla at sodales elit, vitae varius enim.
+
+Phasellus commodo, orci at eleifend pellentesque, mi lorem laoreet sapien, varius rhoncus lacus augue non dui. Duis aliquam leo eros, sed placerat quam porta id. In bibendum semper dapibus. Sed a dapibus nunc. Proin eget turpis urna. Sed scelerisque eros sem, nec aliquet nibh finibus sit amet. In non convallis nunc. Duis accumsan felis at tellus placerat pretium. Phasellus tortor quam, facilisis id ante eget, molestie blandit justo. Nam odio orci, aliquet sit amet quam et, ultricies malesuada velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer efficitur id nibh in molestie. Suspendisse sit amet tincidunt metus.</summary>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;http://demo.joomlead.com/filmmaker/images/joomlead/articles/blog1.jpg&quot; /&gt;&lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula auctor accumsan. Suspendisse libero neque, semper feugiat euismod ac, luctus eu nisl. Maecenas vitae nunc quis quam auctor sagittis. Ut et euismod nulla, bibendum accumsan magna. Sed rutrum nunc id ante convallis luctus. Praesent eget consequat sapien, a vehicula purus. Etiam fringilla, nisl sit amet venenatis lacinia, lacus lectus posuere tellus, id vehicula sapien mi eget magna. Donec eget augue ac ligula viverra mollis. Donec tellus dui, ullamcorper eu enim id, euismod porttitor mauris.
+
+Ut blandit nunc eget risus molestie, at lobortis quam condimentum. Maecenas eget lorem ultrices ex commodo suscipit. Nulla suscipit blandit ex. Sed arcu leo, maximus mollis gravida nec, rhoncus venenatis ante. Suspendisse iaculis tempor justo quis vehicula. Aenean laoreet mi eu lorem mollis malesuada. Pellentesque et lobortis ex. Integer at augue et arcu vestibulum consequat ac eget metus. Suspendisse magna urna, elementum in tellus sed, blandit tempus mauris. Praesent condimentum commodo eleifend. In hac habitasse platea dictumst.
+
+Donec sodales consectetur quam. Aliquam vulputate, dolor sed rhoncus auctor, orci dui aliquam lorem, a volutpat lorem nulla sed dui. Proin mollis molestie velit ac condimentum. Nunc sed sem facilisis, gravida enim sed, vestibulum nisl. Donec viverra nunc neque, eu fringilla tortor sodales eu. Fusce fringilla ac sapien nec pretium. Nulla at sodales elit, vitae varius enim.
+
+Phasellus commodo, orci at eleifend pellentesque, mi lorem laoreet sapien, varius rhoncus lacus augue non dui. Duis aliquam leo eros, sed placerat quam porta id. In bibendum semper dapibus. Sed a dapibus nunc. Proin eget turpis urna. Sed scelerisque eros sem, nec aliquet nibh finibus sit amet. In non convallis nunc. Duis accumsan felis at tellus placerat pretium. Phasellus tortor quam, facilisis id ante eget, molestie blandit justo. Nam odio orci, aliquet sit amet quam et, ultricies malesuada velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer efficitur id nibh in molestie. Suspendisse sit amet tincidunt metus.</content>
+		<category term="Blog Articles" />
+	</entry>
+</feed>

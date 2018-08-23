@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Blog</title>
+		<description><![CDATA[]]></description>
+		<link>http://demo.joomlead.com/filmmaker/index.php/blog</link>
+		<lastBuildDate>Wed, 22 Aug 2018 05:38:06 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="http://demo.joomlead.com/filmmaker/index.php/blog?format=feed&amp;type=rss"/>
+		<language>en-gb</language>
+		<item>
+			<title>Joomla Templates</title>
+			<link>http://demo.joomlead.com/filmmaker/index.php/blog/8-joomla-templates</link>
+			<guid isPermaLink="true">http://demo.joomlead.com/filmmaker/index.php/blog/8-joomla-templates</guid>
+			<description><![CDATA[<p><img src="http://demo.joomlead.com/filmmaker/images/joomlead/blog_themes.jpg" /></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Wed, 02 Apr 2014 11:50:02 +0000</pubDate>
+		</item>
+		<item>
+			<title>How Positions Work in Joomla</title>
+			<link>http://demo.joomlead.com/filmmaker/index.php/blog/25-how-positions-work-in-joomla</link>
+			<guid isPermaLink="true">http://demo.joomlead.com/filmmaker/index.php/blog/25-how-positions-work-in-joomla</guid>
+			<description><![CDATA[<p><img src="http://demo.joomlead.com/filmmaker/images/joomlead/blog_1.jpg" /></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Fri, 28 Mar 2014 15:50:55 +0000</pubDate>
+		</item>
+		<item>
+			<title>Five Tips for Beginning Web Developers</title>
+			<link>http://demo.joomlead.com/filmmaker/index.php/blog/24-five-tips-for-beginning-web-developers</link>
+			<guid isPermaLink="true">http://demo.joomlead.com/filmmaker/index.php/blog/24-five-tips-for-beginning-web-developers</guid>
+			<description><![CDATA[<p><img src="http://demo.joomlead.com/filmmaker/images/joomlead/blog_2.jpg" /></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Sat, 22 Mar 2014 11:50:55 +0000</pubDate>
+		</item>
+		<item>
+			<title>How Does Site Speed Affect Sales?</title>
+			<link>http://demo.joomlead.com/filmmaker/index.php/blog/9-how-does-site-speed-affect-sales</link>
+			<guid isPermaLink="true">http://demo.joomlead.com/filmmaker/index.php/blog/9-how-does-site-speed-affect-sales</guid>
+			<description><![CDATA[<p><img src="http://demo.joomlead.com/filmmaker/images/joomlead/blog_icons.jpg" /></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Sat, 15 Mar 2014 11:50:30 +0000</pubDate>
+		</item>
+		<item>
+			<title>Gantry5: Built from the Ground Up for Speed</title>
+			<link>http://demo.joomlead.com/filmmaker/index.php/blog/10-gantry5-built-from-the-ground-up-for-speed</link>
+			<guid isPermaLink="true">http://demo.joomlead.com/filmmaker/index.php/blog/10-gantry5-built-from-the-ground-up-for-speed</guid>
+			<description><![CDATA[<p><img src="http://demo.joomlead.com/filmmaker/images/joomlead/blog_warp.jpg" /></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></description>
+			<category>Blog</category>
+			<pubDate>Wed, 12 Mar 2014 11:50:55 +0000</pubDate>
+		</item>
+	</channel>
+</rss>
