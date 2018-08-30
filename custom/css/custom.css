@@ -1,4 +1,472 @@
+
 .myclass {
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-bottom: 0px!important;
+    padding: 5%;
+}
+.mainfont{
+    color: #ffffff!important;
+    font-size: 280px;
+}
+.myclass div {
+    flex: 0 0 32%;
+}
+.myclass .ltob {
+    margin-top: -90px;
+}
+.myclass div:last-child h1 {
+    font-size: 220px;
+    font-weight: bolder;
+    top: 35px;
+    position: relative;
+}
+.myclass div:last-child h2 {
+    font-size: 120px;
+    margin-top: -20px;
+    font-weight: bolder;
+
+}
+.myclass div:first-child {
+    margin: 0 5%;
+    position: relative;
+    top: 70px;
+}
+.myclass div:first-child div {
+    display: flex;
+}
+.myclass div:first-child div .jumbotron_buttons {
+    background-color: transparent;
+    flex: 0 0 40%;
+    padding: 10px 20px;
+    margin: 0 5%;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(146, 146, 146);
+}
+
+.myclass div:first-child div .jumbotron_buttons:first-child {
+    margin-left: 0%;
+}
+.jumbo_txt{
+    font-size: 38px;
+    color:#666666;
+    font-weight: 600;
+}
+.jumbotron_event{
+    width: auto;
+    height: auto;
+}
+.myclass2 {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    color: #434242;
+    padding: 1%;
+    padding-bottom: 20px;
+}
+.myclass2 div {
+    flex: 0 0 32%;
+}
+.myclass2 div:first-child {
+    margin: 0 5%;
+}
+.myclass2 div:first-child div {
+    display: flex;
+}
+.myclass2 .ltob {
+    width: 800px;
+}
+
+.myclass3 {
+    background-color: #373736;
+    display: flex;
+    justify-content: space-around;
+    color: #fcc42b;
+    padding: 1%;
+    padding-bottom: 20px;
+}
+.myclass3 div {
+    flex: 0 0 18%;
+}
+.myclass3 div:first-child {
+    margin: revert;
+}
+.myclass3 div:nth-child(2){
+    text-align: center;
+    background: red;
+}
+.myclass3 div:first-child div {
+    display: flex;
+}
+.myclass3 div:last-child {
+    margin: inherit;
+}
+
+.jumbotron_event a {
+    border-radius: 0px;
+    background: #e5e5e5;
+    width: 60%;
+    line-height: 38px;
+    font-size: 21px;
+    margin: 3%;
+    font-weight: 800;
+}
+.jumbotron_event a:hover {
+    border-radius: 0px;
+    background: #373736!important;
+    width: 60%;
+    margin: 3%;
+    color: #fcc42b;
+    font-weight: 800;
+}
+
+.jumbotron_event .active {
+    border-radius: 0px;
+    background: #373736!important;
+    width: 60%;
+    margin: 3%;
+    color: #fcc42b;
+    font-weight: 800;
+}
+.jumbotron_event a:hover:after, .jumbotron_event .active:after {
+    content: "";
+    display: block;
+    border: 12px solid transparent;
+    border-left-color: #373736;
+    position: absolute;
+    bottom: 15px;
+    left: 105%;
+    margin-left: -12px;
+}
+.jumbotron_event a:focus{
+    color: #fcc42b;
+}
+.jumbotron_event a:hover:before, .jumbotron_event .active:before {
+    content: "";
+    display: block;
+    border: 12px solid transparent;
+    border-left-color: #373736;
+    position: absolute;
+    bottom: 15px;
+    left: 105%;
+    margin-left: -12px;
+}
+.jumbotron_event img{
+    width: 100%;
+}
+
+.looking_to img {
+    height: 300px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%);
+    object-fit: cover;
+   
+}
+
+.into{
+    margin: 7px 0px;
+    padding: 7px 0px;
+    font-weight: bold;
+    color: #373736;
+}
+.learn_more{
+    background-image: url("http://localhost/L2B_demo/custom/images/Learn-more.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.learn_more a{
+    padding-left: 10px;
+    text-decoration: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 16px;
+}
+.learn_more a:hover {
+    text-decoration: none;
+    background: transparent!important;
+    font-weight: bold;
+    font-size: 16px;
+}
+.font-bold{
+    font-weight: bold!important;
+}
+.padding20{
+    padding: 20px;
+}
+.padding-top5{
+    padding-top: 5px!important;
+}
+.padding-top15{
+    padding-top: 15px!important;
+}
+.container_card {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.learn_more_inv{
+    background-image: url("http://localhost/L2B_demo/custom/images/Learn-more-inv.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.learn_more_inv a{
+    padding-left: 10px;
+    text-decoration: none;
+    background: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff!important;
+}
+.learn_more_inv a:hover {
+    text-decoration: none;
+    background: transparent!important;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fcc42b!important;
+}
+.learn_more_inv a:active {
+    text-decoration: none;
+    background: transparent!important;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fcc42b;
+}
+.learn_more_inv a:focus {
+    color: #fcc42b;
+}
+.bg_img {
+    background-image: url("http://localhost/l2b_demo/custom/images/pointer.jpg")!important;
+}
+
+/* .section-horizontal-paddings {
+    padding-left: 5%!important;
+    padding-right: 10%!important;
+} */
+
+@media (max-width: 900px) {
+    .mainfont{
+        color: #ffffff!important;
+        font-size: 200px;
+    }
+  }
+
+@media (max-width: 900px) {
+    .myclass {
+      display: block;
+     
+    }
+  }
+  @media (max-width: 900px) {
+    .myclass div:last-child h1 {
+        font-size: 140px;
+        position: relative;
+        right: 7px;
+        top: 165px;
+        text-align: center;
+        margin-bottom: 150px;
+        font-weight: bolder;
+    }
+
+    .jumbo_txt {
+        font-size: 38px;
+        text-align: center;
+    }
+  }
+@media (max-width: 900px) {
+    .nav {
+   
+        margin-bottom: 159px!important;
+        list-style: none;
+        position: relative;
+        top: 163px;
+      
+    }
+    
+
+    
+  }
+
+  @media (max-width: 900px) {
+    .myclass2 div:last-child {
+      display: block;
+      position: relative;
+      bottom: 10px;
+/* 
+      position: relative;
+      left: 284px; */
+    }
+  }
+
+
+
+  @media (max-width: 900px) {
+    .into{
+        margin: 7px 0px;
+        padding: 7px 0px;
+        font-weight: bold;
+        color: #373736;
+        position: relative;
+        font-size: 14px;
+        text-align: center;
+  
+       
+    }
+
+    .learn_more a {
+        text-decoration: none;
+        background: transparent;
+        font-weight: bold;
+        position: relative;
+        font-size: 16px;
+        left: 131px;
+    }
+    
+    .navsetting {
+        display: table;   /* Allow the centering to work */
+        margin: 0 auto;
+    }
+    ul#navseting {
+   
+        list-style: none;
+        
+        }
+        ul#navseting li {
+            display: inline;
+        }
+    
+  }
+
+  @media only all and (max-width: 50.938rem){
+   .testimonials {
+    padding-left: 33px!important;
+    padding-right: 0;
+}
+  }
+
+  @media only all and (max-width: 50.938rem){
+body [class*="size-"] {
+    -webkit-flex-grow: 0;
+    -moz-flex-grow: 0;
+    flex-grow: 0;
+    -ms-flex-positive: 0;
+    -webkit-flex-basis: 100%;
+    -moz-flex-basis: 100%;
+    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    max-width: 95%!important;
+}}
+@media (min-width: 1200px){
+.container {
+    width: auto!important; 
+}
+}
+
+@media (min-width: 992px){
+.container {
+    width: auto!important; 
+}
+}
+@media (min-width: 768px){
+.container {
+    width: auto!important; 
+}
+}
+@media (max-width: 900px) {
+ 
+.problems1 h4,h3{
+    text-align: center;
+}
+.problems2 h4,h3{
+    text-align: center;
+}
+}
+
+#menu {
+    margin: 0;
+    width: auto;
+    background-color: #b9b9b9;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+   
+}
+
+#menu ul {
+    margin: 0;
+    padding: 8px 0;
+    list-style: none;
+    height: auto;
+}
+
+#menu li {
+    display: inline;
+    padding: 8px;
+}
+
+#menu a {
+    color: #FFF;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: #1B191B;
+    color: #FFF;
+  
+}
+
+#menu li .active {
+    background-color: #1B191B;
+    color: #FFF;
+
+  
+}
+
+@media (min-width: 768px) {
+    .problemsandsolutions {
+
+width : 700px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .problemsandsolutions {
+
+width : 800px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .problemsandsolutions {
+
+width : 800px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .problemsandsolutions {
+
+width : 1000px;
+    }
+  }
+
+  .c-action-button--is-active{display:block;visibility:visible;-webkit-animation-name:floating-button-anim;animation-name:floating-button-anim;-webkit-animation-delay:.5s;animation-delay:.5s;-webkit-animation-duration:1.2s;animation-duration:1.2s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-transform:scale(1);transform:scale(1); width: 64px;height: 64px;border-radius: 50px;}.c-action-button--is-active:hover,.c-action-button--is-fixed{-webkit-animation-name:none;animation-name:none;}.c-action-button--is-fixed{display:block;visibility:visible;-webkit-transform:scale(.6);transform:scale(.6)}@-webkit-keyframes floating-button-anim{0%{-webkit-transform:scale(1);transform:scale(1);-webkit-box-shadow:0 0 0 0 #ebebeb,0 0 0 1px #ebebeb;box-shadow:0 0 0 0 #ebebeb,0 0 0 1px #a661c2}50%{-webkit-transform:scale(1.1);transform:scale(1.1)}to{-webkit-transform:scale(1);transform:scale(1);-webkit-box-shadow:0 0 0 20px #ebebeb,0 0 0 20.5px #ebebeb;box-shadow:0 0 0 20px #ebebeb,0 0 0 20.5px #ebebeb}}@keyframes floating-button-anim{0%{-webkit-transform:scale(1);transform:scale(1);-webkit-box-shadow:0 0 0 0 #ebebeb,0 0 0 1px #a661c2;box-shadow:0 0 0 0 #fff,0 0 0 1px #ebebeb}50%{-webkit-transform:scale(1.1);transform:scale(1.1)}to{-webkit-transform:scale(1);transform:scale(1);-webkit-box-shadow:0 0 0 20px #f3e4b0,0 0 0 20.5px #f3e4b0;box-shadow:0 0 0 20px #f3e4b0,0 0 0 20.5px #f3e4b0}.myclass {
     background-color: #fac23e;
     display: flex;
     justify-content: space-around;
