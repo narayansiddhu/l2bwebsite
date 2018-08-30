@@ -9,7 +9,7 @@
 }
 .mainfont{
     color: #ffffff!important;
-    font-size: 280px;
+    font-size: 210px;
 }
 .myclass div {
     flex: 0 0 32%;
@@ -18,9 +18,10 @@
     margin-top: -90px;
 }
 .myclass div:last-child h1 {
-    font-size: 220px;
+    font-size: 170px;
+    line-height: 145px;
     font-weight: bolder;
-    top: 35px;
+    top: 100px;
     position: relative;
 }
 .myclass div:last-child h2 {
@@ -32,7 +33,7 @@
 .myclass div:first-child {
     margin: 0 5%;
     position: relative;
-    top: 70px;
+    top: 5px;
 }
 .myclass div:first-child div {
     display: flex;
@@ -53,6 +54,7 @@
     font-size: 38px;
     color:#666666;
     font-weight: 600;
+    line-height: 145%;
 }
 .jumbotron_event{
     width: auto;
@@ -402,6 +404,7 @@ body [class*="size-"] {
     background-color: #b9b9b9;
     font-size: 16px;
     font-family: Tahoma, Geneva, sans-serif;
+    margin-bottom: 40px;
 
     text-align: left;
     padding: 8px;
