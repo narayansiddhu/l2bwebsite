@@ -202,7 +202,7 @@
 }
 
 .learn_more {
-    background-image: url("http://localhost/L2B_demo/custom/images/Learn-more.png");
+    background-image: url("../../custom/images/Learn-more.png");
     background-size: 20px;
     background-repeat: no-repeat;
 }
@@ -258,7 +258,7 @@
 }
 
 .learn_more_inv {
-    background-image: url("http://localhost/L2B_demo/custom/images/Learn-more-inv.png");
+    background-image: url("../../custom/images/Learn-more-inv.png");
     background-size: 20px;
     background-repeat: no-repeat;
 }
