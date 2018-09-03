@@ -303,7 +303,7 @@
 @media (max-width: 900px) {
     .mainfont {
         color: #ffffff !important;
-        font-size: 200px;
+        font-size: 175px;
     }
 }
 
@@ -367,7 +367,6 @@
         font-weight: bold;
         position: relative;
         font-size: 16px;
-        left: 131px;
     }
 
     .navsetting {
@@ -580,6 +579,35 @@ ul#nav1.navbar #btn4 a:hover .arrow {
 @media (min-width: 1400px) {
     .problemsandsolutions {
         width: 1000px;
+    }
+}
+
+@media (max-width: 768px) {
+    #topNouch {
+        float: none;
+        text-align: center;
+        width: 100%;
+        font-size: 5px;
+    }
+
+    #portfolio-9404-particle {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #newWorld {
+        float: none;
+        text-align: center;
+        font-size: 9px;
+        width: 100%;
+    }
+
+    #featurebox-6782-particle {
+        float: none;
+        text-align: center;
+        font-size: 9px;
+        width: 100%;
     }
 }
 
