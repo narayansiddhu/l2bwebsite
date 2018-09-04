@@ -599,15 +599,17 @@ ul#nav1.navbar #btn4 a:hover .arrow {
     #newWorld {
         float: none;
         text-align: center;
-        font-size: 9px;
         width: 100%;
     }
 
     #featurebox-6782-particle {
         float: none;
         text-align: center;
-        font-size: 9px;
         width: 100%;
+    }
+
+    #cardtext {
+        text-align: start;
     }
 }
 
