@@ -58,6 +58,11 @@
     color: rgb(146, 146, 146);
 }
 
+#g-services_2 {
+    padding-left: 13% !important;
+    padding-right: 13% !important;
+}
+
 .myclass div:first-child div .jumbotron_buttons:first-child {
     margin-left: 0%;
 }
@@ -301,11 +306,6 @@
     display: block;
     color: #000000 !important;
     font-size: 25px;
-}
-
-.row {
-    margin-right: 10px !important;
-    margin-left: 20px !important;
 }
 
 .bg_img {
