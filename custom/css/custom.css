@@ -1,19 +1,23 @@
 .myclass {
-    background-color: #EBEBEB;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-around;
     color: #fff;
-    margin-bottom: 0px !important;
+    margin-bottom: 175px;
     padding: 5%;
 }
 
 .mainfont {
-    color: #ffffff !important;
-    font-size: 210px;
+    color: #000000 !important;
+    font-size: 240px;
 }
 
 .myclass div {
     flex: 0 0 32%;
+}
+
+.footer-txt li {
+    color: red;
 }
 
 .myclass .ltob {
@@ -21,10 +25,11 @@
 }
 
 .myclass div:last-child h1 {
-    font-size: 170px;
+    font-size: 195px;
     line-height: 145px;
     font-weight: bolder;
-    top: 100px;
+    top: 172px;
+    color: #000000;
     position: relative;
 }
 
@@ -37,7 +42,7 @@
 .myclass div:first-child {
     margin: 0 5%;
     position: relative;
-    top: 5px;
+    top: 60px;
 }
 
 .myclass div:first-child div {
@@ -58,7 +63,7 @@
 }
 
 .jumbo_txt {
-    font-size: 38px;
+    font-size: 42px;
     color: #666666;
     font-weight: 600;
     line-height: 145%;
@@ -292,8 +297,14 @@
     color: #fcc42b;
 }
 
+#g-testimonials .jl-testimonial .uk-slidenav {
+    display: block;
+    color: #000000 !important;
+    font-size: 25px;
+}
+
 .bg_img {
-    background-image: url("../../custom/images/pointer.jpg") !important;
+    /* background-image: url("../../custom/images/pointer.jpg") !important; */
 }
 
 /* .section-horizontal-paddings {
@@ -613,8 +624,13 @@ ul#nav1.navbar #btn4 a:hover .arrow {
     }
 }
 
+#g-footer .footer-txt ul li a {
+    color: #666666 !important;
+    font-size: 14px;
+}
+
 #g-footer:before {
-    background: #373736 none repeat scroll 0 0 !important;
+    /* background: #373736 none repeat scroll 0 0 !important; */
     content: "";
     height: 100%;
     left: 0;
