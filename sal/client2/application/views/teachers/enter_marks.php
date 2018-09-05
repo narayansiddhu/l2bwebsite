@@ -1,0 +1,122 @@
+<?php
+$this->load->view('structure/header');
+$this->load->view('structure/js');
+$this->load->view('structure/nav');
+$this->load->view('structure/body');
+?>
+<?php
+ $query=$this->db->query("SELECT s.student_id,m.marks  FROM `marks` m RIGHT JOIN student s ON m.student_id=s.student_id WHERE s.section_id='".$section->sid."' AND m.exam_id='".$exam->id."'");
+ $marks=array();
+ $query=$query->result();
+ foreach ($query as $value) {
+    $marks[$value->student_id]= $value->marks;
+ }
+?>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="box">
+            
+        
+            <div class="box box-color box-bordered">
+                <div class="box-title">
+                        <h3>
+                                <i class="fa fa-bar-chart-o"></i>
+                              <?php echo $section->class ?>,<?php echo $section->section ?>  - <?php echo $exam->exam ?>,<?php echo $exam->subject ?> Mark's List
+                        </h3>
+                        <div class="actions">
+                                <a href="#" class="btn btn-mini content-refresh">
+                                        <i class="fa fa-refresh"></i>
+                                </a>
+                                <a href="#" class="btn btn-mini content-remove">
+                                        <i class="fa fa-times"></i>
+                                </a>
+                                <a href="#" class="btn btn-mini content-slideUp">
+                                        <i class="fa fa-angle-down"></i>
+                                </a>
+                        </div>
+                </div>
+                <div class="box-content nopadding">
+                    <form method="post" action="<?php echo base_url(); ?>index.php/teachers/save_marks">
+                        <input type="hidden" name="examid" value="<?php echo $exam->id ?>" />
+                        <input type="hidden" name="maxmarks" value="<?php echo $exam->maxmarks ?>" />
+                        <input type="hidden" name="minmarks" value="<?php echo $exam->minmarks ?>" />
+                        <input type="hidden" name="section" value="<?php echo $section->sid ?>" />
+                        
+                  
+                        <table class="table table-hover table-nomargin  table-bordered"  style="width: 100%;">
+                                <thead>
+                                <tr>
+                                   
+                                    <th>roll</th>
+                                    <th>Student</th>
+                                    <th>Marks</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php 
+                                 
+                                  $ids="";
+                                    $students=$this->db->query("SELECT `student_id`,`name`,`roll` FROM `student` WHERE `section_id`='".$section->sid."' ");
+                                    $students=$students->result(); 
+                                    foreach ($students as $value) {
+                                       $ids.=$value->student_id.",";
+                                        ?>
+                                        <tr>
+                                           
+                                            <td><?php echo $value->roll ?></td>
+                                            <td><?php echo $value->name ?></td>
+                                            <td><input  style="width: 100%" type="text" class="form-control" name="marks_<?php echo $value->student_id ?>" value="<?php
+                                              if(strlen($this->form->value('marks_'.$value->student_id))>0 ){
+                                                echo $this->form->value('marks_'.$value->student_id);  
+                                              }elseif(array_key_exists($value->student_id,$marks)){
+                                                  echo $marks[$value->student_id];
+                                              }?>" />
+                                                <span style="color: red"><?php echo $this->form->error('marks_'.$value->student_id); ?></span>
+                                             
+                                                <input type="hidden" name="action_<?php echo $value->student_id ?>"  value="<?php
+                                               if(array_key_exists($value->student_id,$marks)){
+                                                   echo "update";
+                                                 }else{
+                                                     echo "insert";
+                                                 }
+                                             ?>"     />
+                                             
+                                            
+                                            </td>
+                                        </tr>
+                                       <?php
+                                     }
+                                 $ids=  substr($ids, 0, strlen($ids)-1);
+                                 
+                                ?>
+                            <input type="hidden" name="student_ids" value="<?php echo $ids ?>" />
+                            
+                                    
+                            </tbody>
+                        </table>
+                        <br/><br/>  
+                        <div class="col-sm-12"> 
+                            <div class="col-sm-4">
+                                &nbsp;
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="submit"  name="submit" value="Save marks" class="btn btn-primary btn-block  " />  
+                            </div>
+                            <div class="col-sm-4">
+                                &nbsp;
+                            </div>
+                           
+                        </div>
+                           <br/><br/>              
+                    </form>
+                </div>
+        </div>
+            
+        </div>
+    </div>
+</div>
+        
+
+<?php
+$this->load->view('structure/footer');
+?>
