@@ -303,6 +303,11 @@
     font-size: 25px;
 }
 
+.row {
+    margin-right: 10px !important;
+    margin-left: 20px !important;
+}
+
 .bg_img {
     /* background-image: url("../../custom/images/pointer.jpg") !important; */
 }
