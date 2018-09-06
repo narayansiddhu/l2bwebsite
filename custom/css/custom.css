@@ -316,6 +316,12 @@
     padding-left: 5%!important;
     padding-right: 10%!important;
 } */
+@media (max-width : 320px) {
+    #lblGreetings {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 900px) {
     .mainfont {
         color: #000000 !important;
