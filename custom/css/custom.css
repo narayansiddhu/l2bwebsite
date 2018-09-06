@@ -318,7 +318,13 @@
 } */
 @media (max-width : 320px) {
     #lblGreetings {
-        font-size: 15px;
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width : 420px) {
+    #lblGreetings {
+        font-size: 18px !important;
     }
 }
 
