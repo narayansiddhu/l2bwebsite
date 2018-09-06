@@ -328,6 +328,15 @@
     }
 }
 
+@media (max-width : 768px) {
+    #boardHeading {
+        font-size: 20px ! important;
+        position: relative;
+        right: 15px;
+        text-align: -webkit-center;
+    }
+}
+
 @media (max-width: 900px) {
     .mainfont {
         color: #000000 !important;
