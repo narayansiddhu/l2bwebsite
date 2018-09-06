@@ -316,6 +316,24 @@
     padding-left: 5%!important;
     padding-right: 10%!important;
 } */
+@media (min-width: 1200px) {
+    .container {
+        width: auto ! important;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: auto;
+    }
+}
+
 @media (max-width : 320px) {
     #lblGreetings {
         font-size: 15px !important;

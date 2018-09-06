@@ -7,7 +7,6 @@
    http://docs.gantry.org/gantry5/configure/styles
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
-
 /* line 2, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 12, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 2, media/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */
@@ -17,61 +16,96 @@
   margin: 0.625rem;
   padding: 1.5rem;
 }
+
 /* line 6, media/gantry5/engines/nucleus/scss/nucleus/theme/_flex.scss */
 .g-flushed .g-content {
   margin: 0;
   padding: 0;
 }
+
 /* line 2, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 body {
   font-size: 0.875rem;
   line-height: 1.5;
 }
+
 /* line 8, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 h1 {
   font-size: 2.125rem;
 }
+
 /* line 12, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 h2 {
   font-size: 1.775rem;
 }
+
 /* line 16, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 h3 {
   font-size: 1.375rem;
 }
+
 /* line 20, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 h4 {
   font-size: 1.025rem;
 }
+
 /* line 24, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 h5 {
   font-size: 0.875rem;
 }
+
 /* line 28, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 h6 {
   font-size: 0.725rem;
 }
+
 /* line 33, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 small {
   font-size: 0.75rem;
 }
+
 /* line 37, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 cite {
   font-size: 0.75rem;
 }
+
 /* line 41, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
-sub, sup {
+sub,
+sup {
   font-size: 0.625rem;
 }
+
 /* line 46, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-size: 0.875rem;
   font-family: "Menlo", "Monaco", monospace;
 }
+
 /* line 1, media/gantry5/engines/nucleus/scss/nucleus/theme/_forms.scss */
-textarea, select[multiple=multiple], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
+textarea,
+select[multiple=multiple],
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+input:not([type]),
+textarea {
   border-radius: 0.1875rem;
 }
+
 /* line 2, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 3, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 4, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -79,6 +113,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   display: inline-block;
   position: relative;
 }
+
 /* line 9, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 10, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 11, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -92,6 +127,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   left: 50%;
   margin-left: -15px;
 }
+
 /* line 23, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 24, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 25, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -104,6 +140,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 30px;
   left: 0;
 }
+
 /* line 36, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 37, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 38, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -116,6 +153,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 30px;
   right: 0;
 }
+
 /* line 51, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 52, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 53, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -124,6 +162,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   position: relative;
   border-bottom: 1px solid #eee;
 }
+
 /* line 59, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 60, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 61, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -137,6 +176,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   left: 50%;
   margin-left: -15px;
 }
+
 /* line 73, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 74, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 75, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -149,6 +189,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 30px;
   left: 0;
 }
+
 /* line 86, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 87, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 88, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -161,6 +202,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 30px;
   right: 0;
 }
+
 /* line 102, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 103, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 104, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -168,6 +210,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   display: inline-block;
   position: relative;
 }
+
 /* line 109, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 110, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 111, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -181,6 +224,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   left: 50%;
   margin-left: -61px;
 }
+
 /* line 123, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 124, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 125, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -193,6 +237,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   height: 12px;
   left: 0;
 }
+
 /* line 136, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 137, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 138, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -205,6 +250,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   height: 12px;
   right: 0;
 }
+
 /* line 152, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 153, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 154, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -212,6 +258,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   display: inline-block;
   position: relative;
 }
+
 /* line 159, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 160, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 161, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -225,6 +272,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   left: 50%;
   margin-left: -13px;
 }
+
 /* line 173, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 174, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 175, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -237,6 +285,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   height: 6px;
   left: 0;
 }
+
 /* line 186, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 187, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 188, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -249,6 +298,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   height: 6px;
   right: 0;
 }
+
 /* line 203, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 204, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 205, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -256,6 +306,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   display: inline-block;
   position: relative;
 }
+
 /* line 210, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 211, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 212, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -269,6 +320,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   left: 50%;
   margin-left: -61px;
 }
+
 /* line 224, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 225, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 226, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -282,6 +334,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   height: 12px;
   left: 0;
 }
+
 /* line 239, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 240, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 241, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -294,6 +347,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   height: 12px;
   right: 0;
 }
+
 /* line 256, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 257, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 258, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -301,10 +355,17 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   display: inline-block;
   position: relative;
 }
+
 /* line 261, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
-.style6 .jl-heading-content .jl-heading-title h1, .style6 .jl-heading-content .jl-heading-title h2, .style6 .jl-heading-content .jl-heading-title h3, .style6 .jl-heading-content .jl-heading-title h4, .style6 .jl-heading-content .jl-heading-title h5, .style6 .jl-heading-content .jl-heading-title h6 {
+.style6 .jl-heading-content .jl-heading-title h1,
+.style6 .jl-heading-content .jl-heading-title h2,
+.style6 .jl-heading-content .jl-heading-title h3,
+.style6 .jl-heading-content .jl-heading-title h4,
+.style6 .jl-heading-content .jl-heading-title h5,
+.style6 .jl-heading-content .jl-heading-title h6 {
   margin: 0;
 }
+
 /* line 266, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 267, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 268, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -317,6 +378,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 100%;
   border-bottom: 1px solid #444;
 }
+
 /* line 277, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 .style6 .uk-text-center .jl-heading-content .jl-heading-title:after {
   content: '';
@@ -327,6 +389,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 100%;
   border-bottom: 1px solid #444;
 }
+
 /* line 288, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 289, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 290, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -339,6 +402,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 100%;
   border-bottom: 1px solid #444;
 }
+
 /* line 301, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 302, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 303, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -351,6 +415,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 100%;
   border-bottom: 1px solid #444;
 }
+
 /* line 318, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 319, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 320, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -358,10 +423,17 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   display: inline-block;
   position: relative;
 }
+
 /* line 323, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
-.style7 .jl-heading-content .jl-heading-title h1, .style7 .jl-heading-content .jl-heading-title h2, .style7 .jl-heading-content .jl-heading-title h3, .style7 .jl-heading-content .jl-heading-title h4, .style7 .jl-heading-content .jl-heading-title h5, .style7 .jl-heading-content .jl-heading-title h6 {
+.style7 .jl-heading-content .jl-heading-title h1,
+.style7 .jl-heading-content .jl-heading-title h2,
+.style7 .jl-heading-content .jl-heading-title h3,
+.style7 .jl-heading-content .jl-heading-title h4,
+.style7 .jl-heading-content .jl-heading-title h5,
+.style7 .jl-heading-content .jl-heading-title h6 {
   margin: 0;
 }
+
 /* line 328, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 329, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 330, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -374,6 +446,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 100%;
   border-bottom: 1px dashed #444;
 }
+
 /* line 339, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 .style7 .uk-text-center .jl-heading-content .jl-heading-title:after {
   content: '';
@@ -384,6 +457,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 100%;
   border-bottom: 1px dashed #444;
 }
+
 /* line 350, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 351, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 352, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -396,6 +470,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 100%;
   border-bottom: 1px dashed #444;
 }
+
 /* line 363, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 364, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 365, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -408,20 +483,29 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 100%;
   border-bottom: 1px dashed #444;
 }
+
 /* line 381, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 382, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 .style8 .jl-heading-content {
   overflow: hidden;
 }
+
 /* line 384, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 .style8 .jl-heading-content .jl-heading-title {
   display: inline-block;
   position: relative;
 }
+
 /* line 387, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
-.style8 .jl-heading-content .jl-heading-title h1, .style8 .jl-heading-content .jl-heading-title h2, .style8 .jl-heading-content .jl-heading-title h3, .style8 .jl-heading-content .jl-heading-title h4, .style8 .jl-heading-content .jl-heading-title h5, .style8 .jl-heading-content .jl-heading-title h6 {
+.style8 .jl-heading-content .jl-heading-title h1,
+.style8 .jl-heading-content .jl-heading-title h2,
+.style8 .jl-heading-content .jl-heading-title h3,
+.style8 .jl-heading-content .jl-heading-title h4,
+.style8 .jl-heading-content .jl-heading-title h5,
+.style8 .jl-heading-content .jl-heading-title h6 {
   margin: 0;
 }
+
 /* line 392, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 393, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 394, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -434,6 +518,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   left: 100%;
   top: 0;
 }
+
 /* line 403, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 .style8 .uk-text-center .jl-heading-content .jl-heading-title:after {
   position: absolute;
@@ -444,6 +529,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   right: 100%;
   top: 0;
 }
+
 /* line 414, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 415, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 416, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -456,6 +542,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   left: 100%;
   top: 0;
 }
+
 /* line 427, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 428, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
 /* line 429, templates/jl_filmmaker_pro/custom/scss/_heading.scss */
@@ -468,41 +555,49 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   right: 100%;
   top: 0;
 }
+
 /* line 1, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 3, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .uk-slideset-nav {
   margin-top: 10px;
 }
+
 /* line 6, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .uk-slider-nav {
   margin-top: 10px;
 }
+
 /* line 9, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
-.jl-testimonial .uk-dotnav > .uk-active > * {
+.jl-testimonial .uk-dotnav>.uk-active>* {
   background: #fff;
   border-color: #777;
 }
+
 /* line 13, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
-.jl-testimonial .uk-dotnav > * > * {
+.jl-testimonial .uk-dotnav>*>* {
   width: 10px;
   height: 10px;
   border: 1px solid #777;
   background: #777;
 }
+
 /* line 18, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
-.jl-testimonial .uk-dotnav > * > *:hover {
+.jl-testimonial .uk-dotnav>*>*:hover {
   background: #fff;
   border-color: #777;
 }
+
 /* line 24, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 26, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style1 {
   text-align: center;
 }
+
 /* line 28, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style1 .jl-testimonial-item-content {
   padding: 20px;
 }
+
 /* line 30, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 31, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style1 .jl-testimonial-item-content .jl-testimonial-image .jl-testimonial-avatar {
@@ -515,6 +610,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+
 /* line 42, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 43, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
@@ -522,14 +618,17 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-weight: bold;
   color: #222;
 }
+
 /* line 48, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
 }
+
 /* line 50, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 54, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
@@ -537,20 +636,24 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding-bottom: 10px;
   line-height: 1;
 }
+
 /* line 61, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style1 .jl-testimonial-item-content .jl-testimonial-desc {
   font-size: 16px;
   font-weight: 300;
   font-style: italic;
 }
+
 /* line 70, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style2 {
   text-align: center;
 }
+
 /* line 72, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style2 .jl-testimonial-item-content {
   padding: 20px;
 }
+
 /* line 74, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 75, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style2 .jl-testimonial-item-content .jl-testimonial-image .jl-testimonial-avatar {
@@ -563,6 +666,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+
 /* line 86, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 87, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
@@ -570,14 +674,17 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-weight: bold;
   color: #222;
 }
+
 /* line 92, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
 }
+
 /* line 94, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 98, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
@@ -585,20 +692,24 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding-bottom: 10px;
   line-height: 1;
 }
+
 /* line 105, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style2 .jl-testimonial-item-content .jl-testimonial-desc {
   font-size: 16px;
   font-weight: 300;
   font-style: italic;
 }
+
 /* line 114, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style3 {
   text-align: center;
 }
+
 /* line 116, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style3 .jl-testimonial-item-content {
   padding: 20px;
 }
+
 /* line 118, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 120, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style3 .jl-testimonial-item-content .jl-testimonial-image .jl-testimonial-avatar {
@@ -611,6 +722,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+
 /* line 131, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 132, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style3 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
@@ -618,39 +730,47 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-weight: bold;
   color: #222;
 }
+
 /* line 138, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style3 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
 }
+
 /* line 141, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style3 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 145, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style3 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
   color: #666;
   line-height: 1;
 }
+
 /* line 152, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style3 .jl-testimonial-item-content .jl-testimonial-desc {
   font-size: 16px;
   font-weight: 300;
   font-style: italic;
 }
+
 /* line 161, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style4 {
   text-align: center;
 }
+
 /* line 163, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style4 .jl-testimonial-item-content {
   padding: 20px;
 }
+
 /* line 165, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style4 .jl-testimonial-item-content .jl-testimonial-image {
   text-align: right;
   margin-top: -60px;
 }
+
 /* line 168, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style4 .jl-testimonial-item-content .jl-testimonial-image .jl-testimonial-avatar {
   height: 80px;
@@ -661,25 +781,30 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+
 /* line 178, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style4 .jl-testimonial-item-content .jl-testimonial-info {
   text-align: left;
   padding: 20px;
 }
+
 /* line 181, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style4 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
   font-size: 18px;
   font-weight: bold;
   color: #222;
 }
+
 /* line 186, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style4 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
 }
+
 /* line 188, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style4 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 192, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style4 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
@@ -687,6 +812,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding-bottom: 10px;
   line-height: 1;
 }
+
 /* line 199, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style4 .jl-testimonial-item-content .jl-testimonial-desc {
   padding: 20px 20px 20px 50px;
@@ -696,6 +822,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   position: relative;
   text-align: left;
 }
+
 /* line 206, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style4 .jl-testimonial-item-content .jl-testimonial-desc:before {
   content: '“';
@@ -707,6 +834,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   line-height: 1;
   font-style: normal;
 }
+
 /* line 216, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style4 .jl-testimonial-item-content .jl-testimonial-desc:after {
   content: '';
@@ -716,14 +844,17 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   border: 12px solid transparent;
   border-top-color: #fff;
 }
+
 /* line 228, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style5 {
   text-align: center;
 }
+
 /* line 230, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style5 .jl-testimonial-item-content {
   padding: 20px;
 }
+
 /* line 232, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 233, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style5 .jl-testimonial-item-content .jl-testimonial-image .jl-testimonial-avatar {
@@ -735,11 +866,13 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
+
 /* line 243, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style5 .jl-testimonial-item-content .jl-testimonial-info {
   text-align: left;
   padding: 20px;
 }
+
 /* line 246, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style5 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
   font-size: 18px;
@@ -747,14 +880,17 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   color: #222;
   padding-left: 10px;
 }
+
 /* line 252, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style5 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
 }
+
 /* line 254, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style5 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 258, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style5 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
@@ -762,6 +898,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding-top: 10px;
   line-height: 1;
 }
+
 /* line 265, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style5 .jl-testimonial-item-content .jl-testimonial-desc {
   border-top: 3px solid #077080;
@@ -772,6 +909,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   position: relative;
   text-align: left;
 }
+
 /* line 273, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.top .style5 .jl-testimonial-item-content .jl-testimonial-desc:before {
   content: "";
@@ -784,15 +922,18 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   color: #aaa;
   font-size: 20px;
 }
+
 /* line 289, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 291, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style1 {
   text-align: center;
 }
+
 /* line 293, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style1 .jl-testimonial-item-content {
   padding: 20px;
 }
+
 /* line 295, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 296, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style1 .jl-testimonial-item-content .jl-testimonial-image .jl-testimonial-avatar {
@@ -805,6 +946,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+
 /* line 307, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 308, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
@@ -812,14 +954,17 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-weight: bold;
   color: #222;
 }
+
 /* line 313, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
 }
+
 /* line 315, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 319, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
@@ -827,20 +972,24 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding-bottom: 10px;
   line-height: 1;
 }
+
 /* line 326, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style1 .jl-testimonial-item-content .jl-testimonial-desc {
   font-size: 16px;
   font-weight: 300;
   font-style: italic;
 }
+
 /* line 335, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style2 {
   text-align: center;
 }
+
 /* line 337, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style2 .jl-testimonial-item-content {
   padding: 20px;
 }
+
 /* line 339, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 340, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style2 .jl-testimonial-item-content .jl-testimonial-image .jl-testimonial-avatar {
@@ -853,6 +1002,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+
 /* line 351, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 352, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
@@ -860,14 +1010,17 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-weight: bold;
   color: #222;
 }
+
 /* line 357, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
 }
+
 /* line 359, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 363, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
@@ -875,20 +1028,24 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding-bottom: 10px;
   line-height: 1;
 }
+
 /* line 370, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style2 .jl-testimonial-item-content .jl-testimonial-desc {
   font-size: 16px;
   font-weight: 300;
   font-style: italic;
 }
+
 /* line 379, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style3 {
   text-align: center;
 }
+
 /* line 381, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style3 .jl-testimonial-item-content {
   padding: 20px;
 }
+
 /* line 383, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 385, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style3 .jl-testimonial-item-content .jl-testimonial-image .jl-testimonial-avatar {
@@ -901,6 +1058,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+
 /* line 396, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 397, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style3 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
@@ -908,36 +1066,43 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-weight: bold;
   color: #222;
 }
+
 /* line 403, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style3 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
 }
+
 /* line 406, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style3 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 410, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style3 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
   color: #666;
   line-height: 1;
 }
+
 /* line 417, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style3 .jl-testimonial-item-content .jl-testimonial-desc {
   font-size: 16px;
   font-weight: 300;
   font-style: italic;
 }
+
 /* line 426, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style4 {
   text-align: left;
 }
+
 /* line 428, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style4 .jl-testimonial-item-content {
   position: relative;
   padding: 20px 20px 20px 70px;
   background: #faf8d4;
 }
+
 /* line 432, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style4 .jl-testimonial-item-content:before {
   content: "";
@@ -950,11 +1115,13 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   top: 0;
   left: 0;
 }
+
 /* line 443, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style4 .jl-testimonial-item-content .jl-testimonial-image {
   text-align: right;
   margin-bottom: -60px;
 }
+
 /* line 446, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style4 .jl-testimonial-item-content .jl-testimonial-image .jl-testimonial-avatar {
   height: 80px;
@@ -965,24 +1132,29 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+
 /* line 456, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style4 .jl-testimonial-item-content .jl-testimonial-info {
   padding-top: 10px;
 }
+
 /* line 458, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style4 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
   font-size: 18px;
   font-weight: bold;
   color: #222;
 }
+
 /* line 463, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style4 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
 }
+
 /* line 465, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style4 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 469, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style4 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
@@ -990,6 +1162,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding-bottom: 10px;
   line-height: 1;
 }
+
 /* line 476, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style4 .jl-testimonial-item-content .jl-testimonial-desc {
   font-size: 16px;
@@ -998,14 +1171,17 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   position: relative;
   text-align: left;
 }
+
 /* line 486, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style5 {
   text-align: center;
 }
+
 /* line 488, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style5 .jl-testimonial-item-content {
   padding: 20px;
 }
+
 /* line 490, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 491, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style5 .jl-testimonial-item-content .jl-testimonial-image .jl-testimonial-avatar {
@@ -1017,11 +1193,13 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
+
 /* line 501, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style5 .jl-testimonial-item-content .jl-testimonial-info {
   text-align: left;
   padding: 20px;
 }
+
 /* line 504, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style5 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
   font-size: 18px;
@@ -1029,14 +1207,17 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   color: #222;
   padding-left: 10px;
 }
+
 /* line 510, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style5 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
 }
+
 /* line 512, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style5 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 516, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style5 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
@@ -1044,6 +1225,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding-top: 10px;
   line-height: 1;
 }
+
 /* line 523, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style5 .jl-testimonial-item-content .jl-testimonial-desc {
   border-bottom: 3px solid #077080;
@@ -1054,6 +1236,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   position: relative;
   text-align: left;
 }
+
 /* line 531, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.bottom .style5 .jl-testimonial-item-content .jl-testimonial-desc:after {
   content: "";
@@ -1066,31 +1249,37 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   color: #aaa;
   font-size: 20px;
 }
+
 /* line 548, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 550, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style1 {
   text-align: center;
 }
+
 /* line 552, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style1 .jl-testimonial-item-content {
   padding: 20px;
 }
+
 /* line 554, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 556, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style1 .jl-testimonial-item-content .jl-testimonial-image .jl-testimonial-avatar {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+
 /* line 561, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style1 .jl-testimonial-item-content .jl-testimonial-info {
   text-align: left;
 }
+
 @media only all and (max-width: 50.938rem) {
   .jl-testimonial .jl-testimonial-item.left .style1 .jl-testimonial-item-content .jl-testimonial-info {
     text-align: center;
     padding-top: 20px;
   }
 }
+
 /* line 567, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
   line-height: 1;
@@ -1098,15 +1287,18 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-weight: bold;
   color: #222;
 }
+
 /* line 573, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
   padding-top: 10px;
 }
+
 /* line 576, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 580, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
@@ -1114,6 +1306,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding-top: 10px;
   line-height: 1;
 }
+
 /* line 587, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style1 .jl-testimonial-item-content .jl-testimonial-desc {
   font-size: 16px;
@@ -1123,10 +1316,12 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   line-height: 24px;
   padding: 10px 0 0;
 }
+
 /* line 598, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style2 {
   text-align: center;
 }
+
 /* line 600, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 601, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 602, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
@@ -1135,16 +1330,19 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   border-radius: 50%;
   width: 128px;
 }
+
 /* line 608, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style2 .jl-testimonial-item-content .jl-testimonial-info {
   text-align: left;
 }
+
 @media only all and (max-width: 50.938rem) {
   .jl-testimonial .jl-testimonial-item.left .style2 .jl-testimonial-item-content .jl-testimonial-info {
     text-align: center;
     margin-top: 20px;
   }
 }
+
 /* line 614, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-item-info-ct {
   box-shadow: 0px 0px 5px 1px rgba(193, 193, 193, 0.3);
@@ -1152,6 +1350,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding: 25px;
   position: relative;
 }
+
 /* line 619, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-item-info-ct:before {
   content: '';
@@ -1164,6 +1363,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   transform: rotate(-45deg) translateY(-50%);
   top: 50%;
 }
+
 @media only all and (max-width: 50.938rem) {
   .jl-testimonial .jl-testimonial-item.left .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-item-info-ct:before {
     -webkit-transform: rotate(-45deg) translateX(-50%);
@@ -1172,6 +1372,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
     top: -18px;
   }
 }
+
 /* line 637, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
   line-height: 1;
@@ -1179,15 +1380,18 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-weight: bold;
   color: #222;
 }
+
 /* line 643, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
   padding-top: 10px;
 }
+
 /* line 646, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 650, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
@@ -1195,6 +1399,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding-top: 10px;
   line-height: 1;
 }
+
 /* line 657, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.left .style2 .jl-testimonial-item-content .jl-testimonial-desc {
   font-size: 16px;
@@ -1204,15 +1409,18 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   line-height: 24px;
   padding: 10px 0 0;
 }
+
 /* line 670, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 672, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style1 {
   text-align: center;
 }
+
 /* line 674, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style1 .jl-testimonial-item-content {
   padding: 20px;
 }
+
 /* line 676, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 678, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style1 .jl-testimonial-item-content .jl-testimonial-image .jl-testimonial-avatar {
@@ -1220,16 +1428,19 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   border-radius: 50%;
   width: 128px;
 }
+
 /* line 684, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style1 .jl-testimonial-item-content .jl-testimonial-info {
   text-align: right;
 }
+
 @media only all and (max-width: 50.938rem) {
   .jl-testimonial .jl-testimonial-item.right .style1 .jl-testimonial-item-content .jl-testimonial-info {
     text-align: center;
     padding-top: 20px;
   }
 }
+
 /* line 690, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
   line-height: 1;
@@ -1237,15 +1448,18 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-weight: bold;
   color: #222;
 }
+
 /* line 696, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
   padding-top: 10px;
 }
+
 /* line 699, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 703, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style1 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
@@ -1253,6 +1467,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding-top: 10px;
   line-height: 1;
 }
+
 /* line 710, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style1 .jl-testimonial-item-content .jl-testimonial-desc {
   font-size: 16px;
@@ -1262,10 +1477,12 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   line-height: 24px;
   padding: 10px 0 0;
 }
+
 /* line 721, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style2 {
   text-align: center;
 }
+
 /* line 723, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 724, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 /* line 725, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
@@ -1274,16 +1491,19 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   border-radius: 50%;
   width: 128px;
 }
+
 /* line 731, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style2 .jl-testimonial-item-content .jl-testimonial-info {
   text-align: right;
 }
+
 @media only all and (max-width: 50.938rem) {
   .jl-testimonial .jl-testimonial-item.right .style2 .jl-testimonial-item-content .jl-testimonial-info {
     text-align: center;
     margin-bottom: 20px;
   }
 }
+
 /* line 737, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-item-info-ct {
   box-shadow: 0px 0px 5px 1px rgba(193, 193, 193, 0.3);
@@ -1291,6 +1511,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding: 25px;
   position: relative;
 }
+
 /* line 742, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-item-info-ct:before {
   content: '';
@@ -1303,6 +1524,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   transform: rotate(-45deg) translateX(-50%);
   bottom: 50%;
 }
+
 @media only all and (max-width: 50.938rem) {
   .jl-testimonial .jl-testimonial-item.right .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-item-info-ct:before {
     -webkit-transform: rotate(-45deg) translateY(-50%);
@@ -1311,6 +1533,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
     bottom: -15px;
   }
 }
+
 /* line 760, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name {
   line-height: 1;
@@ -1318,15 +1541,18 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-weight: bold;
   color: #222;
 }
+
 /* line 766, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars {
   line-height: 1;
   padding-top: 10px;
 }
+
 /* line 769, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-stars i {
   color: #fff46e;
 }
+
 /* line 773, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style2 .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 14px;
@@ -1334,6 +1560,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   padding-top: 10px;
   line-height: 1;
 }
+
 /* line 780, templates/jl_filmmaker_pro/custom/scss/_testimonial.scss */
 .jl-testimonial .jl-testimonial-item.right .style2 .jl-testimonial-item-content .jl-testimonial-desc {
   font-size: 16px;
@@ -1343,98 +1570,118 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   line-height: 24px;
   padding: 10px 0 0;
 }
+
 /* line 1, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 3, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .uk-slideset-nav {
   margin-top: 10px;
 }
+
 /* line 6, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .uk-slider-nav {
   margin-top: 10px;
 }
+
 /* line 9, templates/jl_filmmaker_pro/custom/scss/_member.scss */
-.jl-member .uk-dotnav > .uk-active > * {
+.jl-member .uk-dotnav>.uk-active>* {
   background: #fff;
   border-color: #777;
 }
+
 /* line 13, templates/jl_filmmaker_pro/custom/scss/_member.scss */
-.jl-member .uk-dotnav > * > * {
+.jl-member .uk-dotnav>*>* {
   width: 10px;
   height: 10px;
   border: 1px solid #777;
   background: #777;
 }
+
 /* line 18, templates/jl_filmmaker_pro/custom/scss/_member.scss */
-.jl-member .uk-dotnav > * > *:hover {
+.jl-member .uk-dotnav>*>*:hover {
   background: #fff;
   border-color: #777;
 }
+
 /* line 24, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 25, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content {
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.05);
 }
+
 /* line 31, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content .jl-member-info {
   padding: 15px;
 }
+
 /* line 33, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content .jl-member-info .jl-member-name {
   font-weight: bold;
   color: #333;
   font-size: 18px;
 }
+
 /* line 38, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content .jl-member-info .jl-member-role {
   font-size: 14px;
   opacity: 0.5;
   color: #333;
 }
+
 /* line 43, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content .jl-member-info .jl-member-desc {
   font-size: 14px;
 }
+
 /* line 48, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content .jl-member-icon {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   line-height: 1;
   padding: 15px;
 }
+
 /* line 52, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content .jl-member-icon a {
   padding: 0 10px;
 }
+
 /* line 54, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content .jl-member-icon a .fa-facebook {
   color: #3498db;
 }
+
 /* line 57, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content .jl-member-icon a .fa-twitter {
   color: #26c4f1;
 }
+
 /* line 60, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content .jl-member-icon a .fa-google-plus {
   color: #e93f2e;
 }
+
 /* line 63, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content .jl-member-icon a .fa-pinterest {
   color: #b81621;
 }
+
 /* line 66, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content .jl-member-icon a .fa-github {
   color: #444;
 }
+
 /* line 69, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style1 .jl-member-item-content .jl-member-icon a .fa-linkedin {
   color: #007bb6;
 }
+
 /* line 77, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 78, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content {
   text-align: center;
-  background: #2c3e50;
+  background: #030303;
 }
+
 /* line 81, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 82, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 83, templates/jl_filmmaker_pro/custom/scss/_member.scss */
@@ -1444,6 +1691,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-transform: scale(1);
   transform: scale(1);
 }
+
 /* line 92, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 93, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-item-img .jl-member-icon {
@@ -1451,6 +1699,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   line-height: 1;
   padding: 15px;
 }
+
 /* line 97, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-item-img .jl-member-icon .jl-member-ic {
   opacity: 0;
@@ -1463,21 +1712,25 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-transition-timing-function: cubic-bezier(0, 0.74, 0.58, 1);
   transition-timing-function: cubic-bezier(0, 0.74, 0.58, 1);
 }
+
 /* line 107, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-item-img .jl-member-icon .jl-member-ic:nth-child(1) {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
+
 /* line 111, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-item-img .jl-member-icon .jl-member-ic:nth-child(2) {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
+
 /* line 115, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-item-img .jl-member-icon .jl-member-ic:nth-child(3) {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
+
 /* line 119, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-item-img .jl-member-icon .jl-member-ic i {
   width: 35px;
@@ -1488,73 +1741,87 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-size: 16px;
   background: rgba(0, 0, 0, 0.41);
 }
+
 /* line 128, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 129, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-item-img .jl-member-icon .jl-member-ic .fa-facebook:hover {
   background: #3498db;
 }
+
 /* line 133, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 134, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-item-img .jl-member-icon .jl-member-ic .fa-twitter:hover {
   background: #26c4f1;
 }
+
 /* line 138, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 139, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-item-img .jl-member-icon .jl-member-ic .fa-google-plus:hover {
   background: #e93f2e;
 }
+
 /* line 143, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 144, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-item-img .jl-member-icon .jl-member-ic .fa-pinterest:hover {
   background: #b81621;
 }
+
 /* line 148, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 149, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-item-img .jl-member-icon .jl-member-ic .fa-github:hover {
   background: #444;
 }
+
 /* line 153, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 154, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-item-img .jl-member-icon .jl-member-ic .fa-linkedin:hover {
   background: #007bb6;
 }
+
 /* line 161, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-info {
   padding: 15px;
 }
+
 /* line 163, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-info .jl-member-name {
   font-weight: bold;
   color: #fff;
   font-size: 18px;
 }
+
 /* line 168, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-info .jl-member-role {
   font-size: 14px;
   opacity: 0.5;
   color: #fff;
 }
+
 /* line 173, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style2 .jl-member-item-content .jl-member-info .jl-member-desc {
   font-size: 14px;
   color: #fff;
 }
+
 /* line 181, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 182, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-item-content {
   text-align: center;
   background: #2c3e50;
 }
+
 /* line 186, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-info {
   padding: 15px;
 }
+
 /* line 188, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-info .jl-member-name {
   font-weight: bold;
   color: #fff;
   font-size: 18px;
 }
+
 /* line 193, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-info .jl-member-role {
   font-size: 14px;
@@ -1562,6 +1829,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   color: #fff;
   padding-bottom: 10px;
 }
+
 /* line 199, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-info .jl-member-desc {
   border-top: 1px solid #ddd;
@@ -1571,10 +1839,12 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   line-height: 24px;
   color: #fff;
 }
+
 /* line 207, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-info .jl-member-icon {
   padding-top: 20px;
 }
+
 /* line 209, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-info .jl-member-icon i {
   width: 35px;
@@ -1586,68 +1856,81 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   background: transparent;
   border: 1px solid #4fc1e9;
 }
+
 /* line 219, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 220, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-info .jl-member-icon .fa-facebook:hover {
   background: #3498db;
   border-color: #3498db;
 }
+
 /* line 225, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 226, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-info .jl-member-icon .fa-twitter:hover {
   background: #26c4f1;
   border-color: #26c4f1;
 }
+
 /* line 231, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 232, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-info .jl-member-icon .fa-google-plus:hover {
   background: #e93f2e;
   border-color: #e93f2e;
 }
+
 /* line 237, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 238, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-info .jl-member-icon .fa-pinterest:hover {
   background: #b81621;
   border-color: #b81621;
 }
+
 /* line 243, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 244, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-info .jl-member-icon .fa-github:hover {
   background: #444;
   border-color: #444;
 }
+
 /* line 249, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 250, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style3 .jl-member-info .jl-member-icon .fa-linkedin:hover {
   background: #007bb6;
   border-color: #007bb6;
 }
+
 @keyframes fade {
+
   /* line 259, templates/jl_filmmaker_pro/custom/scss/_member.scss */
   0% {
     opacity: 0;
   }
+
   /* line 263, templates/jl_filmmaker_pro/custom/scss/_member.scss */
   100% {
     opacity: 1;
   }
 }
+
 /* line 268, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 269, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-item-content {
   position: relative;
 }
+
 /* line 271, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 272, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 /* line 273, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-item-content:hover .jl-member-item-img:before {
   opacity: 1;
 }
+
 /* line 277, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-item-content:hover .jl-member-info {
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
+
 /* line 280, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-item-content:hover .jl-member-info .jl-member-desc {
   display: block;
@@ -1655,6 +1938,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   opacity: 1;
   animation: fade 1s;
 }
+
 /* line 288, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-item-content .jl-member-item-img {
   margin-right: 52px;
@@ -1662,6 +1946,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   border-radius: 10px 10px 0 10px;
   overflow: hidden;
 }
+
 /* line 294, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-item-content .jl-member-item-img:before {
   content: "";
@@ -1676,6 +1961,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   transition: opacity 0.3s;
   border-radius: 10px 10px 0 10px;
 }
+
 /* line 309, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-info {
   position: absolute;
@@ -1685,6 +1971,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   top: 0;
   margin-right: 52px;
 }
+
 /* line 316, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-info .jl-member-name {
   font-weight: bold;
@@ -1693,12 +1980,14 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   line-height: 1;
   padding-bottom: 3px;
 }
+
 /* line 323, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-info .jl-member-role {
   font-size: 14px;
   opacity: 0.5;
   color: #fff;
 }
+
 /* line 328, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-info .jl-member-desc {
   font-size: 14px;
@@ -1708,6 +1997,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   visibility: hidden;
   display: none;
 }
+
 /* line 338, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-icon {
   position: absolute;
@@ -1718,6 +2008,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   width: 52px;
   border-radius: 0 10px 10px 0;
 }
+
 /* line 346, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-icon .jl-member-ic {
   display: block;
@@ -1725,30 +2016,36 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   text-align: center;
   padding: 10px;
 }
+
 /* line 351, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-icon .jl-member-ic:hover {
   color: rgba(0, 0, 0, 0.5);
 }
+
 /* line 355, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-icon .jl-member-ic:not(:first-child) {
   border-top: 1px solid #fff;
 }
+
 /* line 358, templates/jl_filmmaker_pro/custom/scss/_member.scss */
 .jl-member .jl-member-item.style4 .jl-member-icon .jl-member-ic i {
   display: inline-block;
 }
+
 /* line 1, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 3, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 4, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content {
   margin-bottom: 20px;
 }
+
 /* line 7, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav {
   display: inline-block;
 }
+
 /* line 11, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-pill > * > * {
+.jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-pill>*>* {
   padding: 3px 8px;
   border: 1px solid #ddd;
   background: #fff;
@@ -1757,45 +2054,53 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   transition: all, 0.2s;
   border-radius: 3px;
 }
+
 /* line 20, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-pill > * > *:hover {
+.jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-pill>*>*:hover {
   background: #fff;
   box-shadow: none;
   border: 1px solid #e2a750;
   color: #e2a750;
 }
+
 /* line 28, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-pill > .uk-active > * {
+.jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-pill>.uk-active>* {
   color: #e2a750;
   border-color: #e2a750;
 }
+
 /* line 33, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-line > * > * {
+.jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-line>*>* {
   padding: 3px 8px;
   -webkit-transition: all, 0.2s;
   -moz-transition: all, 0.2s;
   transition: all, 0.2s;
   border-radius: 3px;
 }
+
 /* line 40, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-line > * > *:hover {
+.jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-line>*>*:hover {
   box-shadow: none;
   color: #000;
 }
+
 /* line 46, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-line > .uk-active > * {
+.jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-line>.uk-active>* {
   color: #000;
 }
+
 /* line 50, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-item {
   list-style-type: none;
 }
+
 /* line 55, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 57, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 58, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content {
   position: relative;
 }
+
 /* line 60, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-special {
   position: absolute;
@@ -1807,6 +2112,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   z-index: 2;
   right: 0;
 }
+
 /* line 69, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-special span {
   font-size: 14px;
@@ -1829,6 +2135,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   box-shadow: 3px -4px 13px 3px rgba(0, 0, 0, 0.75);
   box-sizing: content-box;
 }
+
 /* line 96, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 97, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 98, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
@@ -1839,17 +2146,21 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
 .jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background {
   background: rgba(255, 255, 255, 0.7);
 }
+
 /* line 105, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 106, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item, .jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom {
+.jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item,
+.jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom {
   font-size: 14px;
   line-height: normal;
   outline: none;
   text-decoration: none;
   margin: 0 5px;
 }
+
 /* line 114, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:after, .jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:after {
+.jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:after,
+.jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:after {
   font-family: FontAwesome;
   padding: 12px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -1858,28 +2169,34 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
+
 /* line 124, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:hover:after, .jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:hover:after {
+.jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:hover:after,
+.jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:hover:after {
   background: #f0f0f0;
 }
+
 /* line 129, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 130, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:after {
   content: "\f002";
   margin-left: 3px;
 }
+
 /* line 136, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 137, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:after {
   content: "\f0c1";
   margin-right: 5px;
 }
+
 /* line 147, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-info {
   background: #fff;
   padding: 15px;
   text-align: center;
 }
+
 /* line 152, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-info .jl-portfolio-item-title {
   margin: 0;
@@ -1890,6 +2207,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   color: #666;
   text-transform: capitalize;
 }
+
 /* line 161, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-info .jl-portfolio-item-description {
   font-size: 12px;
@@ -1897,6 +2215,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   margin: 0;
   color: #b2b2b2;
 }
+
 /* line 167, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style1 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-info .jl-portfolio-item-tags {
   font-size: 12px;
@@ -1904,6 +2223,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   margin: 0;
   color: #b2b2b2;
 }
+
 /* line 179, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 180, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 181, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
@@ -1915,16 +2235,20 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
 .jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link {
   text-align: center;
 }
+
 /* line 188, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item, .jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom {
+.jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item,
+.jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom {
   font-size: 14px;
   line-height: normal;
   outline: none;
   text-decoration: none;
   margin: 0 5px;
 }
+
 /* line 196, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:after, .jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:after {
+.jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:after,
+.jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:after {
   font-family: FontAwesome;
   padding: 12px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -1933,28 +2257,34 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
+
 /* line 206, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:hover:after, .jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:hover:after {
+.jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:hover:after,
+.jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:hover:after {
   background: #fff;
 }
+
 /* line 211, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 212, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:after {
   content: "\f03e";
   margin-left: 3px;
 }
+
 /* line 218, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 219, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:after {
   content: "\f0c1";
   margin-right: 5px;
 }
+
 /* line 229, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-info {
   background: transparent;
   padding: 0 0 15px;
   text-align: center;
 }
+
 /* line 233, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-info .jl-portfolio-item-title {
   margin: 0;
@@ -1965,6 +2295,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   color: #fff;
   text-transform: capitalize;
 }
+
 /* line 242, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-info .jl-portfolio-item-description {
   font-size: 12px;
@@ -1972,6 +2303,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   margin: 0;
   color: #b2b2b2;
 }
+
 /* line 248, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style2 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-info .jl-portfolio-item-tags {
   font-size: 12px;
@@ -1979,6 +2311,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   margin: 0;
   color: #b2b2b2;
 }
+
 /* line 260, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 261, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 262, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
@@ -1986,6 +2319,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
 .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content {
   position: relative;
 }
+
 /* line 265, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 266, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content:hover .jl-portfolio-item-before {
@@ -1995,6 +2329,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
+
 /* line 273, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content:hover .jl-portfolio-item-after {
   -webkit-transform: rotateY(0deg);
@@ -2004,6 +2339,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   transform: rotateY(0deg);
   background: #444;
 }
+
 /* line 282, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-before {
   -webkit-transform: rotateY(0deg);
@@ -2028,6 +2364,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -ms-transition: 400ms;
   transition: 400ms;
 }
+
 /* line 305, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after {
   position: absolute;
@@ -2056,20 +2393,25 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -ms-transition: 400ms;
   transition: 400ms;
 }
+
 /* line 332, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link {
   text-align: center;
 }
+
 /* line 334, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item, .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom {
+.jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item,
+.jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom {
   font-size: 14px;
   line-height: normal;
   outline: none;
   text-decoration: none;
   margin: 0 5px;
 }
+
 /* line 342, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item:after, .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom:after {
+.jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item:after,
+.jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom:after {
   font-family: FontAwesome;
   padding: 12px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -2078,28 +2420,34 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
+
 /* line 352, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item:hover:after, .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom:hover:after {
+.jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item:hover:after,
+.jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom:hover:after {
   background: #fff;
 }
+
 /* line 357, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 358, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom:after {
   content: "\f03e";
   margin-left: 3px;
 }
+
 /* line 364, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 365, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item:after {
   content: "\f0c1";
   margin-right: 5px;
 }
+
 /* line 372, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .jl-portfolio-item-info {
   background: transparent;
   padding: 15px 0 0;
   text-align: center;
 }
+
 /* line 376, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .jl-portfolio-item-info .jl-portfolio-item-title {
   margin: 0;
@@ -2110,6 +2458,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   color: #fff;
   text-transform: capitalize;
 }
+
 /* line 385, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .jl-portfolio-item-info .jl-portfolio-item-description {
   font-size: 12px;
@@ -2117,6 +2466,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   margin: 0;
   color: #b2b2b2;
 }
+
 /* line 391, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style3 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .jl-portfolio-item-info .jl-portfolio-item-tags {
   font-size: 12px;
@@ -2124,6 +2474,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   margin: 0;
   color: #b2b2b2;
 }
+
 /* line 407, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 408, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 409, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
@@ -2131,11 +2482,13 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
 .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content {
   position: relative;
 }
+
 /* line 412, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 414, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content:hover .jl-portfolio-item-after {
   opacity: 1;
 }
+
 /* line 421, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after {
   position: absolute;
@@ -2149,6 +2502,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   z-index: 2;
   background: transparent;
 }
+
 /* line 432, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after:before {
   background-color: rgba(255, 255, 255, 0.8);
@@ -2159,22 +2513,27 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   content: '';
   position: absolute;
 }
+
 /* line 441, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link {
   text-align: center;
   position: relative;
   z-index: 10;
 }
+
 /* line 445, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item, .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom {
+.jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item,
+.jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom {
   font-size: 14px;
   line-height: normal;
   outline: none;
   text-decoration: none;
   margin: 0 5px;
 }
+
 /* line 452, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item:after, .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom:after {
+.jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item:after,
+.jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom:after {
   font-family: FontAwesome;
   padding: 12px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -2184,23 +2543,28 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
+
 /* line 463, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item:hover:after, .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom:hover:after {
+.jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item:hover:after,
+.jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom:hover:after {
   background: #444;
   color: #fff;
 }
+
 /* line 469, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 470, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-zoom:after {
   content: "\f03e";
   margin-left: 3px;
 }
+
 /* line 476, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 477, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .sup-link .link-item:after {
   content: "\f0c1";
   margin-right: 5px;
 }
+
 /* line 484, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .jl-portfolio-item-info {
   background: transparent;
@@ -2209,6 +2573,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   position: relative;
   z-index: 10;
 }
+
 /* line 490, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .jl-portfolio-item-info .jl-portfolio-item-title {
   margin: 0;
@@ -2219,6 +2584,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   color: #444;
   text-transform: capitalize;
 }
+
 /* line 499, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .jl-portfolio-item-info .jl-portfolio-item-description {
   font-size: 12px;
@@ -2226,6 +2592,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   margin: 0;
   color: #b2b2b2;
 }
+
 /* line 505, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style4 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-after .jl-portfolio-item-info .jl-portfolio-item-tags {
   font-size: 12px;
@@ -2233,6 +2600,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   margin: 0;
   color: #b2b2b2;
 }
+
 /* line 521, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 522, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 523, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
@@ -2243,17 +2611,21 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
 .jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background {
   background: rgba(255, 255, 255, 0.7);
 }
+
 /* line 530, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 531, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item, .jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom {
+.jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item,
+.jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom {
   font-size: 14px;
   line-height: normal;
   outline: none;
   text-decoration: none;
   margin: 0 5px;
 }
+
 /* line 539, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:after, .jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:after {
+.jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:after,
+.jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:after {
   font-family: FontAwesome;
   padding: 12px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -2262,28 +2634,34 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
+
 /* line 549, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
-.jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:hover:after, .jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:hover:after {
+.jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:hover:after,
+.jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:hover:after {
   background: #f0f0f0;
 }
+
 /* line 553, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 554, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-zoom:after {
   content: "\f002";
   margin-left: 3px;
 }
+
 /* line 559, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 /* line 560, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-img .jl-portfolio-item-overlay .uk-overlay-background .sup-link .link-item:after {
   content: "\f0c1";
   margin-right: 5px;
 }
+
 /* line 569, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-info {
   background: #fff;
   padding: 15px;
   text-align: center;
 }
+
 /* line 574, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-info .jl-portfolio-item-title {
   margin: 0;
@@ -2294,6 +2672,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   color: #666;
   text-transform: capitalize;
 }
+
 /* line 584, templates/jl_filmmaker_pro/custom/scss/_portfolio.scss */
 .jl-portfolio .style5 .jl-portfolio-item .jl-portfolio-item-container .jl-portfolio-item-content .jl-portfolio-item-info .jl-portfolio-item-description {
   font-size: 12px;
@@ -2301,6 +2680,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   margin: 0;
   color: #b2b2b2;
 }
+
 /* line 1, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
 .back-to-top {
   position: fixed;
@@ -2322,17 +2702,21 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
+
 /* line 21, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
 .back-to-top:hover {
   background: #e9ebec;
 }
+
 @-webkit-keyframes fadeInRight {
+
   /* line 26, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
   from {
     opacity: 0;
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
   }
+
   /* line 32, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
   to {
     opacity: 1;
@@ -2340,13 +2724,16 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
     transform: none;
   }
 }
+
 @keyframes fadeInRight {
+
   /* line 40, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
   from {
     opacity: 0;
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
   }
+
   /* line 46, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
   to {
     opacity: 1;
@@ -2354,11 +2741,14 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
     transform: none;
   }
 }
+
 @-webkit-keyframes fadeOutRight {
+
   /* line 54, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
   from {
     opacity: 1;
   }
+
   /* line 58, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
   to {
     opacity: 0;
@@ -2366,11 +2756,14 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
     transform: translate3d(100%, 0, 0);
   }
 }
+
 @keyframes fadeOutRight {
+
   /* line 66, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
   from {
     opacity: 1;
   }
+
   /* line 70, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
   to {
     opacity: 0;
@@ -2378,6 +2771,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
     transform: translate3d(100%, 0, 0);
   }
 }
+
 /* line 77, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
 .back-to-top {
   -webkit-animation-duration: 1s;
@@ -2387,16 +2781,19 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
 }
+
 /* line 86, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
 .backHide {
   -webkit-animation-name: fadeOutRight;
   animation-name: fadeOutRight;
 }
+
 /* line 90, templates/jl_filmmaker_pro/custom/scss/_backtotop.scss */
 a.back-to-top:hover {
   text-decoration: none;
   color: #000;
 }
+
 /* line 1, templates/jl_filmmaker_pro/custom/scss/_youtube.scss */
 .embed-container {
   position: relative;
@@ -2405,16 +2802,21 @@ a.back-to-top:hover {
   overflow: hidden;
   max-width: 100%;
 }
+
 /* line 8, templates/jl_filmmaker_pro/custom/scss/_youtube.scss */
-.embed-container embed, .embed-container iframe, .embed-container object {
+.embed-container embed,
+.embed-container iframe,
+.embed-container object {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
+
 /* line 17, templates/jl_filmmaker_pro/custom/scss/_youtube.scss */
 .jl-youtube-icon {
   font-size: 60px;
 }
+
 /*# sourceMappingURL=custom_37.css.map */
