@@ -318,7 +318,7 @@
 } */
 @media (max-width: 900px) {
     .mainfont {
-        color: #ffffff !important;
+        color: #000000 !important;
         font-size: 175px;
     }
 }
@@ -334,7 +334,7 @@
         font-size: 140px;
         position: relative;
         right: 7px;
-        top: 165px;
+        top: 250px;
         text-align: center;
         margin-bottom: 150px;
         font-weight: bolder;
@@ -626,6 +626,16 @@ ul#nav1.navbar #btn4 a:hover .arrow {
 
     #cardtext {
         text-align: start;
+    }
+
+    .inclusive {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .inclusive {
+        margin-top: 10px;
     }
 }
 

@@ -7,9 +7,9 @@
    http://docs.gantry.org/gantry5/configure/styles
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
-
 @import url('http://fonts.googleapis.com/css?family=Roboto:500,700,900,400');
 @import url('http://fonts.googleapis.com/css?family=Orbitron:500,700,900,400');
+
 /* line 2, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 12, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 2, media/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */
@@ -19,61 +19,95 @@
   margin: 0.625rem;
   padding: 1.5rem;
 }
+
 /* line 6, media/gantry5/engines/nucleus/scss/nucleus/theme/_flex.scss */
 .g-flushed .g-content {
   margin: 0;
   padding: 0;
 }
+
 /* line 2, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 body {
   font-size: 0.875rem;
   line-height: 1.5;
 }
+
 /* line 8, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 h1 {
   font-size: 2.125rem;
 }
+
 /* line 12, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 h2 {
   font-size: 1.775rem;
 }
+
 /* line 16, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 h3 {
   font-size: 1.375rem;
 }
+
 /* line 20, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 h4 {
   font-size: 1.025rem;
 }
+
 /* line 24, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 h5 {
   font-size: 0.875rem;
 }
+
 /* line 28, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 h6 {
   font-size: 0.725rem;
 }
+
 /* line 33, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 small {
   font-size: 0.75rem;
 }
+
 /* line 37, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
 cite {
   font-size: 0.75rem;
 }
+
 /* line 41, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
-sub, sup {
+sub,
+sup {
   font-size: 0.625rem;
 }
+
 /* line 46, media/gantry5/engines/nucleus/scss/nucleus/theme/_typography.scss */
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
   font-size: 0.875rem;
   font-family: "Menlo", "Monaco", monospace;
 }
+
 /* line 1, media/gantry5/engines/nucleus/scss/nucleus/theme/_forms.scss */
-textarea, select[multiple=multiple], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]) {
+textarea,
+select[multiple=multiple],
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+input:not([type]) {
   border-radius: 0.1875rem;
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/styles/_body.scss */
 body {
   color: #666;
@@ -81,41 +115,50 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 /* line 7, templates/jl_filmmaker_pro/scss/filmmaker/styles/_body.scss */
 body #g-page-surround {
   background: #fff;
   overflow: hidden;
 }
+
 /* line 11, templates/jl_filmmaker_pro/scss/filmmaker/styles/_body.scss */
 .g-bodyonly body #g-page-surround {
   color: #666;
   background: #fff;
 }
+
 /* line 17, templates/jl_filmmaker_pro/scss/filmmaker/styles/_body.scss */
 body p {
   margin: 0 0 1.3rem 0;
 }
+
 /* line 21, templates/jl_filmmaker_pro/scss/filmmaker/styles/_body.scss */
 body span.para {
   display: block;
   margin: 1rem 0;
 }
+
 /* line 26, templates/jl_filmmaker_pro/scss/filmmaker/styles/_body.scss */
 /* line 27, templates/jl_filmmaker_pro/scss/filmmaker/styles/_body.scss */
 body.dir-rtl .align-left {
   text-align: right !important;
 }
+
 /* line 31, templates/jl_filmmaker_pro/scss/filmmaker/styles/_body.scss */
 body.dir-rtl .align-right {
   text-align: left !important;
 }
+
 @media print {
+
   /* line 38, templates/jl_filmmaker_pro/scss/filmmaker/styles/_body.scss */
   #g-page-surround {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/styles/_logo.scss */
 .g-logo {
   color: rgba(34, 34, 34, 0.8);
@@ -125,6 +168,7 @@ body.dir-rtl .align-right {
   box-shadow: none !important;
   text-transform: uppercase;
 }
+
 @media only all and (max-width: 50.938rem) {
   .g-logo {
     text-align: center;
@@ -133,161 +177,205 @@ body.dir-rtl .align-right {
     z-index: 1;
   }
 }
+
 /* line 16, templates/jl_filmmaker_pro/scss/filmmaker/styles/_logo.scss */
 /* line 17, templates/jl_filmmaker_pro/scss/filmmaker/styles/_logo.scss */
 .dir-rtl .g-logo img {
   padding-right: 0;
   padding-left: 1rem;
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 3, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.flush > .g-container, .g-flushed > .g-container, .flush > .g-content, .g-flushed > .g-content {
+.flush>.g-container,
+.g-flushed>.g-container,
+.flush>.g-content,
+.g-flushed>.g-content {
   margin: 0 !important;
   padding: 0 !important;
 }
+
 /* line 10, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .g-container-flushed {
   margin: -4rem 0;
 }
+
 /* line 14, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 15, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .dir-rtl .g-branding {
   text-align: right;
   direction: ltr;
 }
+
 /* line 21, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .g-nobackground {
   background: none !important;
 }
+
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.nomarginleft, .nomarginleft > .g-content {
+.nomarginleft,
+.nomarginleft>.g-content {
   margin-left: 0;
 }
+
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.nomarginright, .nomarginright > .g-content {
+.nomarginright,
+.nomarginright>.g-content {
   margin-right: 0;
 }
+
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.nomargintop, .nomargintop > .g-content {
+.nomargintop,
+.nomargintop>.g-content {
   margin-top: 0;
 }
+
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.nomarginbottom, .nomarginbottom > .g-content {
+.nomarginbottom,
+.nomarginbottom>.g-content {
   margin-bottom: 0;
 }
+
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.nomarginall, .nomarginall > .g-content {
+.nomarginall,
+.nomarginall>.g-content {
   margin: 0;
 }
+
 /* line 44, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 45, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.margin2x > .g-content {
+.margin2x>.g-content {
   margin: 1.25rem;
 }
+
 /* line 44, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 45, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.margin3x > .g-content {
+.margin3x>.g-content {
   margin: 1.875rem;
 }
+
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.nopaddingleft, .nopaddingleft > .g-content {
+.nopaddingleft,
+.nopaddingleft>.g-content {
   padding-left: 0;
 }
+
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.nopaddingright, .nopaddingright > .g-content {
+.nopaddingright,
+.nopaddingright>.g-content {
   padding-right: 0;
 }
+
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.nopaddingtop, .nopaddingtop > .g-content {
+.nopaddingtop,
+.nopaddingtop>.g-content {
   padding-top: 0;
 }
+
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.nopaddingbottom, .nopaddingbottom > .g-content {
+.nopaddingbottom,
+.nopaddingbottom>.g-content {
   padding-bottom: 0;
 }
+
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.nopaddingall, .nopaddingall > .g-content {
+.nopaddingall,
+.nopaddingall>.g-content {
   padding: 0;
 }
+
 /* line 44, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 45, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.padding2x > .g-content {
+.padding2x>.g-content {
   padding: 3rem;
 }
+
 /* line 44, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 45, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
-.padding3x > .g-content {
+.padding3x>.g-content {
   padding: 4.5rem;
 }
+
 /* line 57, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .section-horizontal-paddings {
   padding-left: 12%;
   padding-right: 12%;
 }
+
 @media only all and (max-width: 74.938rem) and (min-width: 51rem) {
   .section-horizontal-paddings {
     padding-left: 4%;
     padding-right: 4%;
   }
 }
+
 @media only all and (min-width: 51rem) and (max-width: 59.938rem) {
   .section-horizontal-paddings {
     padding-left: 0;
     padding-right: 0;
   }
 }
+
 @media only all and (max-width: 50.938rem) {
   .section-horizontal-paddings {
     padding-left: 0;
     padding-right: 0;
   }
 }
+
 /* line 78, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .section-vertical-paddings {
   padding-top: 2vw;
   padding-bottom: 2vw;
 }
+
 @media only all and (min-width: 51rem) and (max-width: 59.938rem) {
   .section-vertical-paddings {
     padding-top: 4vw;
     padding-bottom: 4vw;
   }
 }
+
 /* line 87, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .fp-enabled .section-vertical-paddings {
   padding-top: 0;
   padding-bottom: 0;
 }
+
 /* line 92, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .fp-responsive .section-vertical-paddings {
   padding-top: 2vw;
   padding-bottom: 2vw;
 }
+
 @media only all and (min-width: 51rem) and (max-width: 59.938rem) {
   .fp-responsive .section-vertical-paddings {
     padding-top: 4vw;
     padding-bottom: 4vw;
   }
 }
+
 /* line 104, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .section-no-paddings {
   padding: 0 !important;
 }
+
 /* line 108, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .center-block {
   text-align: center;
   margin: auto;
 }
+
 /* line 113, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .g-center-vertical {
   display: -webkit-box;
@@ -307,47 +395,58 @@ body.dir-rtl .align-right {
   align-items: center;
   -ms-flex-align: center;
 }
+
 /* line 118, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .g-linethrough {
   text-decoration: line-through;
   opacity: 0.55;
 }
+
 /* line 123, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .g-menuspacer {
   padding-top: 4.5rem;
 }
+
 @media only all and (max-width: 50.938rem) {
   .g-menuspacer {
     padding: 0;
   }
 }
+
 /* line 130, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .noliststyle {
   list-style: none;
 }
+
 /* line 134, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .g-bold {
   font-weight: 700;
 }
+
 /* line 138, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .g-uppercase {
   text-transform: uppercase;
 }
+
 /* line 142, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 /* line 143, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .g-compact .g-container {
   padding: 0 !important;
 }
+
 /* line 148, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 .g-sidebar-offset {
   margin-top: -4rem;
 }
+
 /* line 152, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
 @media only all and (max-width: 50.938rem) {
+
   /* line 154, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
   .g-mobile-center-compact .g-container {
     padding: 1.5rem 0;
   }
+
   /* line 158, templates/jl_filmmaker_pro/scss/filmmaker/styles/_utilities.scss */
   .g-mobile-center-compact .g-content {
     padding: 0 1.5rem;
@@ -355,8 +454,10 @@ body.dir-rtl .align-right {
     text-align: center !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-toplevel > li > .g-menu-item-container, .g-main-nav .g-sublevel > li > .g-menu-item-container {
+.g-main-nav .g-toplevel>li>.g-menu-item-container,
+.g-main-nav .g-sublevel>li>.g-menu-item-container {
   padding: 0.625rem 0.925rem;
   font-size: 13px;
   font-family: "Roboto";
@@ -370,123 +471,156 @@ body.dir-rtl .align-right {
   -moz-transition: 0.35s ease;
   transition: 0.35s ease;
 }
+
 @media only all and (min-width: 51rem) and (max-width: 59.938rem) {
-  .g-main-nav .g-toplevel > li > .g-menu-item-container, .g-main-nav .g-sublevel > li > .g-menu-item-container {
+
+  .g-main-nav .g-toplevel>li>.g-menu-item-container,
+  .g-main-nav .g-sublevel>li>.g-menu-item-container {
     font-size: 0.8rem;
   }
 }
+
 /* line 15, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-main-nav .g-standard .g-dropdown {
   width: 200px;
   float: left;
 }
+
 /* line 21, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-main-nav {
   z-index: 20;
 }
+
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
   .g-main-nav {
     white-space: nowrap;
   }
 }
+
 /* line 27, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .dir-rtl .g-main-nav {
   text-align: left;
 }
+
 /* line 31, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 37, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 39, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 40, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-toplevel > li > .g-menu-item-container {
+.g-main-nav .g-toplevel>li>.g-menu-item-container {
   color: #949494;
   line-height: 60px;
 }
+
 @media only all and (min-width: 51rem) and (max-width: 59.938rem) {
-  .g-main-nav .g-toplevel > li > .g-menu-item-container {
+  .g-main-nav .g-toplevel>li>.g-menu-item-container {
     padding: 0.625rem 0.35rem;
   }
 }
+
 /* line 50, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-toplevel > li > .g-menu-item-container i {
+.g-main-nav .g-toplevel>li>.g-menu-item-container i {
   color: #e2a750;
 }
+
 /* line 55, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 56, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 57, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-toplevel > li.g-parent > .g-menu-item-container:after {
+.g-main-nav .g-toplevel>li.g-parent>.g-menu-item-container:after {
   margin-left: -13px;
 }
+
 /* line 60, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.dir-rtl .g-main-nav .g-toplevel > li.g-parent > .g-menu-item-container:after {
+.dir-rtl .g-main-nav .g-toplevel>li.g-parent>.g-menu-item-container:after {
   margin-left: 7px;
 }
+
 /* line 67, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 68, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-toplevel > li:hover > .g-menu-item-container, .g-main-nav .g-toplevel > li.active > .g-menu-item-container {
+.g-main-nav .g-toplevel>li:hover>.g-menu-item-container,
+.g-main-nav .g-toplevel>li.active>.g-menu-item-container {
   color: #e2a750;
 }
+
 /* line 74, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 80, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 81, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-toplevel > li > .g-menu-item-container > .g-menu-item-content {
+.g-main-nav .g-toplevel>li>.g-menu-item-container>.g-menu-item-content {
   word-break: normal;
   line-height: normal;
 }
+
 /* line 86, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 87, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-toplevel > li > .g-menu-item-container .g-menu-parent-indicator:after {
+.g-main-nav .g-toplevel>li>.g-menu-item-container .g-menu-parent-indicator:after {
   content: "\f107";
   opacity: 1;
 }
+
 /* line 94, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 95, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 96, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 97, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-toplevel > li.g-parent.g-selected > .g-menu-item-container .g-menu-parent-indicator:after {
+.g-main-nav .g-toplevel>li.g-parent.g-selected>.g-menu-item-container .g-menu-parent-indicator:after {
   content: "\f107";
 }
+
 /* line 104, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-toplevel > li.g-parent .g-menu-parent-indicator:after {
+.g-main-nav .g-toplevel>li.g-parent .g-menu-parent-indicator:after {
   width: 1rem;
   height: 1rem;
 }
+
 /* line 108, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.dir-rtl .g-main-nav .g-toplevel > li.g-parent .g-menu-parent-indicator:after {
+.dir-rtl .g-main-nav .g-toplevel>li.g-parent .g-menu-parent-indicator:after {
   text-align: left;
 }
+
 /* line 114, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-main-nav .g-toplevel i {
   opacity: 0.6;
 }
+
 /* line 119, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 120, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-standard > .g-dropdown.g-dropdown-right, .g-main-nav .g-fullwidth > .g-dropdown.g-dropdown-right {
+.g-main-nav .g-standard>.g-dropdown.g-dropdown-right,
+.g-main-nav .g-fullwidth>.g-dropdown.g-dropdown-right {
   left: 0;
 }
+
 /* line 123, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.dir-rtl .g-main-nav .g-standard > .g-dropdown.g-dropdown-right, .dir-rtl .g-main-nav .g-fullwidth > .g-dropdown.g-dropdown-right {
+.dir-rtl .g-main-nav .g-standard>.g-dropdown.g-dropdown-right,
+.dir-rtl .g-main-nav .g-fullwidth>.g-dropdown.g-dropdown-right {
   right: 0.925rem;
   left: auto;
 }
+
 /* line 129, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-standard > .g-dropdown.g-dropdown-left, .g-main-nav .g-fullwidth > .g-dropdown.g-dropdown-left {
+.g-main-nav .g-standard>.g-dropdown.g-dropdown-left,
+.g-main-nav .g-fullwidth>.g-dropdown.g-dropdown-left {
   right: 0.925rem;
 }
+
 /* line 132, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.dir-rtl .g-main-nav .g-standard > .g-dropdown.g-dropdown-left, .dir-rtl .g-main-nav .g-fullwidth > .g-dropdown.g-dropdown-left {
+.dir-rtl .g-main-nav .g-standard>.g-dropdown.g-dropdown-left,
+.dir-rtl .g-main-nav .g-fullwidth>.g-dropdown.g-dropdown-left {
   left: 0.925rem;
   right: auto;
 }
+
 /* line 138, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-standard > .g-dropdown .g-dropdown, .g-main-nav .g-fullwidth > .g-dropdown .g-dropdown {
+.g-main-nav .g-standard>.g-dropdown .g-dropdown,
+.g-main-nav .g-fullwidth>.g-dropdown .g-dropdown {
   top: -15px;
 }
+
 /* line 143, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 144, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-standard .g-dropdown:after, .g-main-nav .g-fullwidth .g-dropdown:after {
+.g-main-nav .g-standard .g-dropdown:after,
+.g-main-nav .g-fullwidth .g-dropdown:after {
   left: -21px !important;
 }
+
 /* line 149, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-main-nav .g-dropdown {
   background: #000;
@@ -495,73 +629,88 @@ body.dir-rtl .align-right {
   text-align: left;
   margin-top: 0px !important;
 }
+
 /* line 156, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .dir-rtl .g-main-nav .g-dropdown {
   text-align: right;
 }
+
 /* line 161, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-main-nav .g-sublevel {
   padding: 15px 25px;
 }
+
 /* line 164, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-sublevel > li {
+.g-main-nav .g-sublevel>li {
   margin: 0;
   padding: 0;
 }
+
 /* line 168, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-sublevel > li > .g-menu-item-container {
+.g-main-nav .g-sublevel>li>.g-menu-item-container {
   line-height: normal;
   color: #949494;
   padding: 15px 0;
   border-bottom: 1px dashed #fff;
 }
+
 /* line 173, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-sublevel > li > .g-menu-item-container:hover {
+.g-main-nav .g-sublevel>li>.g-menu-item-container:hover {
   margin-left: 5px;
 }
+
 /* line 178, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-sublevel > li > .g-menu-item-container > .g-menu-item-content {
+.g-main-nav .g-sublevel>li>.g-menu-item-container>.g-menu-item-content {
   display: block;
   vertical-align: top;
   word-break: normal;
   line-height: 1.1;
 }
+
 /* line 186, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 188, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-sublevel > li:hover > .g-menu-item-container, .g-main-nav .g-sublevel > li.active > .g-menu-item-container {
+.g-main-nav .g-sublevel>li:hover>.g-menu-item-container,
+.g-main-nav .g-sublevel>li.active>.g-menu-item-container {
   color: #e2a750;
 }
+
 /* line 193, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 194, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-sublevel > li:last-child > .g-menu-item-container {
+.g-main-nav .g-sublevel>li:last-child>.g-menu-item-container {
   border-color: transparent;
 }
+
 /* line 199, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 200, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-sublevel > li.g-parent .g-menu-parent-indicator {
+.g-main-nav .g-sublevel>li.g-parent .g-menu-parent-indicator {
   right: 0.5rem;
   top: 0;
 }
+
 /* line 204, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-sublevel > li.g-parent .g-menu-parent-indicator:after {
+.g-main-nav .g-sublevel>li.g-parent .g-menu-parent-indicator:after {
   content: "\f105";
   opacity: 0.5;
   position: relative;
   top: 0.5rem;
 }
+
 /* line 217, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-menu-item-subtitle {
   opacity: 0.7;
 }
+
 /* line 222, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-preset-thumbnails {
   margin-top: 0.625rem;
 }
+
 /* line 225, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-preset-thumbnails .g-content {
   padding: 0rem !important;
   margin: 0;
 }
+
 /* line 230, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-preset-thumbnails .g-block {
   -webkit-box-flex: 1;
@@ -572,22 +721,26 @@ body.dir-rtl .align-right {
   -ms-flex: 1 1 auto !important;
   flex: 1 1 auto !important;
 }
+
 /* line 234, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-preset-thumbnails span {
   padding: 0.925rem 0;
   display: inline-block;
 }
+
 /* line 239, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-preset-thumbnails img {
   border-radius: 3px;
   margin-bottom: 0 !important;
 }
+
 /* line 42, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 43, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 44, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 .g-main-nav .g-standard .g-dropdown {
   margin-left: 17px;
 }
+
 /* line 46, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 .g-main-nav .g-standard .g-dropdown:after {
   content: "";
@@ -601,18 +754,23 @@ body.dir-rtl .align-right {
   border-right: 17px solid transparent;
   z-index: -1;
 }
+
 /* line 61, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
-.g-main-nav .g-standard > .g-dropdown {
+.g-main-nav .g-standard>.g-dropdown {
   margin-left: 0;
 }
+
 /* line 20, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 21, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 22, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
-.g-main-nav .g-standard > .g-dropdown, .g-main-nav .g-fullwidth > .g-dropdown {
+.g-main-nav .g-standard>.g-dropdown,
+.g-main-nav .g-fullwidth>.g-dropdown {
   margin-top: 10px;
 }
+
 /* line 24, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
-.g-main-nav .g-standard > .g-dropdown:before, .g-main-nav .g-fullwidth > .g-dropdown:before {
+.g-main-nav .g-standard>.g-dropdown:before,
+.g-main-nav .g-fullwidth>.g-dropdown:before {
   content: "";
   position: absolute;
   display: block;
@@ -623,16 +781,19 @@ body.dir-rtl .align-right {
   border-top: 10px solid transparent;
   z-index: -1;
 }
+
 /* line 252, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-menu-overlay.g-menu-overlay-open {
   z-index: 19;
   display: none;
 }
+
 @media only all and (max-width: 50.938rem) {
   .g-menu-overlay.g-menu-overlay-open {
     display: block;
   }
 }
+
 /* line 262, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 263, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 264, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
@@ -640,22 +801,26 @@ body.dir-rtl .align-right {
 /* line 266, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 267, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 268, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-menu-hastouch .g-standard .g-toplevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator, .g-menu-hastouch .g-fullwidth .g-toplevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator {
+.g-menu-hastouch .g-standard .g-toplevel>li.g-menu-item-link-parent>.g-menu-item-container>.g-menu-parent-indicator,
+.g-menu-hastouch .g-fullwidth .g-toplevel>li.g-menu-item-link-parent>.g-menu-item-container>.g-menu-parent-indicator {
   border-radius: 0.1875rem;
   margin: -0.2rem 0 -0.2rem 0.5rem;
   padding: 0.2rem;
 }
+
 /* line 278, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 279, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 280, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 281, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 282, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-menu-hastouch .g-standard .g-sublevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator, .g-menu-hastouch .g-fullwidth .g-sublevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator {
+.g-menu-hastouch .g-standard .g-sublevel>li.g-menu-item-link-parent>.g-menu-item-container>.g-menu-parent-indicator,
+.g-menu-hastouch .g-fullwidth .g-sublevel>li.g-menu-item-link-parent>.g-menu-item-container>.g-menu-parent-indicator {
   border-radius: 5px;
   padding: 0.1rem;
   margin-top: -0.1rem;
   margin-right: -0.1rem;
 }
+
 /* line 296, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 297, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 298, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
@@ -664,12 +829,14 @@ body.dir-rtl .align-right {
   -moz-transition: none;
   transition: none;
 }
+
 /* line 302, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-main-nav .g-standard .g-fade.g-dropdown {
   -webkit-transition: opacity 0.3s ease-out, -webkit-transform 0.3s ease-out;
   -moz-transition: opacity 0.3s ease-out, -moz-transform 0.3s ease-out;
   transition: opacity 0.3s ease-out, transform 0.3s ease-out;
 }
+
 /* line 306, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-main-nav .g-standard .g-zoom.g-active {
   -webkit-animation-duration: 0.3s;
@@ -679,6 +846,7 @@ body.dir-rtl .align-right {
   -moz-animation-name: g-dropdown-zoom;
   animation-name: g-dropdown-zoom;
 }
+
 /* line 311, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-main-nav .g-standard .g-fade-in-up.g-active {
   -webkit-animation-duration: 0.3s;
@@ -688,6 +856,7 @@ body.dir-rtl .align-right {
   -moz-animation-name: g-dropdown-fade-in-up;
   animation-name: g-dropdown-fade-in-up;
 }
+
 /* line 316, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-main-nav .g-standard .g-dropdown-bounce-in-left.g-active {
   -webkit-animation-duration: 0.5s;
@@ -697,6 +866,7 @@ body.dir-rtl .align-right {
   -moz-animation-name: g-dropdown-bounce-in-left;
   animation-name: g-dropdown-bounce-in-left;
 }
+
 /* line 321, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-main-nav .g-standard .g-dropdown-bounce-in-right.g-active {
   -webkit-animation-duration: 0.5s;
@@ -706,6 +876,7 @@ body.dir-rtl .align-right {
   -moz-animation-name: g-dropdown-bounce-in-right;
   animation-name: g-dropdown-bounce-in-right;
 }
+
 /* line 326, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 .g-main-nav .g-standard .g-dropdown-bounce-in-down.g-active {
   -webkit-animation-duration: 0.5s;
@@ -715,21 +886,24 @@ body.dir-rtl .align-right {
   -moz-animation-name: g-dropdown-bounce-in-down;
   animation-name: g-dropdown-bounce-in-down;
 }
+
 /* line 332, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
 /* line 333, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-fullwidth > .g-dropdown {
+.g-main-nav .g-fullwidth>.g-dropdown {
   -webkit-transition: none;
   -moz-transition: none;
   transition: none;
 }
+
 /* line 337, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-fullwidth > .g-fade.g-dropdown {
+.g-main-nav .g-fullwidth>.g-fade.g-dropdown {
   -webkit-transition: opacity 0.3s ease-out, -webkit-transform 0.3s ease-out;
   -moz-transition: opacity 0.3s ease-out, -moz-transform 0.3s ease-out;
   transition: opacity 0.3s ease-out, transform 0.3s ease-out;
 }
+
 /* line 341, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-fullwidth > .g-zoom.g-active {
+.g-main-nav .g-fullwidth>.g-zoom.g-active {
   -webkit-animation-duration: 0.3s;
   -moz-animation-duration: 0.3s;
   animation-duration: 0.3s;
@@ -737,8 +911,9 @@ body.dir-rtl .align-right {
   -moz-animation-name: g-dropdown-zoom;
   animation-name: g-dropdown-zoom;
 }
+
 /* line 346, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-fullwidth > .g-fade-in-up.g-active {
+.g-main-nav .g-fullwidth>.g-fade-in-up.g-active {
   -webkit-animation-duration: 0.3s;
   -moz-animation-duration: 0.3s;
   animation-duration: 0.3s;
@@ -746,8 +921,9 @@ body.dir-rtl .align-right {
   -moz-animation-name: g-dropdown-fade-in-up;
   animation-name: g-dropdown-fade-in-up;
 }
+
 /* line 351, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-fullwidth > .g-dropdown-bounce-in-left.g-active {
+.g-main-nav .g-fullwidth>.g-dropdown-bounce-in-left.g-active {
   -webkit-animation-duration: 0.5s;
   -moz-animation-duration: 0.5s;
   animation-duration: 0.5s;
@@ -755,8 +931,9 @@ body.dir-rtl .align-right {
   -moz-animation-name: g-dropdown-bounce-in-left;
   animation-name: g-dropdown-bounce-in-left;
 }
+
 /* line 356, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-fullwidth > .g-dropdown-bounce-in-right.g-active {
+.g-main-nav .g-fullwidth>.g-dropdown-bounce-in-right.g-active {
   -webkit-animation-duration: 0.5s;
   -moz-animation-duration: 0.5s;
   animation-duration: 0.5s;
@@ -764,8 +941,9 @@ body.dir-rtl .align-right {
   -moz-animation-name: g-dropdown-bounce-in-right;
   animation-name: g-dropdown-bounce-in-right;
 }
+
 /* line 361, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-.g-main-nav .g-fullwidth > .g-dropdown-bounce-in-down.g-active {
+.g-main-nav .g-fullwidth>.g-dropdown-bounce-in-down.g-active {
   -webkit-animation-duration: 0.5s;
   -moz-animation-duration: 0.5s;
   animation-duration: 0.5s;
@@ -773,29 +951,37 @@ body.dir-rtl .align-right {
   -moz-animation-name: g-dropdown-bounce-in-down;
   animation-name: g-dropdown-bounce-in-down;
 }
+
 @-webkit-keyframes g-dropdown-zoom {
+
   /* line 369, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   0% {
     opacity: 0;
     -webkit-transform: scale3d(0.8, 0.8, 0.8);
   }
+
   /* line 374, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   100% {
     opacity: 1;
   }
 }
+
 @-moz-keyframes g-dropdown-zoom {
+
   /* line 369, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   0% {
     opacity: 0;
     -moz-transform: scale3d(0.8, 0.8, 0.8);
   }
+
   /* line 374, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   100% {
     opacity: 1;
   }
 }
+
 @keyframes g-dropdown-zoom {
+
   /* line 369, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   0% {
     opacity: 0;
@@ -805,34 +991,43 @@ body.dir-rtl .align-right {
     -o-transform: scale3d(0.8, 0.8, 0.8);
     transform: scale3d(0.8, 0.8, 0.8);
   }
+
   /* line 374, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   100% {
     opacity: 1;
   }
 }
+
 @-webkit-keyframes g-dropdown-fade-in-up {
+
   /* line 380, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, 30px, 0);
   }
+
   /* line 385, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   100% {
     opacity: 1;
   }
 }
+
 @-moz-keyframes g-dropdown-fade-in-up {
+
   /* line 380, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   0% {
     opacity: 0;
     -moz-transform: translate3d(0, 30px, 0);
   }
+
   /* line 385, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   100% {
     opacity: 1;
   }
 }
+
 @keyframes g-dropdown-fade-in-up {
+
   /* line 380, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   0% {
     opacity: 0;
@@ -842,72 +1037,102 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(0, 30px, 0);
     transform: translate3d(0, 30px, 0);
   }
+
   /* line 385, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   100% {
     opacity: 1;
   }
 }
+
 @-webkit-keyframes g-dropdown-bounce-in-left {
+
   /* line 391, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-  from, 60%, 75%, 90%, to {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   /* line 395, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   0% {
     opacity: 0;
     -webkit-transform: translate3d(-50px, 0, 0);
   }
+
   /* line 400, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   60% {
     opacity: 1;
     -webkit-transform: translate3d(25px, 0, 0);
   }
+
   /* line 405, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   75% {
     -webkit-transform: translate3d(-10px, 0, 0);
   }
+
   /* line 409, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   90% {
     -webkit-transform: translate3d(5px, 0, 0);
   }
+
   /* line 413, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   to {
     -webkit-transform: none;
   }
 }
+
 @-moz-keyframes g-dropdown-bounce-in-left {
+
   /* line 391, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-  from, 60%, 75%, 90%, to {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   /* line 395, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   0% {
     opacity: 0;
     -moz-transform: translate3d(-50px, 0, 0);
   }
+
   /* line 400, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   60% {
     opacity: 1;
     -moz-transform: translate3d(25px, 0, 0);
   }
+
   /* line 405, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   75% {
     -moz-transform: translate3d(-10px, 0, 0);
   }
+
   /* line 409, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   90% {
     -moz-transform: translate3d(5px, 0, 0);
   }
+
   /* line 413, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   to {
     -moz-transform: none;
   }
 }
+
 @keyframes g-dropdown-bounce-in-left {
+
   /* line 391, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-  from, 60%, 75%, 90%, to {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   /* line 395, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   0% {
     opacity: 0;
@@ -917,6 +1142,7 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(-50px, 0, 0);
     transform: translate3d(-50px, 0, 0);
   }
+
   /* line 400, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   60% {
     opacity: 1;
@@ -926,6 +1152,7 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(25px, 0, 0);
     transform: translate3d(25px, 0, 0);
   }
+
   /* line 405, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   75% {
     -webkit-transform: translate3d(-10px, 0, 0);
@@ -934,6 +1161,7 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(-10px, 0, 0);
     transform: translate3d(-10px, 0, 0);
   }
+
   /* line 409, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   90% {
     -webkit-transform: translate3d(5px, 0, 0);
@@ -942,6 +1170,7 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(5px, 0, 0);
     transform: translate3d(5px, 0, 0);
   }
+
   /* line 413, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   to {
     -webkit-transform: none;
@@ -951,67 +1180,96 @@ body.dir-rtl .align-right {
     transform: none;
   }
 }
+
 @-webkit-keyframes g-dropdown-bounce-in-down {
+
   /* line 419, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-  from, 60%, 75%, 90%, to {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   /* line 423, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -50px, 0);
   }
+
   /* line 428, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   60% {
     opacity: 1;
     -webkit-transform: translate3d(0, 25px, 0);
   }
+
   /* line 433, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   75% {
     -webkit-transform: translate3d(0, -10px, 0);
   }
+
   /* line 437, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   90% {
     -webkit-transform: translate3d(0, 5px, 0);
   }
+
   /* line 441, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   to {
     -webkit-transform: none;
   }
 }
+
 @-moz-keyframes g-dropdown-bounce-in-down {
+
   /* line 419, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-  from, 60%, 75%, 90%, to {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   /* line 423, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   0% {
     opacity: 0;
     -moz-transform: translate3d(0, -50px, 0);
   }
+
   /* line 428, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   60% {
     opacity: 1;
     -moz-transform: translate3d(0, 25px, 0);
   }
+
   /* line 433, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   75% {
     -moz-transform: translate3d(0, -10px, 0);
   }
+
   /* line 437, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   90% {
     -moz-transform: translate3d(0, 5px, 0);
   }
+
   /* line 441, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   to {
     -moz-transform: none;
   }
 }
+
 @keyframes g-dropdown-bounce-in-down {
+
   /* line 419, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-  from, 60%, 75%, 90%, to {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   /* line 423, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   0% {
     opacity: 0;
@@ -1021,6 +1279,7 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(0, -50px, 0);
     transform: translate3d(0, -50px, 0);
   }
+
   /* line 428, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   60% {
     opacity: 1;
@@ -1030,6 +1289,7 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(0, 25px, 0);
     transform: translate3d(0, 25px, 0);
   }
+
   /* line 433, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   75% {
     -webkit-transform: translate3d(0, -10px, 0);
@@ -1038,6 +1298,7 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(0, -10px, 0);
     transform: translate3d(0, -10px, 0);
   }
+
   /* line 437, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   90% {
     -webkit-transform: translate3d(0, 5px, 0);
@@ -1046,6 +1307,7 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(0, 5px, 0);
     transform: translate3d(0, 5px, 0);
   }
+
   /* line 441, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   to {
     -webkit-transform: none;
@@ -1055,67 +1317,96 @@ body.dir-rtl .align-right {
     transform: none;
   }
 }
+
 @-webkit-keyframes g-dropdown-bounce-in-right {
+
   /* line 447, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-  from, 60%, 75%, 90%, to {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   /* line 451, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   from {
     opacity: 0;
     -webkit-transform: translate3d(50px, 0, 0);
   }
+
   /* line 456, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   60% {
     opacity: 1;
     -webkit-transform: translate3d(-25px, 0, 0);
   }
+
   /* line 461, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   75% {
     -webkit-transform: translate3d(10px, 0, 0);
   }
+
   /* line 465, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   90% {
     -webkit-transform: translate3d(-5px, 0, 0);
   }
+
   /* line 469, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   to {
     -webkit-transform: none;
   }
 }
+
 @-moz-keyframes g-dropdown-bounce-in-right {
+
   /* line 447, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-  from, 60%, 75%, 90%, to {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   /* line 451, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   from {
     opacity: 0;
     -moz-transform: translate3d(50px, 0, 0);
   }
+
   /* line 456, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   60% {
     opacity: 1;
     -moz-transform: translate3d(-25px, 0, 0);
   }
+
   /* line 461, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   75% {
     -moz-transform: translate3d(10px, 0, 0);
   }
+
   /* line 465, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   90% {
     -moz-transform: translate3d(-5px, 0, 0);
   }
+
   /* line 469, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   to {
     -moz-transform: none;
   }
 }
+
 @keyframes g-dropdown-bounce-in-right {
+
   /* line 447, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
-  from, 60%, 75%, 90%, to {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
+
   /* line 451, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   from {
     opacity: 0;
@@ -1125,6 +1416,7 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(50px, 0, 0);
     transform: translate3d(50px, 0, 0);
   }
+
   /* line 456, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   60% {
     opacity: 1;
@@ -1134,6 +1426,7 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(-25px, 0, 0);
     transform: translate3d(-25px, 0, 0);
   }
+
   /* line 461, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   75% {
     -webkit-transform: translate3d(10px, 0, 0);
@@ -1142,6 +1435,7 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(10px, 0, 0);
     transform: translate3d(10px, 0, 0);
   }
+
   /* line 465, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   90% {
     -webkit-transform: translate3d(-5px, 0, 0);
@@ -1150,6 +1444,7 @@ body.dir-rtl .align-right {
     -o-transform: translate3d(-5px, 0, 0);
     transform: translate3d(-5px, 0, 0);
   }
+
   /* line 469, templates/jl_filmmaker_pro/scss/filmmaker/styles/_menu.scss */
   to {
     -webkit-transform: none;
@@ -1159,6 +1454,7 @@ body.dir-rtl .align-right {
     transform: none;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/styles/_hyperlinks.scss */
 a {
   color: #000;
@@ -1166,38 +1462,51 @@ a {
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
+
 /* line 5, templates/jl_filmmaker_pro/scss/filmmaker/styles/_hyperlinks.scss */
 a:hover {
   color: inherit;
 }
+
 /* line 5, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 body {
   font-family: "Roboto";
   font-weight: 400;
 }
+
 /* line 10, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Orbitron";
   font-weight: 500;
   margin: 0 0 20px 0;
 }
+
 /* line 16, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-bold, strong {
+bold,
+strong {
   font-weight: 700;
 }
+
 /* line 20, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .button {
   font-weight: 500;
 }
+
 /* line 25, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 blockquote {
   border-left: 10px solid rgba(231, 232, 234, 0.25);
 }
+
 /* line 27, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 blockquote p {
   font-size: 0.975rem;
   color: #999;
 }
+
 /* line 31, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 blockquote cite {
   display: block;
@@ -1205,11 +1514,13 @@ blockquote cite {
   color: #666;
   font-size: 1.075rem;
 }
+
 /* line 40, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 code {
   background: #f9f2f4;
   color: #9c1d3d;
 }
+
 /* line 45, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 pre {
   padding: 1rem;
@@ -1220,16 +1531,19 @@ pre {
   line-height: 1.15;
   font-size: 0.775rem;
 }
+
 /* line 54, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 pre code {
   color: #237794;
   background: inherit;
   font-size: 0.775rem;
 }
+
 /* line 62, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 hr {
   border-bottom: 4px solid rgba(231, 232, 234, 0.25);
 }
+
 /* Breadcrumb */
 /* line 69, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .jl-breadcrumb {
@@ -1242,39 +1556,47 @@ hr {
   padding: 0;
   list-style: none;
 }
+
 /* line 80, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-breadcrumb > * {
+.jl-breadcrumb>* {
   -ms-flex: none;
   -webkit-flex: none;
   flex: none;
 }
+
 /* line 86, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-breadcrumb > * > * {
+.jl-breadcrumb>*>* {
   display: inline-block;
   font-size: 0.875rem;
   color: #999;
 }
+
 /* line 91, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-breadcrumb > * > :hover, .jl-breadcrumb > * > :focus {
+.jl-breadcrumb>*> :hover,
+.jl-breadcrumb>*> :focus {
   color: #666;
   text-decoration: none;
 }
+
 /* line 97, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-breadcrumb > :last-child > * {
+.jl-breadcrumb> :last-child>* {
   color: #666;
 }
+
 /* line 100, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-breadcrumb > :nth-child(n+2):not(.uk-first-column)::before {
+.jl-breadcrumb> :nth-child(n+2):not(.uk-first-column)::before {
   content: "/";
   display: inline-block;
   margin: 0 20px;
   color: #999;
 }
+
 @media only all and (max-width: 50.938rem) {
-  .jl-breadcrumb > :nth-child(n+2):not(.uk-first-column)::before {
+  .jl-breadcrumb> :nth-child(n+2):not(.uk-first-column)::before {
     margin: 0 5px;
   }
 }
+
 /*Label */
 /* line 111, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .jl-label {
@@ -1289,31 +1611,37 @@ hr {
   border-radius: 2px;
   text-transform: uppercase;
 }
+
 /* line 123, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .jl-label-success {
   background-color: #32d296;
   color: #fff;
 }
+
 /* line 127, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .jl-label-warning {
   background-color: #faa05a;
   color: #fff;
 }
+
 /* line 131, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .jl-label-danger {
   background-color: #f0506e;
   color: #fff;
 }
+
 /* Divider */
 /* line 138, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 [class*='jl-divider'] {
   border: none;
   margin-bottom: 20px;
 }
+
 /* line 142, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-* + [class*='jl-divider'] {
+*+[class*='jl-divider'] {
   margin-top: 20px;
 }
+
 /* line 145, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .jl-divider-icon {
   position: relative;
@@ -1322,24 +1650,29 @@ hr {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
+
 /* line 152, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-divider-icon::before, .jl-divider-icon::after {
+.jl-divider-icon::before,
+.jl-divider-icon::after {
   content: "";
   position: absolute;
   top: 50%;
   max-width: calc(50% - (50px / 2));
   border-bottom: 1px solid #e5e5e5;
 }
+
 /* line 160, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .jl-divider-icon::before {
   right: calc(50% + (50px / 2));
   width: 100%;
 }
+
 /* line 164, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .jl-divider-icon::after {
   left: calc(50% + (50px / 2));
   width: 100%;
 }
+
 /* ========================================================================
  Component: Tab
  ========================================================================== */
@@ -1364,6 +1697,7 @@ hr {
   list-style: none;
   position: relative;
 }
+
 /* line 191, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .jl-tab::before {
   content: "";
@@ -1373,13 +1707,14 @@ hr {
   right: 0;
   border-bottom: 1px solid #e5e5e5;
 }
+
 /*
  * 1. Space is allocated solely based on content dimensions: 0 0 auto
  * 2. Gutter
  * 3. Create position context for dropdowns
  */
 /* line 204, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-tab > * {
+.jl-tab>* {
   /* 1 */
   -ms-flex: none;
   -webkit-flex: none;
@@ -1389,6 +1724,7 @@ hr {
   /* 3 */
   position: relative;
 }
+
 /* Items
  ========================================================================== */
 /*
@@ -1397,7 +1733,7 @@ hr {
  * 2. Style
  */
 /* line 221, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-tab > * > a {
+.jl-tab>*>a {
   /* 1 */
   display: block;
   text-align: center;
@@ -1410,23 +1746,28 @@ hr {
   -webkit-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
+
 /* Hover + Focus */
 /* line 235, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-tab > * > a:hover, .jl-tab > * > a:focus {
+.jl-tab>*>a:hover,
+.jl-tab>*>a:focus {
   color: #666;
   text-decoration: none;
 }
+
 /* Active */
 /* line 241, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-tab > .uk-active > a {
+.jl-tab>.uk-active>a {
   color: #333;
   border-color: #1e87f0;
 }
+
 /* Disabled */
 /* line 246, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-tab > .uk-disabled > a {
+.jl-tab>.uk-disabled>a {
   color: #999;
 }
+
 /* Position modifier
  ========================================================================== */
 /*
@@ -1437,28 +1778,34 @@ hr {
   top: 0;
   bottom: auto;
 }
+
 /* line 258, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-tab-bottom > * > a {
+.jl-tab-bottom>*>a {
   border-top: 1px solid transparent;
   border-bottom: none;
 }
+
 /*
  * Left + Right
  * 1. Reset Gutter
  */
 /* line 266, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-tab-left, .jl-tab-right {
+.jl-tab-left,
+.jl-tab-right {
   -ms-flex-direction: column;
   -webkit-flex-direction: column;
   flex-direction: column;
   /* 1 */
   margin-left: 0;
 }
+
 /* 1 */
 /* line 275, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-tab-left > *, .jl-tab-right > * {
+.jl-tab-left>*,
+.jl-tab-right>* {
   padding-left: 0;
 }
+
 /* line 279, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .jl-tab-left::before {
   top: 0;
@@ -1468,6 +1815,7 @@ hr {
   border-left: 1px solid #e5e5e5;
   border-bottom: none;
 }
+
 /* line 287, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .jl-tab-right::before {
   top: 0;
@@ -1477,32 +1825,38 @@ hr {
   border-left: 1px solid #e5e5e5;
   border-bottom: none;
 }
+
 /* line 295, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-tab-left > * > a {
+.jl-tab-left>*>a {
   text-align: right;
   border-right: 1px solid transparent;
   border-bottom: none;
 }
+
 /* line 300, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
-.jl-tab-right > * > a {
+.jl-tab-right>*>a {
   text-align: left;
   border-left: 1px solid transparent;
   border-bottom: none;
 }
+
 /* line 305, templates/jl_filmmaker_pro/scss/filmmaker/styles/_typography.scss */
 .jl-tab .uk-dropdown {
   margin-left: 30px;
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 2, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-center .g-title {
   text-align: center;
 }
+
 /* line 7, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 8, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-rounded .g-title {
   border-radius: 2rem;
 }
+
 /* line 13, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 14, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-section .g-title {
@@ -1510,15 +1864,18 @@ hr {
   font-weight: 500;
   font-size: 1.075rem;
 }
+
 /* line 20, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-section .g-content {
   padding: 0;
 }
+
 /* line 25, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 26, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-underline .g-title {
   padding: 0.5rem 0;
 }
+
 /* line 29, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-underline .g-title:after {
   border-bottom: 2px solid rgba(231, 232, 234, 0.25);
@@ -1528,96 +1885,146 @@ hr {
   width: 100%;
   bottom: 0;
 }
+
 /* line 37, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .dir-rtl .title-underline .g-title:after {
   left: inherit;
   right: 0;
 }
+
 /* line 45, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 46, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-inline .g-title {
   display: inline-block;
   margin-bottom: 0.625rem !important;
 }
+
 /* line 52, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 53, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.title1 .g-title, .title2 .g-title, .title3 .g-title, .title4 .g-title, .title5 .g-title, .title-white .g-title, .title-grey .g-title, .title-pink .g-title, .title-red .g-title, .title-purple .g-title, .title-orange .g-title, .title-blue .g-title {
+.title1 .g-title,
+.title2 .g-title,
+.title3 .g-title,
+.title4 .g-title,
+.title5 .g-title,
+.title-white .g-title,
+.title-grey .g-title,
+.title-pink .g-title,
+.title-red .g-title,
+.title-purple .g-title,
+.title-orange .g-title,
+.title-blue .g-title {
   font-size: 1.075rem;
   text-transform: uppercase;
   font-family: "Roboto";
   font-weight: 400;
   margin: 0.775rem 0;
 }
+
 /* line 62, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.platform-content, .moduletable, .widget {
+.platform-content,
+.moduletable,
+.widget {
   margin: 0.625rem 0;
   padding: 1.5rem 0;
 }
+
 /* line 66, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.platform-content .moduletable, .moduletable .moduletable, .widget .moduletable, .platform-content .widget, .moduletable .widget, .widget .widget {
+.platform-content .moduletable,
+.moduletable .moduletable,
+.widget .moduletable,
+.platform-content .widget,
+.moduletable .widget,
+.widget .widget {
   margin: 0;
   padding: 0;
 }
+
 /* line 71, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.platform-content:first-child, .moduletable:first-child, .widget:first-child {
+.platform-content:first-child,
+.moduletable:first-child,
+.widget:first-child {
   margin-top: 0;
   padding-top: 0;
 }
+
 /* line 76, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.platform-content:last-child, .moduletable:last-child, .widget:last-child {
+.platform-content:last-child,
+.moduletable:last-child,
+.widget:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
 /* line 82, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 83, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.moduletable[class*="box"], .widget[class*="box"] {
+.moduletable[class*="box"],
+.widget[class*="box"] {
   padding: 1.5rem;
   margin: 0.625rem;
 }
+
 /* line 88, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 89, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.moduletable[class*="title"] .g-title, .widget[class*="title"] .g-title {
+.moduletable[class*="title"] .g-title,
+.widget[class*="title"] .g-title {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
 }
+
 /* line 97, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 98, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title1 .g-title {
   color: #000;
 }
+
 /* line 103, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 104, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box1.moduletable, .box1.widget, .box1.g-outer-box, .box1 > .g-content {
+.box1.moduletable,
+.box1.widget,
+.box1.g-outer-box,
+.box1>.g-content {
   color: #fff;
   background-color: #000;
   background-image: -webkit-linear-gradient(top, #000, #e2a750);
-  background-image: linear-gradient(to bottom,#000, #e2a750);
+  background-image: linear-gradient(to bottom, #000, #e2a750);
 }
+
 /* line 111, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box1.moduletable p, .box1.widget p, .box1.g-outer-box p, .box1 > .g-content p {
+.box1.moduletable p,
+.box1.widget p,
+.box1.g-outer-box p,
+.box1>.g-content p {
   color: rgba(255, 255, 255, 0.8);
 }
+
 /* line 115, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 116, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 117, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box1.moduletable .g-main-nav .g-menu-item-container:after, .box1.widget .g-main-nav .g-menu-item-container:after, .box1.g-outer-box .g-main-nav .g-menu-item-container:after, .box1 > .g-content .g-main-nav .g-menu-item-container:after {
+.box1.moduletable .g-main-nav .g-menu-item-container:after,
+.box1.widget .g-main-nav .g-menu-item-container:after,
+.box1.g-outer-box .g-main-nav .g-menu-item-container:after,
+.box1>.g-content .g-main-nav .g-menu-item-container:after {
   background: #fff !important;
 }
+
 /* line 124, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box1 .g-title {
   font-size: 1.075rem;
   text-transform: uppercase;
 }
+
 /* line 129, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box1 a {
   color: inherit;
   box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25);
 }
+
 /* line 133, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box1 a:hover {
   box-shadow: 0 1px 0 0 #fff;
 }
+
 /* line 138, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box1 .button {
   background: #fff !important;
@@ -1625,6 +2032,7 @@ hr {
   border-color: #000;
   box-shadow: none;
 }
+
 /* line 144, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box1 .button:hover {
   box-shadow: none;
@@ -1632,54 +2040,89 @@ hr {
   border-color: #fff !important;
   color: #fff;
 }
+
 /* line 153, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 154, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 155, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box1 .button:hover, .title1 .button:hover, .box1 .button:active, .title1 .button:active, .box1 .button:focus, .title1 .button:focus {
+.box1 .button:hover,
+.title1 .button:hover,
+.box1 .button:active,
+.title1 .button:active,
+.box1 .button:focus,
+.title1 .button:focus {
   box-shadow: none;
 }
+
 /* line 159, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box1 .button.button-3, .title1 .button.button-3, .box1 .button.button-4, .title1 .button.button-4 {
+.box1 .button.button-3,
+.title1 .button.button-3,
+.box1 .button.button-4,
+.title1 .button.button-4 {
   color: #fff !important;
   border-color: #fff;
 }
+
 /* line 163, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box1 .button.button-3:hover, .title1 .button.button-3:hover, .box1 .button.button-4:hover, .title1 .button.button-4:hover, .box1 .button.button-3:active, .title1 .button.button-3:active, .box1 .button.button-4:active, .title1 .button.button-4:active, .box1 .button.button-3:focus, .title1 .button.button-3:focus, .box1 .button.button-4:focus, .title1 .button.button-4:focus {
+.box1 .button.button-3:hover,
+.title1 .button.button-3:hover,
+.box1 .button.button-4:hover,
+.title1 .button.button-4:hover,
+.box1 .button.button-3:active,
+.title1 .button.button-3:active,
+.box1 .button.button-4:active,
+.title1 .button.button-4:active,
+.box1 .button.button-3:focus,
+.title1 .button.button-3:focus,
+.box1 .button.button-4:focus,
+.title1 .button.button-4:focus {
   color: #262626 !important;
   border-color: #262626;
 }
+
 /* line 171, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 172, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title2 .g-title {
   color: #666;
   border: 0 none;
 }
+
 /* line 178, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 179, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box2.moduletable, .box2.widget, .box2.g-outer-box, .box2 > .g-content {
+.box2.moduletable,
+.box2.widget,
+.box2.g-outer-box,
+.box2>.g-content {
   color: #fff;
   background-color: #e2a750;
   background-image: -webkit-linear-gradient(top, #e2a750, #000);
-  background-image: linear-gradient(to bottom,#e2a750, #000);
+  background-image: linear-gradient(to bottom, #e2a750, #000);
 }
+
 /* line 186, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box2.moduletable p, .box2.widget p, .box2.g-outer-box p, .box2 > .g-content p {
+.box2.moduletable p,
+.box2.widget p,
+.box2.g-outer-box p,
+.box2>.g-content p {
   color: rgba(255, 255, 255, 0.8);
 }
+
 /* line 191, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box2 .g-title {
   font-size: 1.075rem;
   text-transform: uppercase;
 }
+
 /* line 196, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box2 a {
   color: inherit;
   box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25);
 }
+
 /* line 200, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box2 a:hover {
   box-shadow: 0 1px 0 0 #fff;
 }
+
 /* line 205, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box2 .button {
   background: #fff !important;
@@ -1687,6 +2130,7 @@ hr {
   color: #e2a750;
   box-shadow: none;
 }
+
 /* line 211, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box2 .button:hover {
   box-shadow: none;
@@ -1694,37 +2138,48 @@ hr {
   border-color: #fff !important;
   color: #fff;
 }
+
 /* line 220, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 221, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title3 .g-title {
   color: #e2a750;
 }
+
 /* line 226, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 227, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box3.moduletable, .box3.widget, .box3.g-outer-box, .box3 > .g-content {
+.box3.moduletable,
+.box3.widget,
+.box3.g-outer-box,
+.box3>.g-content {
   border: 1px solid #000;
 }
+
 /* line 234, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box3 .g-title {
   font-size: 1.075rem;
   text-transform: uppercase;
 }
+
 /* line 239, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box3 a {
   box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.25);
 }
+
 /* line 242, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box3 a:hover {
   box-shadow: 0 1px 0 0 #666;
 }
+
 /* line 246, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box3 .button {
   box-shadow: none;
 }
+
 /* line 248, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box3 .button:hover {
   box-shadow: none;
 }
+
 /* line 254, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 255, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title4 .g-title {
@@ -1732,11 +2187,16 @@ hr {
   border: 1px solid #000;
   padding: 0.625rem;
 }
+
 /* line 262, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 263, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box4.moduletable, .box4.widget, .box4.g-outer-box, .box4 > .g-content {
+.box4.moduletable,
+.box4.widget,
+.box4.g-outer-box,
+.box4>.g-content {
   border: 2px solid rgba(0, 0, 0, 0.1);
 }
+
 /* line 271, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 272, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title5 .g-title {
@@ -1744,115 +2204,175 @@ hr {
   border: 1px solid #e2a750;
   padding: 0.625rem;
 }
+
 /* line 279, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 280, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box5.moduletable, .box5.widget, .box5.g-outer-box, .box5 > .g-content {
+.box5.moduletable,
+.box5.widget,
+.box5.g-outer-box,
+.box5>.g-content {
   color: #fff;
   background-color: #2d2d2d;
   background-image: -webkit-linear-gradient(#2d2d2d, #000);
   background-image: linear-gradient(#2d2d2d, #000);
 }
+
 /* line 288, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box5 a {
   color: inherit;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.25);
 }
+
 /* line 292, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box5 a:hover {
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
 }
+
 /* line 297, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box5 .button {
   color: #fff !important;
   box-shadow: none;
 }
+
 /* line 301, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box5 .button:hover {
   box-shadow: none;
   border-color: #fff;
 }
+
 /* line 308, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 309, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.title6 .g-title, .title6 .g-simplecontent .g-simplecontent-item-content-title {
+.title6 .g-title,
+.title6 .g-simplecontent .g-simplecontent-item-content-title {
   font-family: "Orbitron";
   font-weight: 300;
   text-transform: none;
 }
+
 /* line 316, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 317, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box6.moduletable, .box6.widget, .box6.g-outer-box, .box6 > .g-content {
+.box6.moduletable,
+.box6.widget,
+.box6.g-outer-box,
+.box6>.g-content {
   color: #fff;
   background: #2d2d2d;
 }
+
 /* line 325, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box6 a {
   color: inherit;
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.25);
 }
+
 /* line 329, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box6 a:hover {
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
 }
+
 /* line 333, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box6 .button {
   color: #fff !important;
   box-shadow: none;
 }
+
 /* line 337, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box6 .button:hover {
   box-shadow: none;
 }
+
 /* line 343, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-white {
   color: #3c3c3c;
 }
+
 /* line 347, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-grey, .box-pink, .box-red, .box-purple, .box-blue, .box-orange {
+.box-grey,
+.box-pink,
+.box-red,
+.box-purple,
+.box-blue,
+.box-orange {
   color: #fff;
 }
+
 /* line 351, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 352, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.title-white .g-title, .title-white .button, .title-white .g-simplecontent-layout-header .g-simplecontent-item-content-title, .title-white .g-simplecontent-layout-header .g-simplecontent-item-leading-content {
+.title-white .g-title,
+.title-white .button,
+.title-white .g-simplecontent-layout-header .g-simplecontent-item-content-title,
+.title-white .g-simplecontent-layout-header .g-simplecontent-item-leading-content {
   color: #fff;
 }
+
 /* line 355, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-white .button {
   border-color: #fff;
 }
+
 /* line 360, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 361, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-white.moduletable, .box-white.widget, .box-white.g-outer-box, .box-white > .g-content {
+.box-white.moduletable,
+.box-white.widget,
+.box-white.g-outer-box,
+.box-white>.g-content {
   background: #fff;
 }
+
 /* line 367, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-white .button {
   background: #bfbfbf;
 }
+
 /* line 371, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-white a {
   color: #bfbfbf;
 }
+
 /* line 376, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 377, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 378, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-white .button:hover, .title-white .button:hover, .box-white .button:active, .title-white .button:active, .box-white .button:focus, .title-white .button:focus {
+.box-white .button:hover,
+.title-white .button:hover,
+.box-white .button:active,
+.title-white .button:active,
+.box-white .button:focus,
+.title-white .button:focus {
   background: #e6e6e6;
 }
+
 /* line 382, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-white .button.button-3, .title-white .button.button-3, .box-white .button.button-2, .title-white .button.button-2 {
+.box-white .button.button-3,
+.title-white .button.button-3,
+.box-white .button.button-2,
+.title-white .button.button-2 {
   color: #bfbfbf;
   border-color: #bfbfbf;
 }
+
 /* line 386, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-white .button.button-3:hover, .title-white .button.button-3:hover, .box-white .button.button-2:hover, .title-white .button.button-2:hover, .box-white .button.button-3:active, .title-white .button.button-3:active, .box-white .button.button-2:active, .title-white .button.button-2:active, .box-white .button.button-3:focus, .title-white .button.button-3:focus, .box-white .button.button-2:focus, .title-white .button.button-2:focus {
+.box-white .button.button-3:hover,
+.title-white .button.button-3:hover,
+.box-white .button.button-2:hover,
+.title-white .button.button-2:hover,
+.box-white .button.button-3:active,
+.title-white .button.button-3:active,
+.box-white .button.button-2:active,
+.title-white .button.button-2:active,
+.box-white .button.button-3:focus,
+.title-white .button.button-3:focus,
+.box-white .button.button-2:focus,
+.title-white .button.button-2:focus {
   color: #222;
   border-color: #222;
 }
+
 /* line 394, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 395, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-grey .g-title {
   color: #52616b;
 }
+
 /* line 399, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-grey .button {
   background: #fff !important;
@@ -1860,6 +2380,7 @@ hr {
   border-color: #52616b;
   box-shadow: none;
 }
+
 /* line 405, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-grey .button:hover {
   box-shadow: none;
@@ -1867,19 +2388,26 @@ hr {
   border-color: #52616b;
   color: #fff;
 }
+
 /* line 414, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 415, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-grey.moduletable, .box-grey.widget, .box-grey.g-outer-box, .box-grey > .g-content {
+.box-grey.moduletable,
+.box-grey.widget,
+.box-grey.g-outer-box,
+.box-grey>.g-content {
   background: #52616b;
 }
+
 /* line 421, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-grey a {
   color: #91a1ab;
 }
+
 /* line 424, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-grey a:hover {
   color: #313a40;
 }
+
 /* line 429, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-grey .button {
   background: #fff !important;
@@ -1887,6 +2415,7 @@ hr {
   border-color: #52616b;
   box-shadow: none;
 }
+
 /* line 435, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-grey .button:hover {
   box-shadow: none;
@@ -1894,23 +2423,41 @@ hr {
   border-color: #fff !important;
   color: #fff;
 }
+
 /* line 444, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 445, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 446, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-grey .button.button-3, .title-grey .button.button-3, .box-grey .button.button-4, .title-grey .button.button-4 {
+.box-grey .button.button-3,
+.title-grey .button.button-3,
+.box-grey .button.button-4,
+.title-grey .button.button-4 {
   color: #1b2023;
 }
+
 /* line 449, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-grey .button.button-3:hover, .title-grey .button.button-3:hover, .box-grey .button.button-4:hover, .title-grey .button.button-4:hover, .box-grey .button.button-3:active, .title-grey .button.button-3:active, .box-grey .button.button-4:active, .title-grey .button.button-4:active, .box-grey .button.button-3:focus, .title-grey .button.button-3:focus, .box-grey .button.button-4:focus, .title-grey .button.button-4:focus {
+.box-grey .button.button-3:hover,
+.title-grey .button.button-3:hover,
+.box-grey .button.button-4:hover,
+.title-grey .button.button-4:hover,
+.box-grey .button.button-3:active,
+.title-grey .button.button-3:active,
+.box-grey .button.button-4:active,
+.title-grey .button.button-4:active,
+.box-grey .button.button-3:focus,
+.title-grey .button.button-3:focus,
+.box-grey .button.button-4:focus,
+.title-grey .button.button-4:focus {
   color: #fff;
   border-color: #fff;
 }
+
 /* line 457, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 458, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-pink .g-title {
   color: #f99;
   border: 0 none;
 }
+
 /* line 463, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-pink .button {
   background: #fff !important;
@@ -1918,6 +2465,7 @@ hr {
   border-color: #f99;
   box-shadow: none;
 }
+
 /* line 469, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-pink .button:hover {
   box-shadow: none;
@@ -1925,11 +2473,16 @@ hr {
   border-color: #f99;
   color: #fff;
 }
+
 /* line 478, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 479, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-pink.moduletable, .box-pink.widget, .box-pink.g-outer-box, .box-pink > .g-content {
+.box-pink.moduletable,
+.box-pink.widget,
+.box-pink.g-outer-box,
+.box-pink>.g-content {
   background: #f99;
 }
+
 /* line 485, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-pink .button {
   background: #fff !important;
@@ -1937,6 +2490,7 @@ hr {
   border-color: #f99;
   box-shadow: none;
 }
+
 /* line 491, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-pink .button:hover {
   box-shadow: none;
@@ -1944,31 +2498,51 @@ hr {
   border-color: #fff !important;
   color: #fff;
 }
+
 /* line 499, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-pink a {
   color: #fff;
 }
+
 /* line 502, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-pink a:hover {
   color: #ff4d4d;
 }
+
 /* line 508, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 509, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 510, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-pink .button.button-3, .title-pink .button.button-3, .box-pink .button.button-4, .title-pink .button.button-4 {
+.box-pink .button.button-3,
+.title-pink .button.button-3,
+.box-pink .button.button-4,
+.title-pink .button.button-4 {
   color: #ff1a1a;
 }
+
 /* line 513, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-pink .button.button-3:hover, .title-pink .button.button-3:hover, .box-pink .button.button-4:hover, .title-pink .button.button-4:hover, .box-pink .button.button-3:active, .title-pink .button.button-3:active, .box-pink .button.button-4:active, .title-pink .button.button-4:active, .box-pink .button.button-3:focus, .title-pink .button.button-3:focus, .box-pink .button.button-4:focus, .title-pink .button.button-4:focus {
+.box-pink .button.button-3:hover,
+.title-pink .button.button-3:hover,
+.box-pink .button.button-4:hover,
+.title-pink .button.button-4:hover,
+.box-pink .button.button-3:active,
+.title-pink .button.button-3:active,
+.box-pink .button.button-4:active,
+.title-pink .button.button-4:active,
+.box-pink .button.button-3:focus,
+.title-pink .button.button-3:focus,
+.box-pink .button.button-4:focus,
+.title-pink .button.button-4:focus {
   color: #fff;
   border-color: #fff;
 }
+
 /* line 521, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 522, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-red .g-title {
   color: #e84545;
   border: 0 none;
 }
+
 /* line 527, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-red .button {
   background: #fff !important;
@@ -1976,6 +2550,7 @@ hr {
   border-color: #e84545;
   box-shadow: none;
 }
+
 /* line 533, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-red .button:hover {
   box-shadow: none;
@@ -1983,11 +2558,16 @@ hr {
   border-color: #e84545;
   color: #fff;
 }
+
 /* line 542, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 543, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-red.moduletable, .box-red.widget, .box-red.g-outer-box, .box-red > .g-content {
+.box-red.moduletable,
+.box-red.widget,
+.box-red.g-outer-box,
+.box-red>.g-content {
   background: #e84545;
 }
+
 /* line 549, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-red .button {
   background: #fff !important;
@@ -1995,6 +2575,7 @@ hr {
   border-color: #e84545;
   box-shadow: none;
 }
+
 /* line 555, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-red .button:hover {
   box-shadow: none;
@@ -2002,31 +2583,51 @@ hr {
   border-color: #fff !important;
   color: #fff;
 }
+
 /* line 563, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-red a {
   color: #f6b6b6;
 }
+
 /* line 566, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-red a:hover {
   color: #c81919;
 }
+
 /* line 572, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 573, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 574, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-red .button.button-3, .title-red .button.button-3, .box-red .button.button-4, .title-red .button.button-4 {
+.box-red .button.button-3,
+.title-red .button.button-3,
+.box-red .button.button-4,
+.title-red .button.button-4 {
   color: #9a1313;
 }
+
 /* line 577, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-red .button.button-3:hover, .title-red .button.button-3:hover, .box-red .button.button-4:hover, .title-red .button.button-4:hover, .box-red .button.button-3:active, .title-red .button.button-3:active, .box-red .button.button-4:active, .title-red .button.button-4:active, .box-red .button.button-3:focus, .title-red .button.button-3:focus, .box-red .button.button-4:focus, .title-red .button.button-4:focus {
+.box-red .button.button-3:hover,
+.title-red .button.button-3:hover,
+.box-red .button.button-4:hover,
+.title-red .button.button-4:hover,
+.box-red .button.button-3:active,
+.title-red .button.button-3:active,
+.box-red .button.button-4:active,
+.title-red .button.button-4:active,
+.box-red .button.button-3:focus,
+.title-red .button.button-3:focus,
+.box-red .button.button-4:focus,
+.title-red .button.button-4:focus {
   color: #fff;
   border-color: #fff;
 }
+
 /* line 585, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 586, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-purple .g-title {
   color: #7e6bc4;
   border: 0 none;
 }
+
 /* line 591, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-purple .button {
   background: #fff !important;
@@ -2034,6 +2635,7 @@ hr {
   border-color: #7e6bc4;
   box-shadow: none;
 }
+
 /* line 597, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-purple .button:hover {
   box-shadow: none;
@@ -2041,11 +2643,16 @@ hr {
   border-color: #7e6bc4;
   color: #fff;
 }
+
 /* line 606, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 607, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-purple.moduletable, .box-purple.widget, .box-purple.g-outer-box, .box-purple > .g-content {
+.box-purple.moduletable,
+.box-purple.widget,
+.box-purple.g-outer-box,
+.box-purple>.g-content {
   background: #7e6bc4;
 }
+
 /* line 613, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-purple .button {
   background: #fff !important;
@@ -2053,6 +2660,7 @@ hr {
   border-color: #7e6bc4;
   box-shadow: none;
 }
+
 /* line 619, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-purple .button:hover {
   box-shadow: none;
@@ -2060,31 +2668,51 @@ hr {
   border-color: #fff !important;
   color: #fff;
 }
+
 /* line 627, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-purple a {
   color: #cdc6e8;
 }
+
 /* line 630, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-purple a:hover {
   color: #5541a2;
 }
+
 /* line 636, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 637, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 638, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-purple .button.button-3, .title-purple .button.button-3, .box-purple .button.button-4, .title-purple .button.button-4 {
+.box-purple .button.button-3,
+.title-purple .button.button-3,
+.box-purple .button.button-4,
+.title-purple .button.button-4 {
   color: #42327d;
 }
+
 /* line 641, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-purple .button.button-3:hover, .title-purple .button.button-3:hover, .box-purple .button.button-4:hover, .title-purple .button.button-4:hover, .box-purple .button.button-3:active, .title-purple .button.button-3:active, .box-purple .button.button-4:active, .title-purple .button.button-4:active, .box-purple .button.button-3:focus, .title-purple .button.button-3:focus, .box-purple .button.button-4:focus, .title-purple .button.button-4:focus {
+.box-purple .button.button-3:hover,
+.title-purple .button.button-3:hover,
+.box-purple .button.button-4:hover,
+.title-purple .button.button-4:hover,
+.box-purple .button.button-3:active,
+.title-purple .button.button-3:active,
+.box-purple .button.button-4:active,
+.title-purple .button.button-4:active,
+.box-purple .button.button-3:focus,
+.title-purple .button.button-3:focus,
+.box-purple .button.button-4:focus,
+.title-purple .button.button-4:focus {
   color: #fff;
   border-color: #fff;
 }
+
 /* line 649, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 650, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-blue .g-title {
   color: #1e87f0;
   border: 0 none;
 }
+
 /* line 655, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-blue .button {
   background: #fff !important;
@@ -2092,6 +2720,7 @@ hr {
   border-color: #1e87f0;
   box-shadow: none;
 }
+
 /* line 661, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-blue .button:hover {
   box-shadow: none;
@@ -2099,11 +2728,16 @@ hr {
   border-color: #1e87f0;
   color: #fff;
 }
+
 /* line 670, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 671, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-blue.moduletable, .box-blue.widget, .box-blue.g-outer-box, .box-blue > .g-content {
+.box-blue.moduletable,
+.box-blue.widget,
+.box-blue.g-outer-box,
+.box-blue>.g-content {
   background: #1e87f0;
 }
+
 /* line 677, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-blue .button {
   background: #fff !important;
@@ -2111,6 +2745,7 @@ hr {
   border-color: #1e87f0;
   box-shadow: none;
 }
+
 /* line 683, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-blue .button:hover {
   box-shadow: none;
@@ -2118,31 +2753,51 @@ hr {
   border-color: #fff !important;
   color: #fff;
 }
+
 /* line 691, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-blue a {
   color: #96c7f8;
 }
+
 /* line 694, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-blue a:hover {
   color: #0c61b5;
 }
+
 /* line 700, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 701, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 702, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-blue .button.button-3, .title-blue .button.button-3, .box-blue .button.button-4, .title-blue .button.button-4 {
+.box-blue .button.button-3,
+.title-blue .button.button-3,
+.box-blue .button.button-4,
+.title-blue .button.button-4 {
   color: #094786;
 }
+
 /* line 705, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-blue .button.button-3:hover, .title-blue .button.button-3:hover, .box-blue .button.button-4:hover, .title-blue .button.button-4:hover, .box-blue .button.button-3:active, .title-blue .button.button-3:active, .box-blue .button.button-4:active, .title-blue .button.button-4:active, .box-blue .button.button-3:focus, .title-blue .button.button-3:focus, .box-blue .button.button-4:focus, .title-blue .button.button-4:focus {
+.box-blue .button.button-3:hover,
+.title-blue .button.button-3:hover,
+.box-blue .button.button-4:hover,
+.title-blue .button.button-4:hover,
+.box-blue .button.button-3:active,
+.title-blue .button.button-3:active,
+.box-blue .button.button-4:active,
+.title-blue .button.button-4:active,
+.box-blue .button.button-3:focus,
+.title-blue .button.button-3:focus,
+.box-blue .button.button-4:focus,
+.title-blue .button.button-4:focus {
   color: #fff;
   border-color: #fff;
 }
+
 /* line 713, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 714, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-orange .g-title {
   color: #fea386;
   border: 0 none;
 }
+
 /* line 719, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-orange .button {
   background: #fff !important;
@@ -2150,6 +2805,7 @@ hr {
   border-color: #fea386;
   box-shadow: none;
 }
+
 /* line 725, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .title-orange .button:hover {
   box-shadow: none;
@@ -2157,11 +2813,16 @@ hr {
   border-color: #fea386;
   color: #fff;
 }
+
 /* line 734, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 735, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-orange.moduletable, .box-orange.widget, .box-orange.g-outer-box, .box-orange > .g-content {
+.box-orange.moduletable,
+.box-orange.widget,
+.box-orange.g-outer-box,
+.box-orange>.g-content {
   background: #fea386;
 }
+
 /* line 741, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-orange .button {
   background: #fff !important;
@@ -2169,6 +2830,7 @@ hr {
   border-color: #fea386;
   box-shadow: none;
 }
+
 /* line 747, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-orange .button:hover {
   box-shadow: none;
@@ -2176,66 +2838,93 @@ hr {
   border-color: #fff !important;
   color: #fff;
 }
+
 /* line 755, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-orange a {
   color: #fff;
 }
+
 /* line 758, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .box-orange a:hover {
   color: #fd693a;
 }
+
 /* line 764, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 765, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 766, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-orange .button.button-3, .title-orange .button.button-3, .box-orange .button.button-4, .title-orange .button.button-4 {
+.box-orange .button.button-3,
+.title-orange .button.button-3,
+.box-orange .button.button-4,
+.title-orange .button.button-4 {
   color: #fd4308;
 }
+
 /* line 769, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.box-orange .button.button-3:hover, .title-orange .button.button-3:hover, .box-orange .button.button-4:hover, .title-orange .button.button-4:hover, .box-orange .button.button-3:active, .title-orange .button.button-3:active, .box-orange .button.button-4:active, .title-orange .button.button-4:active, .box-orange .button.button-3:focus, .title-orange .button.button-3:focus, .box-orange .button.button-4:focus, .title-orange .button.button-4:focus {
+.box-orange .button.button-3:hover,
+.title-orange .button.button-3:hover,
+.box-orange .button.button-4:hover,
+.title-orange .button.button-4:hover,
+.box-orange .button.button-3:active,
+.title-orange .button.button-3:active,
+.box-orange .button.button-4:active,
+.title-orange .button.button-4:active,
+.box-orange .button.button-3:focus,
+.title-orange .button.button-3:focus,
+.box-orange .button.button-4:focus,
+.title-orange .button.button-4:focus {
   color: #fff;
   border-color: #fff;
 }
+
 /* line 777, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 778, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .spaced .g-content {
   margin: 1px;
 }
+
 /* line 783, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 784, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .bordered .g-content {
   border: 1px solid rgba(231, 232, 234, 0.25);
   margin: 1px;
 }
+
 /* line 790, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 791, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .shadow .g-content {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
+
 /* line 796, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 797, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .shadow2 .g-content {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
 }
+
 /* line 802, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 803, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .disabled .g-content {
   opacity: 0.4;
 }
+
 /* line 808, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 809, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .square .g-content {
   border-radius: none;
 }
+
 /* line 814, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 815, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .rounded .g-content {
   border-radius: 0.1875rem;
   overflow: hidden;
 }
+
 /* line 821, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .no-bg-image {
   background-image: none !important;
 }
+
 /* line 825, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .g-block-divider {
   background: rgba(231, 232, 234, 0.25);
@@ -2243,15 +2932,20 @@ hr {
   margin-top: 6rem;
   margin-bottom: 6rem;
 }
+
 /* line 832, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 /* line 833, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
-.equal-height #g-aside, .equal-height #g-mainbar, .equal-height #g-sidebar {
+.equal-height #g-aside,
+.equal-height #g-mainbar,
+.equal-height #g-sidebar {
   width: 100%;
 }
+
 /* line 839, templates/jl_filmmaker_pro/scss/filmmaker/styles/_variations.scss */
 .equal-height .g-content {
   width: auto;
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button {
   display: inline-block;
@@ -2272,6 +2966,7 @@ hr {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
 }
+
 /* line 19, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button:hover {
   -webkit-transform: skew(-10deg);
@@ -2279,47 +2974,60 @@ hr {
   background: #000;
   color: #fff;
 }
+
 /* line 27, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 /* line 30, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-square {
   border-radius: 0;
 }
+
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-square[class*="button"] {
   border-radius: 0;
 }
+
 /* line 38, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-block {
   display: block;
 }
+
 /* line 42, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-xlarge {
   font-size: 1.675rem;
 }
+
 /* line 46, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-large {
   font-size: 1.475rem;
 }
+
 /* line 50, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-medium {
   font-size: 0.875rem;
 }
+
 /* line 54, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-small {
   font-size: 0.675rem;
 }
+
 /* line 58, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-xsmall {
   font-size: 0.475rem;
 }
+
 /* line 62, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-alt {
   background: #e2a750;
 }
+
 /* line 65, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-alt:hover, .button.button-alt:active, .button.button-alt:focus {
+.button.button-alt:hover,
+.button.button-alt:active,
+.button.button-alt:focus {
   background: #db9124;
 }
+
 /* line 69, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 /* line 70, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 /* line 71, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
@@ -2327,215 +3035,376 @@ hr {
   border-left: 1px solid #dc952d;
   border-bottom: 1px solid #dc952d;
 }
+
 /* line 77, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 /* line 78, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .dir-rtl .button.button-alt.button-special:after {
   border-right: 1px solid #dc952d;
   border-bottom: 1px solid #dc952d;
 }
+
 /* line 86, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-3, .button.button-4, .button.button-grey, .button.button-pink, .button.button-red, .button.button-purple, .button.button-orange, .button.button-blue {
+.button.button-3,
+.button.button-4,
+.button.button-grey,
+.button.button-pink,
+.button.button-red,
+.button.button-purple,
+.button.button-orange,
+.button.button-blue {
   color: #fff !important;
 }
+
 /* line 96, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-3.button-3, .button.button-4.button-3, .button.button-grey.button-3, .button.button-pink.button-3, .button.button-red.button-3, .button.button-purple.button-3, .button.button-orange.button-3, .button.button-blue.button-3, .button.button-3.button-4, .button.button-4.button-4, .button.button-grey.button-4, .button.button-pink.button-4, .button.button-red.button-4, .button.button-purple.button-4, .button.button-orange.button-4, .button.button-blue.button-4 {
+.button.button-3.button-3,
+.button.button-4.button-3,
+.button.button-grey.button-3,
+.button.button-pink.button-3,
+.button.button-red.button-3,
+.button.button-purple.button-3,
+.button.button-orange.button-3,
+.button.button-blue.button-3,
+.button.button-3.button-4,
+.button.button-4.button-4,
+.button.button-grey.button-4,
+.button.button-pink.button-4,
+.button.button-red.button-4,
+.button.button-purple.button-4,
+.button.button-orange.button-4,
+.button.button-blue.button-4 {
   background: transparent;
 }
+
 /* line 99, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-3.button-3:hover, .button.button-4.button-3:hover, .button.button-grey.button-3:hover, .button.button-pink.button-3:hover, .button.button-red.button-3:hover, .button.button-purple.button-3:hover, .button.button-orange.button-3:hover, .button.button-blue.button-3:hover, .button.button-3.button-4:hover, .button.button-4.button-4:hover, .button.button-grey.button-4:hover, .button.button-pink.button-4:hover, .button.button-red.button-4:hover, .button.button-purple.button-4:hover, .button.button-orange.button-4:hover, .button.button-blue.button-4:hover, .button.button-3.button-3:active, .button.button-4.button-3:active, .button.button-grey.button-3:active, .button.button-pink.button-3:active, .button.button-red.button-3:active, .button.button-purple.button-3:active, .button.button-orange.button-3:active, .button.button-blue.button-3:active, .button.button-3.button-4:active, .button.button-4.button-4:active, .button.button-grey.button-4:active, .button.button-pink.button-4:active, .button.button-red.button-4:active, .button.button-purple.button-4:active, .button.button-orange.button-4:active, .button.button-blue.button-4:active, .button.button-3.button-3:focus, .button.button-4.button-3:focus, .button.button-grey.button-3:focus, .button.button-pink.button-3:focus, .button.button-red.button-3:focus, .button.button-purple.button-3:focus, .button.button-orange.button-3:focus, .button.button-blue.button-3:focus, .button.button-3.button-4:focus, .button.button-4.button-4:focus, .button.button-grey.button-4:focus, .button.button-pink.button-4:focus, .button.button-red.button-4:focus, .button.button-purple.button-4:focus, .button.button-orange.button-4:focus, .button.button-blue.button-4:focus {
+.button.button-3.button-3:hover,
+.button.button-4.button-3:hover,
+.button.button-grey.button-3:hover,
+.button.button-pink.button-3:hover,
+.button.button-red.button-3:hover,
+.button.button-purple.button-3:hover,
+.button.button-orange.button-3:hover,
+.button.button-blue.button-3:hover,
+.button.button-3.button-4:hover,
+.button.button-4.button-4:hover,
+.button.button-grey.button-4:hover,
+.button.button-pink.button-4:hover,
+.button.button-red.button-4:hover,
+.button.button-purple.button-4:hover,
+.button.button-orange.button-4:hover,
+.button.button-blue.button-4:hover,
+.button.button-3.button-3:active,
+.button.button-4.button-3:active,
+.button.button-grey.button-3:active,
+.button.button-pink.button-3:active,
+.button.button-red.button-3:active,
+.button.button-purple.button-3:active,
+.button.button-orange.button-3:active,
+.button.button-blue.button-3:active,
+.button.button-3.button-4:active,
+.button.button-4.button-4:active,
+.button.button-grey.button-4:active,
+.button.button-pink.button-4:active,
+.button.button-red.button-4:active,
+.button.button-purple.button-4:active,
+.button.button-orange.button-4:active,
+.button.button-blue.button-4:active,
+.button.button-3.button-3:focus,
+.button.button-4.button-3:focus,
+.button.button-grey.button-3:focus,
+.button.button-pink.button-3:focus,
+.button.button-red.button-3:focus,
+.button.button-purple.button-3:focus,
+.button.button-orange.button-3:focus,
+.button.button-blue.button-3:focus,
+.button.button-3.button-4:focus,
+.button.button-4.button-4:focus,
+.button.button-grey.button-4:focus,
+.button.button-pink.button-4:focus,
+.button.button-red.button-4:focus,
+.button.button-purple.button-4:focus,
+.button.button-orange.button-4:focus,
+.button.button-blue.button-4:focus {
   background: transparent;
 }
+
 /* line 105, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-2 {
   background: #e2a750;
   color: #fff;
 }
+
 /* line 114, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-3 {
   color: #e2a750 !important;
   border-color: #e2a750;
   background: transparent !important;
 }
+
 /* line 119, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-3:hover, .button.button-3:active, .button.button-3:focus {
+.button.button-3:hover,
+.button.button-3:active,
+.button.button-3:focus {
   background: #e2a750 !important;
   border-color: #e2a750 !important;
   color: #fff !important;
 }
+
 /* line 126, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-4 {
   color: #000 !important;
   background: #fff !important;
   border: 1px solid #000;
 }
+
 /* line 131, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-4:hover, .button.button-4:active, .button.button-4:focus {
+.button.button-4:hover,
+.button.button-4:active,
+.button.button-4:focus {
   border-color: #000;
   background: #000 !important;
   color: #fff !important;
 }
+
 /* line 138, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-grey {
   background: #52616b;
   border-color: #52616b;
   color: #fff;
 }
+
 /* line 143, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-grey:hover, .button.button-grey:active, .button.button-grey:focus {
+.button.button-grey:hover,
+.button.button-grey:active,
+.button.button-grey:focus {
   color: #52616b !important;
   border-color: #52616b;
   background: transparent !important;
 }
+
 /* line 149, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-grey.button-3, .button.button-grey.button-4 {
+.button.button-grey.button-3,
+.button.button-grey.button-4 {
   background: transparent !important;
   color: #52616b !important;
   border: 1px solid #52616b;
 }
+
 /* line 154, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-grey.button-3:hover, .button.button-grey.button-4:hover, .button.button-grey.button-3:active, .button.button-grey.button-4:active, .button.button-grey.button-3:focus, .button.button-grey.button-4:focus {
+.button.button-grey.button-3:hover,
+.button.button-grey.button-4:hover,
+.button.button-grey.button-3:active,
+.button.button-grey.button-4:active,
+.button.button-grey.button-3:focus,
+.button.button-grey.button-4:focus {
   border-color: #313a40 !important;
   color: #313a40 !important;
 }
+
 /* line 161, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-pink {
   background: #f99;
   border-color: #f99;
   color: #fff;
 }
+
 /* line 166, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-pink:hover, .button.button-pink:active, .button.button-pink:focus {
+.button.button-pink:hover,
+.button.button-pink:active,
+.button.button-pink:focus {
   color: #f99 !important;
   border-color: #f99;
   background: transparent !important;
 }
+
 /* line 172, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-pink.button-3, .button.button-pink.button-4 {
+.button.button-pink.button-3,
+.button.button-pink.button-4 {
   background: transparent !important;
   color: #f99 !important;
   border: 1px solid #f99;
 }
+
 /* line 177, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-pink.button-3:hover, .button.button-pink.button-4:hover, .button.button-pink.button-3:active, .button.button-pink.button-4:active, .button.button-pink.button-3:focus, .button.button-pink.button-4:focus {
+.button.button-pink.button-3:hover,
+.button.button-pink.button-4:hover,
+.button.button-pink.button-3:active,
+.button.button-pink.button-4:active,
+.button.button-pink.button-3:focus,
+.button.button-pink.button-4:focus {
   border-color: #ff4d4d !important;
   color: #ff4d4d !important;
 }
+
 /* line 184, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-red {
   background: #e84545;
   border-color: #e84545;
   color: #fff;
 }
+
 /* line 189, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-red:hover, .button.button-red:active, .button.button-red:focus {
+.button.button-red:hover,
+.button.button-red:active,
+.button.button-red:focus {
   color: #e84545 !important;
   border-color: #e84545;
   background: transparent !important;
 }
+
 /* line 194, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-red.button-3, .button.button-red.button-4 {
+.button.button-red.button-3,
+.button.button-red.button-4 {
   background: transparent !important;
   color: #e84545 !important;
   border: 1px solid #e84545;
 }
+
 /* line 199, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-red.button-3:hover, .button.button-red.button-4:hover, .button.button-red.button-3:active, .button.button-red.button-4:active, .button.button-red.button-3:focus, .button.button-red.button-4:focus {
+.button.button-red.button-3:hover,
+.button.button-red.button-4:hover,
+.button.button-red.button-3:active,
+.button.button-red.button-4:active,
+.button.button-red.button-3:focus,
+.button.button-red.button-4:focus {
   border-color: #c81919 !important;
   color: #c81919 !important;
 }
+
 /* line 206, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-purple {
   background: #7e6bc4;
   border-color: #7e6bc4;
   color: #fff;
 }
+
 /* line 211, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-purple:hover, .button.button-purple:active, .button.button-purple:focus {
+.button.button-purple:hover,
+.button.button-purple:active,
+.button.button-purple:focus {
   color: #7e6bc4 !important;
   border-color: #7e6bc4;
   background: transparent !important;
 }
+
 /* line 217, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-purple.button-3, .button.button-purple.button-4 {
+.button.button-purple.button-3,
+.button.button-purple.button-4 {
   background: transparent !important;
   color: #7e6bc4 !important;
   border: 1px solid #7e6bc4;
 }
+
 /* line 222, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-purple.button-3:hover, .button.button-purple.button-4:hover, .button.button-purple.button-3:active, .button.button-purple.button-4:active, .button.button-purple.button-3:focus, .button.button-purple.button-4:focus {
+.button.button-purple.button-3:hover,
+.button.button-purple.button-4:hover,
+.button.button-purple.button-3:active,
+.button.button-purple.button-4:active,
+.button.button-purple.button-3:focus,
+.button.button-purple.button-4:focus {
   border-color: #5541a2 !important;
   color: #5541a2 !important;
 }
+
 /* line 229, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-orange {
   background: #fea386;
   border-color: #fea386;
   color: #fff;
 }
+
 /* line 234, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-orange:hover, .button.button-orange:active, .button.button-orange:focus {
+.button.button-orange:hover,
+.button.button-orange:active,
+.button.button-orange:focus {
   color: #fea386 !important;
   border-color: #fea386;
   background: transparent !important;
 }
+
 /* line 240, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-orange.button-3, .button.button-orange.button-4 {
+.button.button-orange.button-3,
+.button.button-orange.button-4 {
   background: transparent !important;
   color: #fea386 !important;
   border: 1px solid #fea386;
 }
+
 /* line 245, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-orange.button-3:hover, .button.button-orange.button-4:hover, .button.button-orange.button-3:active, .button.button-orange.button-4:active, .button.button-orange.button-3:focus, .button.button-orange.button-4:focus {
+.button.button-orange.button-3:hover,
+.button.button-orange.button-4:hover,
+.button.button-orange.button-3:active,
+.button.button-orange.button-4:active,
+.button.button-orange.button-3:focus,
+.button.button-orange.button-4:focus {
   border-color: #fd693a !important;
   color: #fd693a !important;
 }
+
 /* line 252, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-blue {
   background: #1e87f0;
   border-color: #1e87f0;
   color: #fff;
 }
+
 /* line 257, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-blue:hover, .button.button-blue:active, .button.button-blue:focus {
+.button.button-blue:hover,
+.button.button-blue:active,
+.button.button-blue:focus {
   color: #1e87f0 !important;
   border-color: #1e87f0;
   background: transparent !important;
 }
+
 /* line 263, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-blue.button-3, .button.button-blue.button-4 {
+.button.button-blue.button-3,
+.button.button-blue.button-4 {
   background: transparent !important;
   color: #1e87f0 !important;
   border: 2px solid #1e87f0;
 }
+
 /* line 268, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-blue.button-3:hover, .button.button-blue.button-4:hover, .button.button-blue.button-3:active, .button.button-blue.button-4:active, .button.button-blue.button-3:focus, .button.button-blue.button-4:focus {
+.button.button-blue.button-3:hover,
+.button.button-blue.button-4:hover,
+.button.button-blue.button-3:active,
+.button.button-blue.button-4:active,
+.button.button-blue.button-3:focus,
+.button.button-blue.button-4:focus {
   border-color: #0c61b5 !important;
   color: #0c61b5 !important;
 }
+
 /* line 275, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-arrow {
   position: relative;
 }
+
 /* line 278, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.button.button-arrow:before, .button.button-arrow:after {
+.button.button-arrow:before,
+.button.button-arrow:after {
   font-family: FontAwesome;
 }
+
 /* line 282, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 /* line 283, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .dir-ltr .button.button-arrow:after {
   content: "\f178";
   margin-left: 1rem;
 }
+
 /* line 289, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 /* line 290, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .dir-rtl .button.button-arrow:before {
   content: "\f177";
   margin-right: 1rem;
 }
+
 /* line 297, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-special {
   position: relative;
 }
+
 /* line 300, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 /* line 301, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .dir-ltr .button.button-special:before {
@@ -2548,6 +3417,7 @@ hr {
   border-left: 1px solid #000;
   border-bottom: 1px solid #000;
 }
+
 /* line 313, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 /* line 314, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .dir-rtl .button.button-special:after {
@@ -2560,51 +3430,60 @@ hr {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
 }
+
 /* line 327, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-outline {
   color: #fff !important;
   background: transparent;
   border: 1px solid #fff;
 }
+
 /* line 332, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 /* line 333, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .dir-ltr .button.button-outline:before {
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
 }
+
 /* line 339, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 /* line 340, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .dir-rtl .button.button-outline:after {
   border-right: 1px solid #fff;
   border-bottom: 1px solid #fff;
 }
+
 /* line 346, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-outline:hover {
   border: 1px solid #000;
   color: #000 !important;
 }
+
 /* line 350, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 /* line 351, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .dir-ltr .button.button-outline:hover:before {
   border-left: 1px solid #000;
   border-bottom: 1px solid #000;
 }
+
 /* line 357, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 /* line 358, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .dir-rtl .button.button-outline:hover:after {
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
 }
+
 /* line 366, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-text-only {
   padding: 0 !important;
   background: transparent !important;
   color: #000 !important;
 }
+
 /* line 371, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .button.button-text-only:hover {
   color: #000;
 }
+
 /* ========================================================================
  Component: Button
  ========================================================================== */
@@ -2642,96 +3521,125 @@ hr {
   -webkit-transition-property: color, background-color, border-color;
   transition-property: color, background-color, border-color;
 }
+
 /* line 431, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button:not(:disabled) {
   cursor: pointer;
 }
+
 /* line 435, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+
 /* Hover */
 /* line 440, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button:hover {
   text-decoration: none;
 }
+
 /* line 443, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button:focus {
   outline: none;
 }
+
 /* line 446, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button-default {
   background-color: transparent;
   color: #333;
   border: 1px solid #e5e5e5;
 }
+
 /* line 451, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.jl-button-default:hover, .jl-button-default:focus {
+.jl-button-default:hover,
+.jl-button-default:focus {
   background-color: transparent;
   color: #333;
   border-color: #b2b2b2;
 }
+
 /* line 457, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.jl-button-default:active, .jl-button-default.uk-active {
+.jl-button-default:active,
+.jl-button-default.uk-active {
   background-color: transparent;
   color: #333;
   border-color: #999;
 }
+
 /* line 463, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button-primary {
   background-color: #1e87f0;
   color: #fff;
   border: 1px solid transparent;
 }
+
 /* line 468, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.jl-button-primary:hover, .jl-button-primary:focus {
+.jl-button-primary:hover,
+.jl-button-primary:focus {
   background-color: #0f7ae5;
   color: #fff;
 }
+
 /* line 473, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.jl-button-primary:active, .jl-button-primary.uk-active {
+.jl-button-primary:active,
+.jl-button-primary.uk-active {
   background-color: #0e6dcd;
   color: #fff;
 }
+
 /* line 478, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button-secondary {
   background-color: #222;
   color: #fff;
   border: 1px solid transparent;
 }
+
 /* line 483, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.jl-button-secondary:hover, .jl-button-secondary:focus {
+.jl-button-secondary:hover,
+.jl-button-secondary:focus {
   background-color: #151515;
   color: #fff;
 }
+
 /* line 488, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.jl-button-secondary:active, .jl-button-secondary.uk-active {
+.jl-button-secondary:active,
+.jl-button-secondary.uk-active {
   background-color: #080808;
   color: #fff;
 }
+
 /* line 493, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button-danger {
   background-color: #f0506e;
   color: #fff;
   border: 1px solid transparent;
 }
+
 /* line 498, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.jl-button-danger:hover, .jl-button-danger:focus {
+.jl-button-danger:hover,
+.jl-button-danger:focus {
   background-color: #ee395b;
   color: #fff;
 }
+
 /* line 503, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.jl-button-danger:active, .jl-button-danger.uk-active {
+.jl-button-danger:active,
+.jl-button-danger.uk-active {
   background-color: #ec2147;
   color: #fff;
 }
+
 /* line 508, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.jl-button-default:disabled, .jl-button-primary:disabled, .jl-button-secondary:disabled, .jl-button-danger:disabled {
+.jl-button-default:disabled,
+.jl-button-primary:disabled,
+.jl-button-secondary:disabled,
+.jl-button-danger:disabled {
   background-color: transparent;
   color: #999;
   border-color: #e5e5e5;
 }
+
 /* line 516, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button-text {
   padding: 0;
@@ -2740,6 +3648,7 @@ hr {
   color: #333;
   position: relative;
 }
+
 /* line 523, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button-text::before {
   content: "";
@@ -2751,22 +3660,29 @@ hr {
   -webkit-transition: right 0.3s ease-out;
   transition: right 0.3s ease-out;
 }
+
 /* line 533, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.jl-button-text:hover, .jl-button-text:focus {
+.jl-button-text:hover,
+.jl-button-text:focus {
   color: #333;
 }
+
 /* line 537, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.jl-button-text:hover::before, .jl-button-text:focus::before {
+.jl-button-text:hover::before,
+.jl-button-text:focus::before {
   right: 0;
 }
+
 /* line 541, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button-text:disabled {
   color: #999;
 }
+
 /* line 544, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button-text:disabled::before {
   display: none;
 }
+
 /* line 547, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button-link {
   padding: 0;
@@ -2774,56 +3690,86 @@ hr {
   background: none;
   color: #1e87f0;
 }
+
 /* line 553, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
-.jl-button-link:hover, .jl-button-link:focus {
+.jl-button-link:hover,
+.jl-button-link:focus {
   color: #0f6ecd;
   text-decoration: underline;
 }
+
 /* line 558, templates/jl_filmmaker_pro/scss/filmmaker/styles/_buttons.scss */
 .jl-button-link:disabled {
   color: #999;
   text-decoration: none;
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/styles/_tables.scss */
 table {
   border: 1px solid #d8e1e6;
 }
+
 /* line 5, templates/jl_filmmaker_pro/scss/filmmaker/styles/_tables.scss */
 th {
   background: rgba(0, 0, 0, 0.1);
   padding: 0.5rem;
 }
+
 /* line 10, templates/jl_filmmaker_pro/scss/filmmaker/styles/_tables.scss */
 td {
   padding: 0;
   border: 1px solid #d8e1e6;
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/styles/_forms.scss */
-textarea, select[multiple=multiple] {
+textarea,
+select[multiple=multiple] {
   background-color: white;
   border: 1px solid #fff;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
 }
+
 /* line 6, templates/jl_filmmaker_pro/scss/filmmaker/styles/_forms.scss */
-textarea:hover, select[multiple=multiple]:hover {
+textarea:hover,
+select[multiple=multiple]:hover {
   border-color: #000;
 }
+
 /* line 10, templates/jl_filmmaker_pro/scss/filmmaker/styles/_forms.scss */
-textarea:focus, select[multiple=multiple]:focus {
+textarea:focus,
+select[multiple=multiple]:focus {
   border-color: #000;
 }
+
 /* line 15, templates/jl_filmmaker_pro/scss/filmmaker/styles/_forms.scss */
 textarea {
   width: 100%;
   box-sizing: border-box !important;
 }
+
 /* line 20, templates/jl_filmmaker_pro/scss/filmmaker/styles/_forms.scss */
 fieldset.input {
   margin: 0;
   padding: 0;
 }
+
 /* line 25, templates/jl_filmmaker_pro/scss/filmmaker/styles/_forms.scss */
-input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+input:not([type]),
+textarea {
   background-color: white;
   vertical-align: middle;
   border: 1px solid #fff;
@@ -2835,22 +3781,56 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
   -moz-transition: border-color 0.2s;
   transition: border-color 0.2s;
 }
+
 /* line 40, templates/jl_filmmaker_pro/scss/filmmaker/styles/_forms.scss */
-input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+input:not([type]):focus,
+textarea:focus {
   border-color: #000;
 }
+
 /* line 3, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #sp-quickcontact-form textarea#message {
   width: 100%;
 }
+
 /* line 6, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 7, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
-#sp-quickcontact-form input[type="color"], #sp-quickcontact-form input[type="date"], #sp-quickcontact-form input[type="datetime"], #sp-quickcontact-form input[type="datetime-local"], #sp-quickcontact-form input[type="email"], #sp-quickcontact-form input[type="month"], #sp-quickcontact-form input[type="number"], #sp-quickcontact-form input[type="password"], #sp-quickcontact-form input[type="search"], #sp-quickcontact-form input[type="tel"], #sp-quickcontact-form input[type="text"], #sp-quickcontact-form input[type="time"], #sp-quickcontact-form input[type="url"], #sp-quickcontact-form input[type="week"], #sp-quickcontact-form input:not([type]), #sp-quickcontact-form textarea {
+#sp-quickcontact-form input[type="color"],
+#sp-quickcontact-form input[type="date"],
+#sp-quickcontact-form input[type="datetime"],
+#sp-quickcontact-form input[type="datetime-local"],
+#sp-quickcontact-form input[type="email"],
+#sp-quickcontact-form input[type="month"],
+#sp-quickcontact-form input[type="number"],
+#sp-quickcontact-form input[type="password"],
+#sp-quickcontact-form input[type="search"],
+#sp-quickcontact-form input[type="tel"],
+#sp-quickcontact-form input[type="text"],
+#sp-quickcontact-form input[type="time"],
+#sp-quickcontact-form input[type="url"],
+#sp-quickcontact-form input[type="week"],
+#sp-quickcontact-form input:not([type]),
+#sp-quickcontact-form textarea {
   width: 100%;
   border-radius: 0 !important;
   line-height: 30px;
   background: #fff;
 }
+
 /* line 14, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .tp-bullets.simplebullets.round .bullet {
   cursor: pointer;
@@ -2863,13 +3843,18 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   transition: all 0.3s ease 0s;
   width: 20px;
 }
+
 /* line 25, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
-.tp-bullets.simplebullets.round .bullet:hover, .tp-bullets.simplebullets.round .bullet.selected, .tp-bullets.simplebullets.navbar .bullet:hover, .tp-bullets.simplebullets.navbar .bullet.selected {
+.tp-bullets.simplebullets.round .bullet:hover,
+.tp-bullets.simplebullets.round .bullet.selected,
+.tp-bullets.simplebullets.navbar .bullet:hover,
+.tp-bullets.simplebullets.navbar .bullet.selected {
   background-position: bottom left;
   background: rgba(0, 0, 0, 0) url('../../images/dot-active.png') no-repeat scroll 0 0;
   width: 25px;
   height: 25px;
 }
+
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 34, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -2879,18 +3864,21 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   font-weight: 700;
   margin: 0;
 }
+
 /* line 41, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .jl-heading-content .jl-heading-subtitle {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
 }
+
 /* line 47, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 48, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .uk-text-right .jl-heading-content {
   position: relative;
   padding-right: 90px;
 }
+
 /* line 51, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .uk-text-right .jl-heading-content:before {
   border-bottom: 2px dashed #e2a750;
@@ -2901,21 +3889,25 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   right: 0px;
   width: 70px;
 }
+
 @media only all and (max-width: 50.938rem) {
   .uk-text-right .jl-heading-content {
     padding-right: 0;
   }
+
   /* line 62, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
   .uk-text-right .jl-heading-content:before {
     display: none;
   }
 }
+
 /* line 68, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 69, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .uk-text-left .jl-heading-content {
   position: relative;
   padding-left: 90px;
 }
+
 /* line 72, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .uk-text-left .jl-heading-content:before {
   border-bottom: 2px dashed #e2a750;
@@ -2926,19 +3918,23 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   left: 0px;
   width: 70px;
 }
+
 @media only all and (max-width: 50.938rem) {
   .uk-text-left .jl-heading-content {
     padding-left: 0;
   }
+
   /* line 83, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
   .uk-text-left .jl-heading-content:before {
     display: none;
   }
 }
+
 /* line 91, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .jl-breadcrumb {
   margin-left: 12px;
 }
+
 /* line 94, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 95, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 @media only all and (max-width: 50.938rem) {
@@ -2948,6 +3944,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     padding-bottom: 10px;
   }
 }
+
 /* line 103, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 104, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .sticky-wrapper.is-sticky #g-navigation {
@@ -2964,62 +3961,74 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   -o-transition: -o-transform 0.5s ease;
   transition: transform 0.5s ease;
 }
+
 /* line 122, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 123, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-navigation .g-content {
   padding: 0 1.5rem;
   margin: 0 0.625rem;
 }
+
 /* line 130, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 131, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-showcase span {
   color: #e2a750;
 }
+
 /* line 134, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-showcase .tp-caption {
   font-family: "Orbitron";
 }
+
 /* line 136, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-showcase .tp-caption a {
   color: #fff;
 }
+
 /* line 138, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-showcase .tp-caption a:hover {
   color: #fff;
 }
+
 /* line 147, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 148, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-pagetitle .jl-breadcrumb {
   text-align: center;
   justify-content: center;
 }
+
 /* line 151, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 152, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-pagetitle .jl-breadcrumb li span {
   color: #fff;
 }
+
 /* line 157, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-pagetitle .g-content {
   padding: 0;
 }
+
 /* line 163, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 164, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 165, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-about .uk-text-left .jl-heading-subtitle {
   max-width: 400px;
 }
+
 /* line 169, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-about .img-right {
   position: absolute;
   left: 50%;
   top: 20%;
 }
+
 @media only all and (max-width: 59.938rem) {
   #g-about .img-right {
     position: relative;
     display: table-footer-group;
   }
 }
+
 /* line 178, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 179, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 180, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3028,6 +4037,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 #g-about .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content .jl-featurebox-item-images img {
   width: 100%;
 }
+
 /* line 186, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-about .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content .jl-featurebox-item-intro {
   position: relative;
@@ -3036,11 +4046,13 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding-bottom: 40px;
   padding-right: 20px;
 }
+
 @media only all and (max-width: 50.938rem) {
   #g-about .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content .jl-featurebox-item-intro {
     background: transparent;
   }
 }
+
 /* line 195, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 196, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-about .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content .jl-featurebox-item-intro .jl-featurebox-item-title h3 {
@@ -3048,15 +4060,18 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   margin-bottom: 10px;
   font-weight: 700;
 }
+
 /* line 200, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-about .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content .jl-featurebox-item-intro .jl-featurebox-item-title h3:hover {
   color: #e2a750;
 }
+
 /* line 205, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-about .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content .jl-featurebox-item-intro .jl-featurebox-item-subtitle {
   color: #383838;
   max-width: 600px;
 }
+
 /* line 208, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-about .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content .jl-featurebox-item-intro .jl-featurebox-item-subtitle i {
   color: #ddd;
@@ -3067,6 +4082,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   top: 35px;
   transform: rotate(-29deg);
 }
+
 /* line 222, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-about .contact-address {
   background: #e2a750 none repeat scroll 0 0;
@@ -3076,6 +4092,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   top: 150px;
   width: 370px;
 }
+
 @media only all and (max-width: 59.938rem) {
   #g-about .contact-address {
     position: relative;
@@ -3084,22 +4101,26 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     width: 240px;
   }
 }
+
 /* line 235, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-about .contact-address .contact-adres-single {
   padding-bottom: 15px;
   padding-left: 140px;
 }
+
 @media only all and (max-width: 59.938rem) {
   #g-about .contact-address .contact-adres-single {
     padding-left: 20px;
   }
 }
+
 /* line 241, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-about .contact-address .contact-adres-single h4 {
   position: relative;
   font-size: 18px;
   color: #fff;
 }
+
 /* line 246, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-about .contact-address .contact-adres-single h4:after {
   border-bottom: 1px dashed #fff;
@@ -3110,16 +4131,19 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   position: absolute;
   width: 70px;
 }
+
 @media only all and (max-width: 59.938rem) {
   #g-about .contact-address .contact-adres-single h4:after {
     display: none;
   }
 }
+
 /* line 266, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 267, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-intro .jl-youtube {
   text-align: center;
 }
+
 /* line 270, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 271, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 272, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3128,6 +4152,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 0;
   box-shadow: none;
 }
+
 /* line 276, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-intro .jl-testimonial .jl-testimonial-item .jl-testimonial-item-content .jl-testimonial-desc {
   font-size: 16px;
@@ -3137,14 +4162,17 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   display: inline-block;
   max-width: 800px;
 }
+
 /* line 283, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-intro .jl-testimonial .jl-testimonial-item .jl-testimonial-item-content .jl-testimonial-desc i {
   display: none;
 }
+
 /* line 287, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-intro .jl-testimonial .jl-testimonial-item .jl-testimonial-item-content .jl-testimonial-info {
   padding-top: 20px;
 }
+
 /* line 289, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 290, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-intro .jl-testimonial .jl-testimonial-item .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-image img {
@@ -3152,6 +4180,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   width: 60px;
   height: 60px;
 }
+
 /* line 296, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 297, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-intro .jl-testimonial .jl-testimonial-item .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name h4 {
@@ -3159,12 +4188,14 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   font-size: 14px;
   margin: 0;
 }
+
 /* line 302, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-intro .jl-testimonial .jl-testimonial-item .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-name .jl-testimonial-title {
   font-size: 12px;
   color: #fff;
   padding: 5px 0 0 0;
 }
+
 /* line 315, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 316, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 317, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3173,6 +4204,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     margin-top: 30px;
   }
 }
+
 /* line 323, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-features .jl-counter .jl-counter-number {
   font-size: 30px;
@@ -3181,11 +4213,13 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
+
 /* line 330, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 331, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-features .jl-counter .jl-counter-title h3 {
   margin: 0;
 }
+
 /* line 339, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 340, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 341, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3196,36 +4230,44 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 12px;
   background: #030c16 none repeat scroll 0 0;
 }
+
 /* line 350, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-utility .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content .jl-featurebox-item-intro .jl-featurebox-item-title h5 {
   margin: 0;
 }
+
 /* line 352, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-utility .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content .jl-featurebox-item-intro .jl-featurebox-item-title h5 span {
   float: right;
 }
+
 /* line 360, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-utility .jl-featurebox .uk-slidenav {
   display: block;
   color: #fff;
   font-size: 25px;
 }
+
 /* line 364, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-utility .jl-featurebox .uk-slidenav.uk-slidenav-next {
   right: -50px;
 }
+
 /* line 366, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-utility .jl-featurebox .uk-slidenav.uk-slidenav-next:before {
   content: "\f178";
 }
+
 /* line 370, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-utility .jl-featurebox .uk-slidenav.uk-slidenav-previous {
   left: -50px;
 }
+
 /* line 372, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-utility .jl-featurebox .uk-slidenav.uk-slidenav-previous:before {
   content: "\f177";
 }
+
 /* line 381, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 382, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 383, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3233,15 +4275,18 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 0;
   margin-top: 0;
 }
+
 /* line 385, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-services .jl-featurebox .jl-featurebox-item:hover {
   background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
 }
+
 /* line 389, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-services .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content {
   padding: 30px 20px;
   text-align: center;
 }
+
 /* line 393, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 394, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 395, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3249,11 +4294,13 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   color: #ccc;
   font-size: 48px;
 }
+
 /* line 401, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 402, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-services .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content .jl-featurebox-item-intro .jl-featurebox-item-title {
   margin: 20px 0 !important;
 }
+
 /* line 404, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-services .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content .jl-featurebox-item-intro .jl-featurebox-item-title h4 {
   color: #fff;
@@ -3261,48 +4308,58 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   margin: 0;
   text-transform: uppercase;
 }
+
 /* line 411, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-services .jl-featurebox .jl-featurebox-item .jl-featurebox-item-content .jl-featurebox-item-intro .jl-featurebox-item-subtitle {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
+
 /* line 419, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-services .jl-featurebox .uk-slidenav {
   display: block;
   color: #fff;
   font-size: 25px;
 }
+
 /* line 423, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-services .jl-featurebox .uk-slidenav.uk-slidenav-next {
   right: -50px;
 }
+
 /* line 425, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-services .jl-featurebox .uk-slidenav.uk-slidenav-next:before {
   content: "\f178";
 }
+
 /* line 429, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-services .jl-featurebox .uk-slidenav.uk-slidenav-previous {
   left: -50px;
 }
+
 /* line 431, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-services .jl-featurebox .uk-slidenav.uk-slidenav-previous:before {
   content: "\f177";
 }
+
 /* line 441, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 442, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-expanded .jl-portfolio {
   margin-top: -30px;
 }
+
 /* line 444, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-expanded .jl-portfolio .jl-portfolio-filter {
   padding-right: 90px;
 }
+
 @media only all and (max-width: 50.938rem) {
   #g-expanded .jl-portfolio .jl-portfolio-filter {
     padding-right: 0;
   }
 }
+
 /* line 449, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 450, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 451, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3312,15 +4369,18 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   text-transform: uppercase;
   font-size: 16px;
 }
+
 /* line 456, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-expanded .jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-line .jl-portfolio-filter-item a:hover {
   color: #e2a750;
 }
+
 /* line 460, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 461, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-expanded .jl-portfolio .jl-portfolio-filter .jl-portfolio-filter-content .uk-subnav-line .jl-portfolio-filter-item.uk-active a {
   color: #e2a750;
 }
+
 /* line 472, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 473, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 474, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3330,6 +4390,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   color: #fff;
   box-shadow: none;
 }
+
 /* line 479, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 480, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-testimonials .jl-testimonial .jl-testimonial-item .jl-testimonial-item-content .jl-testimonial-image img {
@@ -3338,6 +4399,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   border: 0px;
   border-radius: 0;
 }
+
 /* line 487, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-testimonials .jl-testimonial .jl-testimonial-item .jl-testimonial-item-content .jl-testimonial-desc {
   font-style: normal;
@@ -3345,10 +4407,12 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   display: inline-block;
   padding-top: 25px;
 }
+
 /* line 488, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-testimonials .jl-testimonial .jl-testimonial-item .jl-testimonial-item-content .jl-testimonial-desc i {
   display: none;
 }
+
 /* line 496, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 497, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 498, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3357,34 +4421,41 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   font-size: 14px;
   margin: 0;
 }
+
 /* line 504, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-testimonials .jl-testimonial .jl-testimonial-item .jl-testimonial-item-content .jl-testimonial-info .jl-testimonial-title {
   font-size: 12px;
   font-weight: 300;
   color: #fff;
 }
+
 /* line 512, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-testimonials .jl-testimonial .uk-slidenav {
   display: block;
   color: #fff;
   font-size: 25px;
 }
+
 /* line 516, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-testimonials .jl-testimonial .uk-slidenav.uk-slidenav-next {
   right: -50px;
 }
+
 /* line 518, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-testimonials .jl-testimonial .uk-slidenav.uk-slidenav-next:before {
   content: "\f178";
 }
+
 /* line 522, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-testimonials .jl-testimonial .uk-slidenav.uk-slidenav-previous {
   left: -50px;
 }
+
 /* line 524, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-testimonials .jl-testimonial .uk-slidenav.uk-slidenav-previous:before {
   content: "\f177";
 }
+
 /* line 533, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 534, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 535, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3395,15 +4466,18 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 #g-team .jl-member .jl-member-item .jl-member-item-content .jl-member-info .jl-member-name h5 {
   margin: 0;
 }
+
 /* line 543, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-team .jl-member .jl-member-item .jl-member-item-content .jl-member-info .jl-member-role {
   margin: 10px 0;
 }
+
 /* line 554, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 555, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-footer .line {
   border-top: 1px solid rgba(255, 255, 255, .2);
 }
+
 /* line 558, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 559, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 560, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3411,19 +4485,23 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   list-style-type: none;
   padding: 12px 0;
 }
+
 /* line 563, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-footer .footer-txt ul li:first-child {
   padding-top: 0;
 }
+
 /* line 566, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-footer .footer-txt ul li a {
   color: #fff;
   font-size: 14px;
 }
+
 /* line 569, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-footer .footer-txt ul li a:hover {
   color: #e2a750;
 }
+
 /* line 577, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 578, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 579, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3437,19 +4515,23 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   font-weight: 300;
   height: 45px;
 }
+
 /* line 588, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .acymailing_module .acymailing_module_form .acyfield_email input:hover {
   box-shadow: none;
 }
+
 /* line 593, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .acymailing_module .acymailing_module_form .acysubbuttons {
   display: inline-block;
 }
+
 /* line 595, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .acymailing_module .acymailing_module_form .acysubbuttons .thm-button {
   border-radius: 0px;
   padding: 10px 25px;
 }
+
 /* line 604, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 605, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 606, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3457,35 +4539,42 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   font-size: 120px;
   font-weight: 800;
 }
+
 /* line 610, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-error .error-txt h3 {
   font-size: 35px;
 }
+
 /* line 613, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-error .error-txt .er-bt {
   color: #fff;
   background: transparent;
   border: 2px solid rgba(255, 255, 255, 0.5);
 }
+
 @media only all and (max-width: 50.938rem) {
   #g-error .error-txt .er-bt {
     margin-top: 10px;
   }
 }
+
 /* line 620, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-error .error-txt .er-bt:hover {
   border-color: #fff;
   color: #000;
 }
+
 /* line 624, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 #g-error .error-txt .er-bt:before {
   background: #fff;
 }
+
 /* line 632, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .platform-content {
   margin: 0;
   padding: 0.5rem 0;
 }
+
 /* line 635, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 636, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .platform-content .moduletable .g-title {
@@ -3493,6 +4582,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   line-height: 1;
   font-size: 18px;
 }
+
 /* line 641, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 642, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 643, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3502,33 +4592,40 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 12px 0;
   border-bottom: 1px solid #e3e9ed;
 }
+
 /* line 648, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .platform-content .moduletable .custom .category-widget ul li:last-child {
   border-bottom: 0px;
 }
+
 /* line 651, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .platform-content .moduletable .custom .category-widget ul li a {
   color: #555;
 }
+
 /* line 653, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .platform-content .moduletable .custom .category-widget ul li a:hover {
   color: #000;
 }
+
 /* line 660, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .platform-content .moduletable .custom p {
   font-weight: 300;
   font-size: 16px;
 }
+
 /* line 664, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .platform-content .moduletable .custom #recentcomments {
   padding-left: 15px;
 }
+
 /* line 668, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 669, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .platform-content .moduletable .search input {
   background: transparent;
   border-radius: 0px;
 }
+
 /* line 675, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 676, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 /* line 677, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
@@ -3538,10 +4635,12 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   color: #555;
   font-size: 14px;
 }
+
 /* line 682, templates/jl_filmmaker_pro/scss/filmmaker/styles/_filmmaker-style.scss */
 .platform-content .tagspopular ul li a:hover {
   color: #fff;
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_navigation.scss */
 #g-navigation {
   color: #949494;
@@ -3549,6 +4648,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   z-index: 999;
   position: relative;
 }
+
 /* line 6, templates/jl_filmmaker_pro/scss/filmmaker/sections/_navigation.scss */
 #g-navigation .g-grid {
   -webkit-box-align: center;
@@ -3561,13 +4661,16 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   align-items: center;
   -ms-flex-align: center;
 }
+
 @media print {
+
   /* line 12, templates/jl_filmmaker_pro/scss/filmmaker/sections/_navigation.scss */
   #g-navigation {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_showcase.scss */
 #g-showcase {
   color: #fff;
@@ -3575,18 +4678,22 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   position: relative;
   z-index: 10;
 }
+
 /* line 6, templates/jl_filmmaker_pro/scss/filmmaker/sections/_showcase.scss */
 #g-showcase .g-content {
   padding: 0;
   margin: 0;
 }
+
 @media print {
+
   /* line 14, templates/jl_filmmaker_pro/scss/filmmaker/sections/_showcase.scss */
   #g-showcase {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_pagetitle.scss */
 #g-pagetitle {
   color: #fff;
@@ -3595,6 +4702,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   background: url('../../images/joomlead/background/pagetitle.png') no-repeat center top;
   background-size: cover;
 }
+
 /* line 8, templates/jl_filmmaker_pro/scss/filmmaker/sections/_pagetitle.scss */
 #g-pagetitle:before {
   background: #000 none repeat scroll 0 0;
@@ -3606,43 +4714,53 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   top: 0;
   width: 100%;
 }
+
 /* line 19, templates/jl_filmmaker_pro/scss/filmmaker/sections/_pagetitle.scss */
 #g-pagetitle .g-content {
   position: relative;
   z-index: 2;
 }
+
 @media print {
+
   /* line 26, templates/jl_filmmaker_pro/scss/filmmaker/sections/_pagetitle.scss */
   #g-pagetitle {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_about.scss */
 #g-about {
   position: relative;
   color: #000;
   background: #fff;
 }
+
 @media print {
+
   /* line 8, templates/jl_filmmaker_pro/scss/filmmaker/sections/_about.scss */
   #g-about {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_intro.scss */
 #g-intro {
   color: #fff;
   background: #000;
 }
+
 @media print {
+
   /* line 7, templates/jl_filmmaker_pro/scss/filmmaker/sections/_intro.scss */
   #g-intro {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_features.scss */
 #g-features {
   color: #fff;
@@ -3650,37 +4768,46 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   background: url('../../../../images/joomlead/background/features-bg.png') no-repeat center center;
   background-size: cover;
 }
+
 @media print {
+
   /* line 11, templates/jl_filmmaker_pro/scss/filmmaker/sections/_features.scss */
   #g-features {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_expanded.scss */
 #g-expanded {
   color: #fff;
   background: #000;
 }
+
 @media print {
+
   /* line 7, templates/jl_filmmaker_pro/scss/filmmaker/sections/_expanded.scss */
   #g-expanded {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_utility.scss */
 #g-utility {
   color: #fff;
   background: #000;
 }
+
 @media print {
+
   /* line 7, templates/jl_filmmaker_pro/scss/filmmaker/sections/_utility.scss */
   #g-utility {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_services.scss */
 #g-services {
   color: #fff;
@@ -3689,11 +4816,13 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   background: url('../../../../images/joomlead/background/services-bg.png') no-repeat center center;
   background-size: cover;
 }
+
 /* line 5, templates/jl_filmmaker_pro/scss/filmmaker/sections/_services.scss */
 #g-services .g-content {
   position: relative;
   z-index: 2;
 }
+
 /* line 12, templates/jl_filmmaker_pro/scss/filmmaker/sections/_services.scss */
 #g-services:before {
   background: #000 none repeat scroll 0 0;
@@ -3705,13 +4834,16 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   top: 0;
   width: 100%;
 }
+
 @media print {
+
   /* line 26, templates/jl_filmmaker_pro/scss/filmmaker/sections/_services.scss */
   #g-services {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_testimonials.scss */
 #g-testimonials {
   color: #000;
@@ -3719,53 +4851,63 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   background: url('../../../../images/joomlead/background/testimonials-bg.png') no-repeat center top;
   background-size: cover;
 }
+
 @media print {
+
   /* line 11, templates/jl_filmmaker_pro/scss/filmmaker/sections/_testimonials.scss */
   #g-testimonials {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_team.scss */
 #g-team {
   color: #fff;
   background: #000;
 }
+
 @media print {
+
   /* line 7, templates/jl_filmmaker_pro/scss/filmmaker/sections/_team.scss */
   #g-team {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_main.scss */
 #g-container-main {
   background: #fff;
   color: #000;
 }
+
 @media print {
+
   /* line 7, templates/jl_filmmaker_pro/scss/filmmaker/sections/_main.scss */
   #g-mainbar {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_footer.scss */
 #g-footer {
   color: #fff;
-  background: #000;
   position: relative;
-  background: url('../../images/joomlead/background/footer-bg.png') no-repeat center center;
+  /* background: url('../../images/joomlead/background/footer-bg.png') no-repeat center center; */
   background-size: cover;
 }
+
 /* line 5, templates/jl_filmmaker_pro/scss/filmmaker/sections/_footer.scss */
 #g-footer .g-content {
   position: relative;
   z-index: 2;
 }
+
 /* line 12, templates/jl_filmmaker_pro/scss/filmmaker/sections/_footer.scss */
 #g-footer:before {
-  background: #000 none repeat scroll 0 0;
+  /* background: #000 none repeat scroll 0 0; */
   content: "";
   height: 100%;
   left: 0;
@@ -3774,13 +4916,16 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   top: 0;
   width: 100%;
 }
+
 @media print {
+
   /* line 26, templates/jl_filmmaker_pro/scss/filmmaker/sections/_footer.scss */
   #g-footer {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_error.scss */
 #g-error {
   color: #fff;
@@ -3790,51 +4935,68 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   position: relative;
   text-align: center;
 }
+
 @media print {
+
   /* line 13, templates/jl_filmmaker_pro/scss/filmmaker/sections/_error.scss */
   #g-error {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 #g-offcanvas {
   background: #000;
   width: 14rem;
   color: #fff;
 }
+
 /* line 6, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 #g-offcanvas a {
   color: #fff;
 }
+
 /* line 9, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 #g-offcanvas a:hover {
   color: #000;
 }
+
 /* line 14, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
-#g-offcanvas h1, #g-offcanvas h2, #g-offcanvas h3, #g-offcanvas h4, #g-offcanvas h5, #g-offcanvas h6, #g-offcanvas strong {
+#g-offcanvas h1,
+#g-offcanvas h2,
+#g-offcanvas h3,
+#g-offcanvas h4,
+#g-offcanvas h5,
+#g-offcanvas h6,
+#g-offcanvas strong {
   color: #fff;
 }
+
 /* line 18, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 #g-offcanvas .button {
   background: transparent;
   border: 2px solid #fff !important;
   color: #fff !important;
 }
+
 /* line 22, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 #g-offcanvas .button:hover {
   border: 2px solid #000 !important;
   color: #000 !important;
 }
+
 /* line 27, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 #g-offcanvas .button:active {
   border: 2px solid #000 !important;
   color: #000 !important;
 }
+
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 #g-offcanvas hr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
+
 /* line 38, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 .g-offcanvas-toggle {
   display: none;
@@ -3850,99 +5012,120 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   z-index: 9999;
   color: #949494;
 }
+
 @media only all and (max-width: 51rem) {
   .g-offcanvas-toggle {
     display: block;
   }
 }
+
 /* line 58, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 @media only all and (min-width: 30.062rem) and (max-width: 50.938rem) {
   .dir-rtl .g-offcanvas-toggle {
     left: 4rem;
   }
 }
+
 @media only all and (max-width: 30rem) {
   .dir-rtl .g-offcanvas-toggle {
     left: 2.5rem;
   }
 }
+
 /* line 69, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 70, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 .g-offcanvas-open .g-nav-overlay {
   z-index: 100000;
 }
+
 /* line 74, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 75, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 .g-offcanvas-open .g-offcanvas-left #g-page-surround {
   left: 14rem;
 }
+
 /* line 80, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 81, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 .g-offcanvas-open .g-offcanvas-right #g-page-surround {
   right: 14rem;
 }
+
 /* line 86, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 87, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 88, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 .g-offcanvas-open .dir-rtl.g-offcanvas-left #g-offcanvas {
   right: auto;
 }
+
 /* line 93, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 94, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 .g-offcanvas-open .dir-rtl.g-offcanvas-right #g-offcanvas {
   left: auto;
 }
+
 /* line 102, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 103, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 104, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul {
   background: #000;
 }
+
 /* line 106, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 107, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
-#g-offcanvas #g-mobilemenu-container ul > li > .g-menu-item-container {
+#g-offcanvas #g-mobilemenu-container ul>li>.g-menu-item-container {
   color: #fff;
 }
+
 /* line 110, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 111, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
-#g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module):hover, #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active {
+#g-offcanvas #g-mobilemenu-container ul>li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module):hover,
+#g-offcanvas #g-mobilemenu-container ul>li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active {
   background: #000;
 }
+
 /* line 114, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
-#g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module):hover > .g-menu-item-container, #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active > .g-menu-item-container {
+#g-offcanvas #g-mobilemenu-container ul>li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module):hover>.g-menu-item-container,
+#g-offcanvas #g-mobilemenu-container ul>li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active>.g-menu-item-container {
   color: #fff;
 }
+
 /* line 119, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 120, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 121, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
-#g-offcanvas #g-mobilemenu-container ul > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator {
+#g-offcanvas #g-mobilemenu-container ul>li.g-menu-item-link-parent>.g-menu-item-container>.g-menu-parent-indicator {
   border: 1px solid #0f0f0f;
   background: #000;
   border-radius: 0;
   margin: -0.2rem 0 -0.2rem 0.5rem;
   padding: 0.2rem;
 }
+
 /* line 124, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
-#g-offcanvas #g-mobilemenu-container ul > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator:hover {
+#g-offcanvas #g-mobilemenu-container ul>li.g-menu-item-link-parent>.g-menu-item-container>.g-menu-parent-indicator:hover {
   background: #000;
 }
+
 /* line 134, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul .g-dropdown-column {
   width: 14rem;
 }
+
 /* line 141, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 #g-mobilemenu-container {
   margin: -2.125rem;
 }
+
 /* line 146, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 /* line 147, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
 .g-preset-thumbnails img {
   margin-bottom: 1rem;
 }
+
 @media only all and (max-width: 50.938rem) {
   .g-preset-thumbnails {
     text-align: center;
   }
+
   /* line 154, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
   .g-preset-thumbnails .g-block {
     -webkit-box-flex: 0;
@@ -3954,11 +5137,13 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     flex: 0 0 auto;
     width: 45% !important;
   }
+
   /* line 163, templates/jl_filmmaker_pro/scss/filmmaker/sections/_offcanvas.scss */
   .g-preset-thumbnails .g-content {
     margin-left: 5px;
   }
 }
+
 @media only all and (max-width: 50.938rem) and (max-width: 50.938rem) {
   .g-preset-thumbnails .g-block {
     -webkit-box-flex: 0;
@@ -3970,6 +5155,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     flex: 0 auto !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_aside.scss */
 #g-aside {
   color: #000;
@@ -3977,70 +5163,85 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
+
 @media print {
+
   /* line 9, templates/jl_filmmaker_pro/scss/filmmaker/sections/_aside.scss */
   #g-aside {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/sections/_sidebar.scss */
 #g-sidebar {
   background: #fff;
   color: #000;
 }
+
 @media print {
+
   /* line 7, templates/jl_filmmaker_pro/scss/filmmaker/sections/_sidebar.scss */
   #g-sidebar {
     background: #fff !important;
     color: #000 !important;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_offline.scss */
 /* line 2, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_offline.scss */
 .g-offline h1 {
   font-weight: 300;
 }
+
 /* line 6, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_offline.scss */
 /* line 7, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_offline.scss */
 .g-offline .g-loginform #g-loginform {
   width: 50%;
   margin: 0 auto;
 }
+
 @media only all and (max-width: 50.938rem) {
   .g-offline .g-loginform #g-loginform {
     width: 80%;
   }
 }
+
 /* line 14, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_offline.scss */
 .g-offline .g-loginform #g-loginform fieldset {
   text-align: left;
 }
+
 /* line 17, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_offline.scss */
 .g-offline .g-loginform #g-loginform label {
   margin-bottom: 0.625rem;
   display: block;
 }
+
 /* line 24, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_offline.scss */
 /* line 25, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_offline.scss */
 .g-offline #frame #form-login {
   width: 50%;
   margin: 0 auto;
 }
+
 @media only all and (max-width: 50.938rem) {
   .g-offline #frame #form-login {
     width: 80%;
   }
 }
+
 /* line 32, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_offline.scss */
 .g-offline #frame #form-login fieldset {
   text-align: left;
 }
+
 /* line 35, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_offline.scss */
 .g-offline #frame #form-login label {
   display: block;
   margin-bottom: 0.625rem;
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_error.scss */
 /* line 2, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_error.scss */
 .outline-_error input.inputbox.search-query.input-medium {
@@ -4055,8 +5256,10 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   -o-border-radius: 45px;
   border-radius: 45px;
 }
+
 /* line 14, templates/jl_filmmaker_pro/scss/filmmaker/layouts/_error.scss */
-.outline-_error button.btn, .outline-_error input[type="submit"].btn {
+.outline-_error button.btn,
+.outline-_error input[type="submit"].btn {
   background: #000;
   font-size: 16px;
   -webkit-border-radius: 100%;
@@ -4070,73 +5273,87 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   position: relative;
   opacity: 0.7;
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/particles/_social.scss */
 .g-social {
   line-height: normal;
   text-align: right;
 }
+
 /* line 4, templates/jl_filmmaker_pro/scss/filmmaker/particles/_social.scss */
 .g-social a {
   color: #fff;
 }
+
 /* line 6, templates/jl_filmmaker_pro/scss/filmmaker/particles/_social.scss */
 .g-social a span {
   width: 35px;
   height: 35px;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #000000;
+  color: #000000;
   line-height: 35px;
   text-align: center;
   font-size: 14px;
   border-radius: 50%;
 }
+
 /* line 7, templates/jl_filmmaker_pro/scss/filmmaker/particles/_social.scss */
 .g-social a span:hover {
   background: #fff;
   color: #555;
 }
+
 /* line 19, templates/jl_filmmaker_pro/scss/filmmaker/particles/_social.scss */
 .g-social a span.g-social-text {
   border: none;
 }
+
 /* line 23, templates/jl_filmmaker_pro/scss/filmmaker/particles/_social.scss */
 .g-social a:hover {
   color: #000;
 }
+
 @media only all and (max-width: 50.938rem) {
   .g-social {
     text-align: center;
   }
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/particles/_branding.scss */
 .g-branding {
   font-size: 14px;
   font-weight: 300;
-  color: #fff;
+  color: #000000;
   text-align: left;
   line-height: 35px;
 }
+
 /* line 7, templates/jl_filmmaker_pro/scss/filmmaker/particles/_branding.scss */
 .g-branding a {
   color: #e2a750;
 }
+
 /* line 9, templates/jl_filmmaker_pro/scss/filmmaker/particles/_branding.scss */
 .g-branding a:hover {
   color: #444;
 }
+
 /* line 1, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
 .g-content-array {
   margin-left: -1.5rem;
   margin-right: -1.5rem;
 }
+
 /* line 5, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
 .g-content-array .g-grid {
   margin-bottom: 3.1875rem;
 }
+
 /* line 8, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
 .g-content-array .g-grid:last-child {
   margin-bottom: 0;
 }
+
 /* line 11, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
 /* line 12, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
 /* line 13, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
@@ -4145,76 +5362,94 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     margin-bottom: 0;
   }
 }
+
 @media only all and (max-width: 50.938rem) {
   .g-content-array .g-grid {
     margin-bottom: 0;
   }
 }
+
 /* line 27, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
 .g-content-array .g-content {
   margin: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
+
 /* line 33, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
 @media only all and (max-width: 50.938rem) {
   .g-content-array .g-array-item {
     margin-bottom: 3.1875rem;
   }
 }
+
 /* line 39, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
 .g-content-array .g-array-item-image {
   margin: 0 0 15px 0;
 }
+
 /* line 43, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
 .g-content-array .g-item-title {
   margin: 0;
 }
+
 /* line 47, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
 /* line 48, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
-.g-content-array .g-array-item-details, .g-content-array .g-array-item-text, .g-content-array .g-array-item-read-more {
+.g-content-array .g-array-item-details,
+.g-content-array .g-array-item-text,
+.g-content-array .g-array-item-read-more {
   margin: 15px 0 0;
 }
+
 /* line 53, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
 .g-content-array .g-array-item-details {
   font-size: 90%;
 }
+
 /* line 56, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
-.g-content-array .g-array-item-details > span {
+.g-content-array .g-array-item-details>span {
   margin-right: 10px;
 }
+
 /* line 60, templates/jl_filmmaker_pro/scss/filmmaker/particles/_contentarray.scss */
 .g-content-array .g-array-item-details i {
   margin-right: 5px;
 }
+
 /* line 2, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_flex.scss */
 .g-container {
   width: 75rem;
 }
+
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
   .g-container {
     width: 60rem;
   }
 }
+
 @media only all and (min-width: 51rem) and (max-width: 59.938rem) {
   .g-container {
     width: 51rem;
   }
 }
+
 @media only all and (min-width: 30.062rem) and (max-width: 50.938rem) {
   .g-container {
     width: 30rem;
   }
 }
+
 @media only all and (max-width: 30rem) {
   .g-container {
     width: 100%;
   }
 }
+
 /* line 17, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_flex.scss */
 .g-container.g-flushed {
   width: 100%;
 }
+
 /* line 23, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_flex.scss */
 @media only all and (max-width: 50.938rem) {
   .g-block {
@@ -4228,6 +5463,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     -ms-flex-preferred-size: 100%;
   }
 }
+
 /* line 30, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_flex.scss */
 @media only all and (max-width: 50.938rem) {
   body [class*="size-"] {
@@ -4242,8 +5478,10 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     max-width: 100%;
   }
 }
+
 @media only all and (max-width: 50.938rem) {
   @supports not (flex-wrap: wrap) {
+
     /* line 41, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_flex.scss */
     .g-grid {
       display: block;
@@ -4255,6 +5493,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       -ms-flex-wrap: inherit;
       flex-wrap: inherit;
     }
+
     /* line 45, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_flex.scss */
     .g-block {
       display: block;
@@ -4268,94 +5507,129 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     }
   }
 }
+
 /* line 2, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-.visible-large, .visible-desktop, .visible-tablet, .visible-phone, .g-block.visible-large, .g-block.visible-desktop, .g-block.visible-tablet, .g-block.visible-phone {
+.visible-large,
+.visible-desktop,
+.visible-tablet,
+.visible-phone,
+.g-block.visible-large,
+.g-block.visible-desktop,
+.g-block.visible-tablet,
+.g-block.visible-phone {
   display: none !important;
 }
+
 @media only all and (max-width: 50.938rem) {
+
   /* line 14, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-phone {
     display: block !important;
   }
+
   /* line 17, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .g-block.visible-phone {
     display: block !important;
   }
 }
+
 @media only all and (min-width: 51rem) and (max-width: 59.938rem) {
+
   /* line 23, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-tablet {
     display: block !important;
   }
+
   /* line 26, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .g-block.visible-tablet {
     display: block !important;
   }
 }
+
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
+
   /* line 32, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-desktop {
     display: block !important;
   }
+
   /* line 35, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .g-block.visible-desktop {
     display: block !important;
   }
 }
+
 @media only all and (min-width: 75rem) {
+
   /* line 41, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-large {
     display: block !important;
   }
+
   /* line 44, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .g-block.visible-large {
     display: block !important;
   }
+
   /* line 47, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-desktop {
     display: block !important;
   }
+
   /* line 50, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .g-block.visible-desktop {
     display: block !important;
   }
 }
+
 @media only all and (max-width: 50.938rem) {
+
   /* line 57, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .hidden-phone {
     display: none !important;
   }
 }
+
 @media only all and (min-width: 51rem) and (max-width: 59.938rem) {
+
   /* line 63, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .hidden-tablet {
     display: none !important;
   }
 }
+
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
+
   /* line 69, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .hidden-desktop {
     display: none !important;
   }
 }
+
 @media only all and (min-width: 75rem) {
+
   /* line 75, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .hidden-large {
     display: none !important;
   }
+
   /* line 78, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .hidden-desktop {
     display: none !important;
   }
 }
+
 @media only all and (max-width: 50.938rem) {
+
   /* line 85, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .align-right {
     text-align: inherit !important;
   }
+
   /* line 88, media/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .align-left {
     text-align: inherit !important;
   }
 }
+
 /*# sourceMappingURL=filmmaker_37.css.map */
