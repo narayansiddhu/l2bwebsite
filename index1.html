@@ -7,27 +7,16 @@
 
     <title>L2b</title>
 
-    <link rel="mask-icon" href="one-wing.svg" color="#2b75b4">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
     <link href="https://home.mindvalley.com/packs/quiz-900c8b99cab0d4dedc608697ab7a8a70.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700" rel="stylesheet" type="text/css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         type="text/css">
-    <script src="https://home.mindvalley.com/packs/quiz-900c8b99cab0d4dedc608697ab7a8a70.css/packs/quiz-4d6afaaee9df5794b925.js"></script>
-    <link rel="stylesheet" media="screen" href="https://home.mindvalley.com/packs/quiz-900c8b99cab0d4dedc608697ab7a8a70.css/packs/quiz-900c8b99cab0d4dedc608697ab7a8a70.css">
-    <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1052716022/?random=1536576093221&amp;cv=9&amp;fst=1536576093221&amp;num=1&amp;label=cFkwCOzTggQQ9tf89QM&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=900&amp;u_w=1440&amp;u_ah=813&amp;u_aw=1440&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=5&amp;data=event%3Dpageview&amp;gtm=G8o&amp;sendb=1&amp;frm=0&amp;url=https%3A%2F%2Fhome.mindvalley.com%2Fquiz%3F_ga%3D2.249137159.1841955427.1536483700-53906551.1535517698&amp;ref=https%3A%2F%2Fwww.mindvalley.com%2F&amp;tiba=Mindvalley%20Academy&amp;async=1&amp;rfmt=3&amp;fmt=4"></script>
-    <script async="" src="https://script.hotjar.com/modules-fb023a49161b39880451c2fedbd087e9.js"></script>
-    <style type="text/css">
-        iframe#_hjRemoteVarsFrame {
-            display: none !important;
-            width: 1px !important;
-            height: 1px !important;
-            opacity: 0 !important;
-            pointer-events: none !important;
-        }
-    </style>
-    <script type="text/javascript" charset="utf-8" async="" src="/packs/15-114c0098c69977be6b91.js"></script>
+
+    <link rel="stylesheet" media="screen" href="custom/css/quite.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>
 </head>
 
 <body cz-shortcut-listen="true">
@@ -41,13 +30,13 @@
                     <h3 data-v-e7fc3608="">Choose 3 topics to continue</h3>
                 </div>
                 <ul data-v-e7fc3608="" class="subcategories">
-                    <li data-v-c1390efe="" data-v-e7fc3608="" class="subCard selected">Speed Learning</li>
-                    <li data-v-c1390efe="" data-v-e7fc3608="" class="subCard">Happiness</li>
-                    <li data-v-c1390efe="" data-v-e7fc3608="" class="subCard">Speaking &amp; Persuasion</li>
-                    <li data-v-c1390efe="" data-v-e7fc3608="" class="subCard">Career Ascension</li>
-                    <li data-v-c1390efe="" data-v-e7fc3608="" class="subCard selected">Entrepreneurship</li>
-                    <li data-v-c1390efe="" data-v-e7fc3608="" class="subCard">Personal Wealth &amp; Abundance</li>
-                    <li data-v-c1390efe="" data-v-e7fc3608="" class="subCard">Leadership &amp; Management</li>
+                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l1" onclick="check(this.id)" class="subCard">Speed Learning</li>
+                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l2" onclick="check(this.id)" class="subCard">Happiness</li>
+                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l3" onclick="check(this.id)" class="subCard">Speaking &amp; Persuasion</li>
+                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l4" onclick="check(this.id)" class="subCard">Career Ascension</li>
+                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l5" onclick="check(this.id)" class="subCard">Entrepreneurship</li>
+                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l6" onclick="check(this.id)" class="subCard">Personal Wealth &amp; Abundance</li>
+                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l7" onclick="check(this.id)" class="subCard">Leadership &amp; Management</li>
                 </ul>
                 <div data-v-e7fc3608="" class="button"><a data-v-47256806="" data-v-e7fc3608="" href="#" class="quiz quiz-chosen-topics">
                         Continue
@@ -57,97 +46,39 @@
         </div>
         <span></span>
     </div>
-    <div style="display: none; visibility: hidden;">
-        <script>
-            ! function (b, e, f, g, a, c, d) {
-                b.fbq || (a = b.fbq = function () {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e.createElement(
-                    f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(c,
-                    d))
-            }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-            fbq("init", "516697745110301");
-            fbq("track", "PageView");
-        </script>
-        <noscript></noscript>
-    </div>
-    <script type="text/javascript" id="">
-        var iCookieLength = 30,
-            sCookieName = "source",
-            sSourceParameterName = "utm_source",
-            _getQueryStringValue = function (d) {
-                for (var c = document.location.search.substring(1).split("\x26"), b = 0; b < c.length; b++) {
-                    var a = c[b].split("\x3d");
-                    if (d.toLowerCase() == a[0].toLowerCase()) return a[1]
-                }
-            },
-            _setCookie = function (d, c, b) {
-                var a = new Date;
-                a.setTime(a.getTime() + 864E5 * b);
-                document.cookie = d + "\x3d" + c + "; expires\x3d" + a.toGMTString() +
-                    "; path\x3d/; domain\x3d.mindvalleyacademy.com;"
-            };
-        _getQueryStringValue(sSourceParameterName) && _setCookie(sCookieName, _getQueryStringValue(sSourceParameterName),
-            iCookieLength);
-    </script>
-    <script type="text/javascript" id="">
-        function getParam(a) {
-            var b = window.location.href;
-            a = new RegExp("[?\x26]" + a + "(\x3d([^\x26#]*)|\x26|#|$)");
-            return (b = a.exec(b)) ? b[2] ? decodeURIComponent(b[2].replace(/\+/g, " ")) : "" : null
-        }
-
-        function unserialize(a) {
-            a = decodeURIComponent(a);
-            a = a.split("\x26");
-            for (var b = {}, c = 0; c < a.length; c++) {
-                var d = a[c].split("\x3d", 2);
-                b[d[0]] = d[1]
-            }
-            return b
-        }
-
-        function b64DecodeUnicode(a) {
-            return decodeURIComponent(Array.prototype.map.call(atob(a), function (a) {
-                return "%" + ("00" + a.charCodeAt(0).toString(16)).slice(-2)
-            }).join(""))
-        }
-
-        function getOathkeeperEncodedParams() {
-            var a = getParam("encoded");
-            if (!a) return null;
-            a = b64DecodeUnicode(a);
-            return unserialize(a)
-        }
-
-        function getBlinkEncodedParams() {
-            var a = getParam("eae"),
-                b = getParam("ean");
-            if (!a || !b) return null;
-            a = b64DecodeUnicode(a);
-            b = b64DecodeUnicode(b);
-            return {
-                email: a,
-                first_name: b
-            }
-        }
-        var _signup = getOathkeeperEncodedParams() || getBlinkEncodedParams();
-        if (_signup) {
-            var dataLayer = dataLayer || [];
-            _signup.event = "signup";
-            dataLayer.push(_signup)
-        };
-    </script><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"
-        src="https://vars.hotjar.com/rcj-da10bd4908deb9e19dfde013ec3fe4ff.html"></iframe><iframe id="AWIN_CDT" src="about:blank"
-        style="height: 0px !important; width: 0px !important; visibility: hidden !important; display: inherit !important; margin: 0px !important; border: 0px !important; padding: 0px !important;"></iframe>
-    <div id="ads"></div>
-    <script src="https://px.ads.linkedin.com/collect/?time=1536576093748&amp;pid=240795&amp;url=https%3A%2F%2Fhome.mindvalley.com%2Fquiz%3F_ga%3D2.249137159.1841955427.1536483700-53906551.1535517698&amp;pageUrl=https%3A%2F%2Fhome.mindvalley.com%2Fquiz%3F_ga%3D2.249137159.1841955427.1536483700-53906551.1535517698&amp;ref=https%3A%2F%2Fwww.mindvalley.com%2F&amp;fmt=js&amp;s=1"
-        type="text/javascript"></script>
-    <script type="text/javascript" id="">
-        document.cookie = "ga_clientid \x3d 53906551.1535517698";
-    </script>
-    <div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.9067564559180255"><img style="width:0px; height:0px; display:none; visibility:hidden;"
-            id="batBeacon0.6825332610951482" width="0" height="0" alt="" src="https://bat.bing.com/action/0?ti=25016628&amp;Ver=2&amp;mid=35e73de1-da22-7b83-c148-5b53a234202f&amp;pi=1200101525&amp;lg=en-US&amp;sw=1440&amp;sh=900&amp;sc=24&amp;tl=Mindvalley%20Academy&amp;r=https%3A%2F%2Fwww.mindvalley.com%2F&amp;p=https%3A%2F%2Fhome.mindvalley.com%2Fquiz%3F_ga%3D2.249137159.1841955427.1536483700-53906551.1535517698&amp;lt=1640&amp;evt=pageLoad&amp;msclkid=N&amp;rn=718102"></div>
 </body>
 
+<script>
+    var countChecked = function() {
+        var n = $( "input:checked" ).length;
+        $( "#checked_count" ).html( n + (n === 1 ? " is" : " are") + " checked!" );
+        if(n >= 2){
+            alert('You are not allowed to ccheck');
+            return 0;
+        }else {
+            return 1;
+        }
+    };
+
+    $( "input[type=checkbox]" ).on( "click", countChecked );
+</script>
+
+<script>
+
+    function check(id){
+        $('#'+id).toggleClass('selected');
+    }
+    // $('.subcategories').click( function () {
+    //     if (countChecked()) {
+    //         $('.subCard').toggleClass('selected');
+    //         var $chk = $("#card-img1-chk-val");
+    //         if ($chk.attr('checked')) {
+    //             $chk.removeAttr('checked');
+    //         } else {
+    //             $chk.attr('checked', true);
+    //         }
+    //         countChecked();
+    //     }
+    // });
+</script>
 </html>
