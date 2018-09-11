@@ -30,13 +30,18 @@
                     <h3 data-v-e7fc3608="">Choose 3 topics to continue</h3>
                 </div>
                 <ul data-v-e7fc3608="" class="subcategories">
-                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l1" onclick="check(this.id)" class="subCard">Speed Learning</li>
+                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l1" onclick="check(this.id)" class="subCard">Speed
+                        Learning</li>
                     <li data-v-c1390efe="" data-v-e7fc3608="" id="l2" onclick="check(this.id)" class="subCard">Happiness</li>
-                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l3" onclick="check(this.id)" class="subCard">Speaking &amp; Persuasion</li>
-                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l4" onclick="check(this.id)" class="subCard">Career Ascension</li>
+                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l3" onclick="check(this.id)" class="subCard">Speaking
+                        &amp; Persuasion</li>
+                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l4" onclick="check(this.id)" class="subCard">Career
+                        Ascension</li>
                     <li data-v-c1390efe="" data-v-e7fc3608="" id="l5" onclick="check(this.id)" class="subCard">Entrepreneurship</li>
-                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l6" onclick="check(this.id)" class="subCard">Personal Wealth &amp; Abundance</li>
-                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l7" onclick="check(this.id)" class="subCard">Leadership &amp; Management</li>
+                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l6" onclick="check(this.id)" class="subCard">Personal
+                        Wealth &amp; Abundance</li>
+                    <li data-v-c1390efe="" data-v-e7fc3608="" id="l7" onclick="check(this.id)" class="subCard">Leadership
+                        &amp; Management</li>
                 </ul>
                 <div data-v-e7fc3608="" class="button"><a data-v-47256806="" data-v-e7fc3608="" href="#" class="quiz quiz-chosen-topics">
                         Continue
@@ -48,25 +53,28 @@
     </div>
 </body>
 
+
 <script>
-    var countChecked = function() {
-        var n = $( "input:checked" ).length;
-        $( "#checked_count" ).html( n + (n === 1 ? " is" : " are") + " checked!" );
-        if(n >= 2){
-            alert('You are not allowed to ccheck');
-            return 0;
-        }else {
-            return 1;
+    var flag = 0;
+
+    function check(id) {
+
+        if (flag < 4) {
+            var myButtonClasses = document.getElementById(id).classList;
+            if (myButtonClasses.contains("selected")) {
+                myButtonClasses.remove("selected");
+                flag--;
+            } else {
+                if (flag == 3) {
+
+                } else {
+                    myButtonClasses.add("selected");
+                    flag++;
+                }
+
+            }
         }
-    };
-
-    $( "input[type=checkbox]" ).on( "click", countChecked );
-</script>
-
-<script>
-
-    function check(id){
-        $('#'+id).toggleClass('selected');
+        console.log(flag);
     }
     // $('.subcategories').click( function () {
     //     if (countChecked()) {
@@ -80,5 +88,22 @@
     //         countChecked();
     //     }
     // });
+    var totalGuest = 0;
+    $('div input[type=checkbox]').not(":radio,:submit").on('change', function () {
+        $(this).toggleClass("active");
+        if ($(this).hasClass("active")) {
+            totalGuest++;
+        } else {
+            totalGuest--;
+        }
+        console.log(totalGuest);
+
+        if (totalGuest >= 1) {
+            $('input[type=checkbox]').not(".active").attr("disabled", "disabled");
+        } else {
+            $('input[type=checkbox]').not(".active").removeAttr("disabled");
+        }
+    });
 </script>
+
 </html>
