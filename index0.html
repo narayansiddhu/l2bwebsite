@@ -11,8 +11,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700" rel="stylesheet" type="text/css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<script src="https://home.mindvalley.com/packs/quiz-4d6afaaee9df5794b925.js"></script>
-	<link rel="stylesheet" media="screen" href="https://home.mindvalley.com/packs/quiz-900c8b99cab0d4dedc608697ab7a8a70.css">
+	<link rel="stylesheet" media="screen" href="custom/css/quite.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>
 
 
 	<style type="text/css">
@@ -36,48 +37,49 @@
 					<h3 data-v-be1c30d4="">Choose 2 categories to continue</h3>
 				</div>
 				<div data-v-be1c30d4="" class="cards">
-					<div data-v-be1c30d4="" class="card" style="background-color: rgb(0, 192, 213);">
-						<div class="mobile-image" style="background: url(&quot;https://s95.mindvalley.us/mindvalley/media/images/speed_learning_mobile.png&quot;) right center / cover no-repeat;"></div>
-						<img src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s75.mindvalley.us/mindvalley/media/images/speed-learning-cover.png"
-						 style="display: none;">
+					<div data-v-be1c30d4="" class="card" id="card1" style="background-color: rgb(0, 192, 213);">
+						<div class="mobile-image" style="background: url(https://s95.mindvalley.us/mindvalley/media/images/speed_learning_mobile.png) right center / cover no-repeat;"></div>
+						<img id="card-img1" src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s75.mindvalley.us/mindvalley/media/images/speed-learning-cover.png"
+						 >
 						<p>Lifestyle &amp; <br>Productivity</p>
 						<img src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s90.mindvalley.us/mindvalley/media/images/check-icon-quiz.svg"
-						 class="check-ico" style="display: block;">
+						 class="check-ico" id="card-img1-chk" style="display: none;">
 					</div>
-					<div data-v-be1c30d4="" class="card" style="background-color: rgb(0, 213, 136);">
-						<div class="mobile-image" style="background: url(&quot;https://s61.mindvalley.us/mindvalley/media/images/career_mobile.png&quot;) right center / cover no-repeat;"></div>
-						<img src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s33.mindvalley.us/mindvalley/media/images/career-cover.png"
-						 style="">
+					<div data-v-be1c30d4="" class="card" id="card2" style="background-color: rgb(0, 213, 136);">
+						<div class="mobile-image" style="background: url(https://s61.mindvalley.us/mindvalley/media/images/career_mobile.png) right center / cover no-repeat;"></div>
+						<img id="card-img2" src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s33.mindvalley.us/mindvalley/media/images/career-cover.png"
+						>
 						<p>Career &amp; <br>Influence</p>
 						<img src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s90.mindvalley.us/mindvalley/media/images/check-icon-quiz.svg"
-						 class="check-ico" style="display: none;">
+							 class="check-ico yseleted2"  id="card-img2-chk" style="display: none;">
 					</div>
-					<div data-v-be1c30d4="" class="card" style="background-color: rgb(168, 36, 255);">
-						<div class="mobile-image" style="background: url(&quot;https://s27.mindvalley.us/mindvalley/media/images/mind_mobile.png&quot;) right center / cover no-repeat;"></div>
-						<img src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s82.mindvalley.us/mindvalley/media/images/mind-cover.png"
-						 style="">
+					<div data-v-be1c30d4="" class="card" id="card3" style="background-color: rgb(168, 36, 255);">
+						<div class="mobile-image" style="background: url(https://s27.mindvalley.us/mindvalley/media/images/mind_mobile.png) right center / cover no-repeat;"></div>
+						<img class="nseleted3" id="card-img3"  src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s82.mindvalley.us/mindvalley/media/images/mind-cover.png"
+						 style="" >
 						<p>Mind &amp; <br>Spirit</p>
 						<img src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s90.mindvalley.us/mindvalley/media/images/check-icon-quiz.svg"
-						 class="check-ico" style="display: none;">
+							 class="check-ico yseleted3" id="card-img3-chk"   style="display: none;">
 					</div>
-					<div data-v-be1c30d4="" class="card" style="background-color: rgb(23, 45, 203);">
-						<div class="mobile-image" style="background: url(&quot;https://s17.mindvalley.us/mindvalley/media/images/health_mobile.png&quot;) right center / cover no-repeat;"></div>
-						<img src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s54.mindvalley.us/mindvalley/media/images/health-cover.png"
+					<div data-v-be1c30d4="" class="card" id="card4" style="background-color: rgb(23, 45, 203);">
+						<div class="mobile-image" style="background: url(https://s17.mindvalley.us/mindvalley/media/images/health_mobile.png) right center / cover no-repeat;"></div>
+						<img  id="card-img4"  src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s54.mindvalley.us/mindvalley/media/images/health-cover.png"
 						 style="">
 						<p>Health &amp; <br>Fitness</p>
 						<img src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s90.mindvalley.us/mindvalley/media/images/check-icon-quiz.svg"
-						 class="check-ico" style="display: none;">
+							 class="check-ico " id="card-img4-chk" style="display: none;">
 					</div>
-					<div data-v-be1c30d4="" class="card" style="background-color: rgb(255, 172, 36);">
-						<div class="mobile-image" style="background: url(&quot;https://s71.mindvalley.us/mindvalley/media/images/relationships_mobile.png&quot;) right center / cover no-repeat;"></div>
-						<img src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s67.mindvalley.us/mindvalley/media/images/relationships-cover.png"
+					<div data-v-be1c30d4="" class="card" id="card5" style="background-color: rgb(255, 172, 36);">
+						<div class="mobile-image" style="background: url(https://s71.mindvalley.us/mindvalley/media/images/relationships_mobile.png) right center / cover no-repeat;"></div>
+						<img class="nseleted5" id="card-img5" src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s67.mindvalley.us/mindvalley/media/images/relationships-cover.png"
 						 style="">
 						<p>Love &amp; <br>Relationships</p>
 						<img src="https://res.cloudinary.com/mindvalley/image/fetch/c_fill,f_auto,fl_progressive:steep,q_auto/https://s90.mindvalley.us/mindvalley/media/images/check-icon-quiz.svg"
-						 class="check-ico" style="display: none;">
+							 class="check-ico yseleted5" id="card-img5-chk" style="display: none;">
 					</div>
 				</div>
-				<div data-v-be1c30d4="" class="button"><a data-v-47256806="" data-v-be1c30d4="" href="#" class="quiz quiz-started inactive">
+				<div data-v-be1c30d4="" class="button">
+					<a data-v-47256806="" data-v-be1c30d4="" href="#" class="quiz quiz-started active">
 						Select 2 more
 					</a>
 				</div>
@@ -86,83 +88,31 @@
 		<span></span>
 	</div>
 
-	<script type="text/javascript" id="">
-		var iCookieLength = 30,
-			sCookieName = "source",
-			sSourceParameterName = "utm_source",
-			_getQueryStringValue = function (d) {
-				for (var c = document.location.search.substring(1).split("\x26"), b = 0; b < c.length; b++) {
-					var a = c[b].split("\x3d");
-					if (d.toLowerCase() == a[0].toLowerCase()) return a[1]
-				}
-			},
-			_setCookie = function (d, c, b) {
-				var a = new Date;
-				a.setTime(a.getTime() + 864E5 * b);
-				document.cookie = d + "\x3d" + c + "; expires\x3d" + a.toGMTString() +
-					"; path\x3d/; domain\x3d.mindvalleyacademy.com;"
-			};
-		_getQueryStringValue(sSourceParameterName) && _setCookie(sCookieName, _getQueryStringValue(sSourceParameterName),
-			iCookieLength);
-	</script>
-	<script type="text/javascript" id="">
-		function getParam(a) {
-			var b = window.location.href;
-			a = new RegExp("[?\x26]" + a + "(\x3d([^\x26#]*)|\x26|#|$)");
-			return (b = a.exec(b)) ? b[2] ? decodeURIComponent(b[2].replace(/\+/g, " ")) : "" : null
-		}
 
-		function unserialize(a) {
-			a = decodeURIComponent(a);
-			a = a.split("\x26");
-			for (var b = {}, c = 0; c < a.length; c++) {
-				var d = a[c].split("\x3d", 2);
-				b[d[0]] = d[1]
-			}
-			return b
-		}
+	</body>
+<SCRIPT>
 
-		function b64DecodeUnicode(a) {
-			return decodeURIComponent(Array.prototype.map.call(atob(a), function (a) {
-				return "%" + ("00" + a.charCodeAt(0).toString(16)).slice(-2)
-			}).join(""))
-		}
+	$('#card1').click( function () {
+	    $('#card-img1').toggleClass('nseleted');
+	    $('#card-img1-chk').toggleClass('yseleted');
+    });
+	$('#card2').click( function () {
+        $('#card-img2').toggleClass('nseleted');
+        $('#card-img2-chk').toggleClass('yseleted');
+    });
+	$('#card3').click( function () {
+        $('#card-img3').toggleClass('nseleted');
+        $('#card-img3-chk').toggleClass('yseleted');
+    });
+	$('#card4').click( function () {
+        $('#card-img4').toggleClass('nseleted');
+        $('#card-img4-chk').toggleClass('yseleted');
+    });
+	$('#card5').click( function () {
+        $('#card-img5').toggleClass('nseleted');
+        $('#card-img5-chk').toggleClass('yseleted');
+    });
 
-		function getOathkeeperEncodedParams() {
-			var a = getParam("encoded");
-			if (!a) return null;
-			a = b64DecodeUnicode(a);
-			return unserialize(a)
-		}
-
-		function getBlinkEncodedParams() {
-			var a = getParam("eae"),
-				b = getParam("ean");
-			if (!a || !b) return null;
-			a = b64DecodeUnicode(a);
-			b = b64DecodeUnicode(b);
-			return {
-				email: a,
-				first_name: b
-			}
-		}
-		var _signup = getOathkeeperEncodedParams() || getBlinkEncodedParams();
-		if (_signup) {
-			var dataLayer = dataLayer || [];
-			_signup.event = "signup";
-			dataLayer.push(_signup)
-		};
-	</script><iframe id="AWIN_CDT" src="about:blank" style="height: 0px !important; width: 0px !important; visibility: hidden !important; display: inherit !important; margin: 0px !important; border: 0px !important; padding: 0px !important;"></iframe><iframe
-	 name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"
-	 src="https://vars.hotjar.com/rcj-da10bd4908deb9e19dfde013ec3fe4ff.html"></iframe>
-	<div id="ads"></div>
-	<script src="https://px.ads.linkedin.com/collect/?time=1536573777349&amp;pid=240795&amp;url=https%3A%2F%2Fhome.mindvalley.com%2Fquiz%3F_ga%3D2.249137159.1841955427.1536483700-53906551.1535517698&amp;pageUrl=https%3A%2F%2Fhome.mindvalley.com%2Fquiz%3F_ga%3D2.249137159.1841955427.1536483700-53906551.1535517698&amp;ref=https%3A%2F%2Fwww.mindvalley.com%2F&amp;fmt=js&amp;s=1"
-	 type="text/javascript"></script>
-	<script type="text/javascript" id="">
-		document.cookie = "ga_clientid \x3d 53906551.1535517698";
-	</script>
-	<div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.23918384132226067"><img style="width:0px; height:0px; display:none; visibility:hidden;"
-		 id="batBeacon0.48897237765542" width="0" height="0" alt="" src="https://bat.bing.com/action/0?ti=25016628&amp;Ver=2&amp;mid=3c77fbe9-3fe8-088f-fe39-ab4367172c07&amp;pi=1200101525&amp;lg=en-US&amp;sw=1440&amp;sh=900&amp;sc=24&amp;tl=Mindvalley%20Academy&amp;r=https%3A%2F%2Fwww.mindvalley.com%2F&amp;p=https%3A%2F%2Fhome.mindvalley.com%2Fquiz%3F_ga%3D2.249137159.1841955427.1536483700-53906551.1535517698&amp;lt=2537&amp;evt=pageLoad&amp;msclkid=N&amp;rn=716082"></div>
-</body>
+</SCRIPT>
 
 </html>
