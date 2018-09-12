@@ -512,7 +512,7 @@ body.dir-rtl .align-right {
 .g-main-nav .g-toplevel>li>.g-menu-item-container {
   color: #373736;
   line-height: 50px;
-  margin: 1px 8px;
+ /* margin: 1px 8px;*/
 }
 
 @media only all and (min-width: 51rem) and (max-width: 59.938rem) {
