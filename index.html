@@ -175,14 +175,50 @@
             </div>
 
         </section>
+        <style>
+            svg {
+                width: 100%;
+                height: 100%;
+                position:absolute;
+            }
+            svg text {
+                text-anchor: middle;
+            }
+            svg mask rect {
+                fill: rgba(179, 139, 55, 0.9);
+            }
+            svg > rect {
+                fill: white;
+                -webkit-mask: url(#mask);
+                mask: url(#mask);
+            }
+            video{
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                width: auto;
+                height: auto;
+                z-index: -1;
+                overflow: hidden;
+            }
+
+            @media only screen and (max-width: 768px) {
+                html{
+                    font-size:0.5em;
+                    font-weight:400;
+                }
+            }
+        </style>
         <header class="v-header contain">
-            <div class="fullscreen-video-wrap">
-                <video src="./assets/img/video.mov" autoplay="true" loop="true"></video>
+            <div class="header-overlay" style="filter: grayscale(100%)">
+                <video id="video" autoplay="autoplay"  muted="muted" preload="auto" loop="loop" style="object-fit: cover;">
+                    <source src="./assets/img/video.mov" type="video/mp4">
+                    <source src="./assets/img/video.mov" type="video/webm">
+                </video>
             </div>
-            <div class="header-overlay"></div>
-            <div class="header-content headerclass">
-                <div class="box-1">
-                    <div id="inside-1">
+            <div class="header-content headerclass" style="color:#fcc42b;">
+                <div class="box-1" style="text-align: left;margin: 1px 100px;">
+                    <div id="inside-1" style="padding-top: 40px;">
                         <label id="lblGreetings" style=" font-size: 30px;"></label>
                         <h2 class="jumbo_txts">Looking to build a competitive edge for your business</h2>
                         <div>
@@ -194,12 +230,21 @@
                     </div>
                 </div>
                 <div id="inside-2" class="box-2">
-                    <h1 style="font-size:200px;font-weight:bolder"><span class="mainfonts" style="font-size: 250px;">
-                            L2B</span> <span style="font-family:'Open Sans', sans-serif; color: #FFFFFF">&amp;</span>Co</h1>
+                    <h1 style="font-size:180px;font-weight:bolder">
+                        <svg  xmlns="http://www.w3.org/2000/svg"  preserveAspectRatio="xMidYMid slice">
+                            <defs>
+                                <mask id="mask" x="0" y="0" width="500" height="500" >
+                                    <rect x="0" y="0" width="300" height="500"/>
+                                    <text x="150" y="1em">L2B</text>
+                                </mask>
+                            </defs>
+                            <rect x="0" y="0" width="700" height="200"/>
+                        </svg>
+                        <span style="font-family:'Open Sans', sans-serif; color: #fcc42b; top:1100px;">&amp;</span>Co
+                    </h1>
                 </div>
             </div>
         </header>
-
 
 
         <section id="topNouch" class="section-horizontal-paddings section-vertical-paddings bg_img" style="background-color: #ffffff;">

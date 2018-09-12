@@ -34,8 +34,8 @@
     left: 0;
     width: 100vw;
     z-index: 1;
-    background: #373736;
-    opacity: 0.85;
+    background: #000000;
+    opacity: .87;
 }
 
 .header-content {
