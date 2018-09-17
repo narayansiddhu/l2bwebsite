@@ -398,6 +398,84 @@
     color: #fcc42b;
 }
 
+
+
+
+
+
+@media (min-width: 768px) {
+    .corevalues {
+        display: flex;
+    }
+
+}
+
+.box-1 {
+    flex: 1;
+
+
+}
+
+.box-2 {
+    flex: 1;
+}
+
+.box-3 {
+    flex: 1;
+
+    order: 2;
+}
+
+.box-4 {
+    flex: 1;
+}
+
+.box-5 {
+    flex: 1;
+
+
+}
+
+.box-6 {
+    flex: 1;
+}
+
+.box-7 {
+    flex: 1;
+
+    order: 2;
+
+}
+
+.box-8 {
+    flex: 1;
+}
+
+.box-9 {
+    flex: 1;
+
+
+}
+
+.box-10 {
+    flex: 1;
+}
+
+.box-11 {
+    flex: 1;
+    order: 2;
+
+}
+
+.box-12 {
+    flex: 1;
+}
+
+
+
+
+
+
 #g-testimonials .jl-testimonial .uk-slidenav {
     display: block;
     color: #000000 !important;
